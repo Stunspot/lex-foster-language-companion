@@ -17,6 +17,10 @@
 - The documentation labels host behavior and live browser behavior as untested until separately exercised.
 - Procedures avoid image-only, color-only, or position-only instructions. The public site has no image assets or social-image metadata.
 
+## Observed deployment
+
+The GitHub Pages source is deployed from `main` at `/docs`. An HTTPS request to the public site returned `200` and contained the expected product title.
+
 ## Conditions and re-run
 
 Before claiming production documentation accessibility, verify the deployed GitHub Pages site in a real browser with keyboard navigation and inspect its production links. Host installation and activation remain separately unverified because they require the target hosts.

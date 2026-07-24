@@ -11,7 +11,7 @@ Evidence is retained by claim. One passing check does not promote another state.
 - The Builder `claude` profile passed the pre-ZIP Claude skill folder.
 - The Builder `claude` profile passed the final upload ZIP after the Lex identity and accessibility corrections.
 
-The release manifest, documentation lint, link walk, exact cross-copy parity, clean Git state, remote branch, immutable tag, release assets, recovery backup, and live estate re-entry are separate gates and must be recorded after their execution.
+Documentation lint and exact cross-copy parity have separate retained evidence. Git state, remote branch, immutable tag, release assets, recovery backup, and live estate re-entry remain separate release gates; a passing structural check does not substitute for them.
 
 ## Behavioral evaluation package
 
