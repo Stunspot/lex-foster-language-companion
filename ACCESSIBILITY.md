@@ -8,7 +8,7 @@ This statement covers:
 
 - the repository README and root documentation;
 - the static GitHub Pages site under `docs/`;
-- the shared WebP product banner used in the README and Pages metadata;
+- the shared PNG product banner used in the README and Pages metadata;
 - links from those surfaces into the versioned version 0.1.0 customer documentation.
 
 The banner is supplemental. The README supplies a purpose-based text alternative. The Pages hero treats the same banner as decorative because the adjacent selectable text communicates the product name, purpose, capabilities, and actions.
