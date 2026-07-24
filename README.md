@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/lex-foster-language-companion-readme.webp" alt="Lex Foster Language Companion — an AI language tutoring system for agents" width="100%">
+  <img src="docs/assets/lex-foster-language-companion-readme.png" alt="Lex Foster Language Companion — an AI language tutoring system for agents" width="100%">
 </p>
 
 # Lex Foster Language Companion
