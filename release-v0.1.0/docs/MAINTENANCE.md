@@ -53,9 +53,9 @@ Review the estate before every public release and at least every 90 days while t
 
 ## Preserve artwork and format custody
 
-The approved public label is a raster WebP used by the README and Pages source. Documentation work must preserve its file bytes and existing references unless the owner explicitly authorizes an artwork change.
+The approved public label is the raster PNG at `docs/assets/lex-foster-language-companion-readme.png`, used by the README and Pages source. Documentation work must preserve its file bytes and existing references unless the owner explicitly authorizes an artwork change.
 
-Use raster WebP, PNG, or JPEG assets for this repository workflow. Do not create, introduce, or substitute an SVG asset without explicit owner authorization.
+Use raster PNG, WebP, or JPEG assets for this repository workflow. Do not create, introduce, or substitute an SVG asset without explicit owner authorization.
 
 Before committing documentation work, compare the README image line and Pages image paths with the starting state. Treat any unrequested difference as a blocking defect.
 
