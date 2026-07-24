@@ -20,9 +20,10 @@ This decision supports publication of the documentation repair. It does not cert
 
 - the canonical Hesperos Documentation version 0.1.1 package, persona, operating doctrine, task strategy, accessibility guidance, procedure and troubleshooting doctrine, information architecture, evidence governance, review rubric, and verification guidance;
 - the current repository README, onboarding, support, security, contribution, accessibility, release-local start page, installation, quick start, user guide, translation guide, learner state, troubleshooting, capability matrix, limits, validation, package reference, removal, host matrix, and provenance;
-- the current static GitHub Pages source and its existing WebP image references;
+- the current static GitHub Pages source and its raster image references;
 - the public onboarding and repository-presentation patterns used by the Nova and TestForge Augment repositories;
-- the approved constraint that this repair changes documentation only and creates no SVG or image asset.
+- the owner-supplied PNG at `docs/assets/lex-foster-language-companion-readme.png`, approved as the public README and Pages artwork;
+- the standing constraint that SVG artwork must not be created or introduced without explicit owner instruction.
 
 ## Repairs made
 
@@ -34,18 +35,19 @@ This decision supports publication of the documentation repair. It does not cert
 - strengthened first-run onboarding with prerequisites, expected results, failure branches, safe stopping, and completion evidence;
 - added a documentation source ledger with explicit evidence states;
 - synchronized README and Pages navigation with the new documentation system;
-- preserved the approved WebP README and Pages image references without modifying image assets;
+- restored the owner-supplied PNG across the README, Pages hero, Open Graph metadata, and Twitter metadata without converting or regenerating it;
+- removed the superseded WebP and placeholder SVG artwork;
 - documented the raster-only asset policy and explicit owner gate for any future SVG.
 
 ## Checks executed
 
 - Hesperos documentation-project schema validation;
-- Hesperos accessible-Markdown structural lint on every changed Markdown file;
+- Hesperos accessible-Markdown structural lint on every Markdown file changed by the documentation repair;
 - local HTML parsing of the changed `docs/index.html` source;
 - static inspection of HTML language, title, headings, landmarks, navigation, image treatment, link purpose, and reading order;
 - static internal-link and literal-path inspection for changed documentation;
-- exact comparison of the README image element and Pages WebP references with the starting state;
-- changed-file scan confirming that no image asset was created or modified and no changed file introduces an SVG reference.
+- exact inspection of the README, Pages hero, Open Graph, and Twitter image paths after the PNG restoration;
+- asset-path inspection confirming the approved PNG is present and the superseded WebP and placeholder SVG are removed.
 
 ## What the documentation now supports
 
@@ -58,11 +60,11 @@ This decision supports publication of the documentation repair. It does not cert
 
 ## Conditions and residual uncertainty
 
-- Verify the deployed GitHub Pages page and WebP asset over HTTPS after the documentation commit reaches production.
+- Verify the deployed GitHub Pages page and PNG asset over HTTPS after the restoration reaches production.
 - Keyboard navigation, zoom and reflow, screen-reader behavior, browser-specific layout, social-card rendering, and representative-user usability remain untested until exercised with those tools and users.
 - Live installation and activation in current Codex and Claude versions remain host-specific unless separately observed.
 - The review does not establish formal WCAG conformance, language correctness, cultural authority, official assessment validity, professional translation approval, or universal model behavior.
-- Existing repository assets outside the changed documentation set were not altered or re-certified by this repair.
+- Repository assets outside the restored PNG and removed superseded artwork were not altered or re-certified by this repair.
 
 ## Reopen triggers
 
