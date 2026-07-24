@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Lex Foster Language Companion</title>
+  <desc id="desc">A blue technical interface banner for an AI language tutoring skill for agents, with multilingual speech bubbles and tutoring, pronunciation, translation, culture, and adaptive learning features.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset="0.55" stop-color="#06142a"/>
+      <stop offset="1" stop-color="#020817"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21a9ff"/>
+      <stop offset="1" stop-color="#48cbe8"/>
+    </linearGradient>
+    <linearGradient id="white" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbe8ef"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#163451" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.7" fill="#1b78d0" opacity="0.55"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frameClip"><rect x="14" y="14" width="1508" height="996" rx="36"/></clipPath>
+  </defs>
+  <rect width="1536" height="1024" fill="url(#bg)"/>
+  <g clip-path="url(#frameClip)">
+    <rect width="1536" height="1024" fill="url(#grid)" opacity="0.28"/>
+    <circle cx="1120" cy="320" r="310" fill="#06264c" opacity="0.20"/>
+  </g>
+  <rect x="14" y="14" width="1508" height="996" rx="36" fill="none" stroke="#279fff" stroke-width="3"/>
+  <g transform="translate(62 42)">
+    <path d="M46 0 88 24v52l-18 10 4 25-25-15-3 2L4 74V24Z" fill="#07162f" stroke="url(#cyan)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M35 24v49h31" fill="none" stroke="url(#white)" stroke-width="12" stroke-linecap="square" stroke-linejoin="round"/>
+    <text x="118" y="57" fill="#299fff" font-family="Poppins,Inter,Arial,sans-serif" font-size="38" font-weight="700" letter-spacing="11">LEX FOSTER</text>
+    <line x1="455" y1="43" x2="575" y2="43" stroke="#288fd8" stroke-width="2"/>
+    <circle cx="585" cy="43" r="5" fill="#06142a" stroke="#2ca9ff" stroke-width="2"/>
+  </g>
+  <g font-family="Poppins,Inter,Arial,sans-serif">
+    <text x="62" y="286" fill="url(#white)" font-size="112" font-weight="800" letter-spacing="1">LANGUAGE</text>
+    <text x="62" y="408" fill="url(#white)" font-size="112" font-weight="800" letter-spacing="1">COMPANION</text>
+    <text x="66" y="464" fill="#2ca9ff" font-size="34" font-weight="700" letter-spacing="8">AI LANGUAGE TUTORING SYSTEM</text>
+    <line x1="64" y1="500" x2="742" y2="500" stroke="#2ca9ff" stroke-width="2"/>
+    <circle cx="746" cy="500" r="5" fill="#06142a" stroke="#2ca9ff" stroke-width="2"/>
+    <text x="64" y="548" fill="#e7f2f7" font-size="24" font-weight="400">
+      <tspan x="64" dy="0">A complete language learning skill for AI agents.</tspan>
+      <tspan x="64" dy="37">Teach, practice, translate, and adapt in any language</tspan>
+      <tspan x="64" dy="37">with contextual guidance and engaging interaction.</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse cx="1137" cy="330" rx="320" ry="210" fill="none" stroke="#147ed1" stroke-width="2" opacity="0.55"/>
+    <ellipse cx="1137" cy="330" rx="250" ry="275" fill="none" stroke="#147ed1" stroke-width="2" opacity="0.38" transform="rotate(58 1137 330)"/>
+    <ellipse cx="1137" cy="330" rx="250" ry="275" fill="none" stroke="#147ed1" stroke-width="2" opacity="0.38" transform="rotate(-58 1137 330)"/>
+    <ellipse cx="1137" cy="330" rx="280" ry="165" fill="url(#dots)" opacity="0.66"/>
+    <path d="M1138 160 1280 241v166l-43 25 10 62-69-41-40 23-142-81V241Z" fill="#06172f" stroke="url(#cyan)" stroke-width="14" stroke-linejoin="round" filter="url(#softGlow)"/>
+    <path d="M1093 240v145h96" fill="none" stroke="url(#white)" stroke-width="42" stroke-linecap="square" stroke-linejoin="round"/>
+    <g font-family="Poppins,Inter,Arial,sans-serif" font-size="25" fill="#48cbe8" stroke="#2ca9ff" stroke-width="2">
+      <g><path d="M780 118h138a20 20 0 0 1 20 20v47a20 20 0 0 1-20 20h-54l-18 18 2-18h-68a20 20 0 0 1-20-20v-47a20 20 0 0 1 20-20Z" fill="#06142a"/><text x="797" y="171" stroke="none">Bonjour</text></g>
+      <g><path d="M1296 75h151a20 20 0 0 1 20 20v49a20 20 0 0 1-20 20h-55l-18 18 2-18h-80a20 20 0 0 1-20-20V95a20 20 0 0 1 20-20Z" fill="#06142a"/><text x="1315" y="128" stroke="none">こんにちは</text></g>
+      <g><path d="M799 278h104a20 20 0 0 1 20 20v47a20 20 0 0 1-20 20h-40l-18 18 2-18h-48a20 20 0 0 1-20-20v-47a20 20 0 0 1 20-20Z" fill="#06142a"/><text x="814" y="331" stroke="none">Hola</text></g>
+      <g><path d="M1340 288h118a20 20 0 0 1 20 20v47a20 20 0 0 1-20 20h-41l-18 18 2-18h-61a20 20 0 0 1-20-20v-47a20 20 0 0 1 20-20Z" fill="#06142a"/><text x="1361" y="341" stroke="none">你好</text></g>
+      <g><path d="M789 480h121a20 20 0 0 1 20 20v47a20 20 0 0 1-20 20h-43l-18 18 2-18h-62a20 20 0 0 1-20-20v-47a20 20 0 0 1 20-20Z" fill="#06142a"/><text x="807" y="534" stroke="none">مرحبا</text></g>
+      <g><path d="M1324 488h124a20 20 0 0 1 20 20v47a20 20 0 0 1-20 20h-45l-18 18 2-18h-63a20 20 0 0 1-20-20v-47a20 20 0 0 1 20-20Z" fill="#06142a"/><text x="1345" y="541" stroke="none">Hallo</text></g>
+    </g>
+    <g fill="#dff7ff" stroke="#2ca9ff" stroke-width="3" filter="url(#softGlow)">
+      <circle cx="940" cy="194" r="7"/><circle cx="1316" cy="164" r="7"/><circle cx="923" cy="343" r="7"/><circle cx="1320" cy="346" r="7"/><circle cx="930" cy="502" r="7"/><circle cx="1320" cy="505" r="7"/>
+    </g>
+  </g>
+  <g transform="translate(52 682)" font-family="Poppins,Inter,Arial,sans-serif">
+    <rect width="1432" height="230" rx="30" fill="#041127" stroke="#1d72b8" stroke-width="2"/>
+    <g stroke="#205c91" stroke-width="2" opacity="0.8"><line x1="238" y1="22" x2="238" y2="208"/><line x1="477" y1="22" x2="477" y2="208"/><line x1="716" y1="22" x2="716" y2="208"/><line x1="955" y1="22" x2="955" y2="208"/><line x1="1194" y1="22" x2="1194" y2="208"/></g>
+    <g fill="none" stroke="#2ca9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(84 35)"><path d="M0 18a34 27 0 0 1 68 0 34 27 0 0 1-34 27H18L4 58l3-18A25 25 0 0 1 0 18Z"/><circle cx="22" cy="19" r="2" fill="#2ca9ff"/><circle cx="34" cy="19" r="2" fill="#2ca9ff"/><circle cx="46" cy="19" r="2" fill="#2ca9ff"/></g>
+      <g transform="translate(321 31)"><path d="M0 8c17-8 32-8 48 0v53c-16-8-31-8-48 0Zm48 0c17-8 32-8 48 0v53c-16-8-31-8-48 0Z"/><line x1="48" y1="8" x2="48" y2="61"/></g>
+      <g transform="translate(573 28)"><path d="M10 50V28a28 28 0 0 1 56 0v22"/><path d="M10 34H0v27h15M66 34h10v27H61"/></g>
+      <g transform="translate(809 32)"><rect x="0" y="0" width="52" height="48" rx="6"/><path d="M15 37 27 10l12 27M19 28h16"/><rect x="44" y="23" width="48" height="45" rx="6"/><path d="M57 35h23M68 31v28M57 45c8 10 18 14 29 15M83 45c-7 9-16 13-27 15"/></g>
+      <g transform="translate(1049 29)"><circle cx="38" cy="35" r="34"/><path d="M4 35h68M38 1c15 11 21 23 21 34S53 58 38 69C23 58 17 46 17 35S23 12 38 1Z"/></g>
+      <g transform="translate(1281 33)"><path d="M0 57h74"/><rect x="4" y="42" width="12" height="15"/><rect x="25" y="32" width="12" height="25"/><rect x="46" y="20" width="12" height="37"/><path d="m5 31 23-14 18 3 25-18M60 2h11v11"/></g>
+    </g>
+    <g text-anchor="middle">
+      <g transform="translate(119 112)"><text fill="#f3f8fb" font-size="19" font-weight="700">CONVERSATIONAL</text><text fill="#b8cedb" font-size="16"><tspan x="0" dy="31">Natural dialogue</tspan><tspan x="0" dy="24">that teaches</tspan><tspan x="0" dy="24">as you talk.</tspan></text></g>
+      <g transform="translate(358 112)"><text fill="#f3f8fb" font-size="19" font-weight="700">STRUCTURED LEARNING</text><text fill="#b8cedb" font-size="16"><tspan x="0" dy="31">Lessons, grammar,</tspan><tspan x="0" dy="24">vocabulary, and</tspan><tspan x="0" dy="24">progress tracking.</tspan></text></g>
+      <g transform="translate(597 112)"><text fill="#f3f8fb" font-size="19" font-weight="700">PRONUNCIATION</text><text fill="#b8cedb" font-size="16"><tspan x="0" dy="31">Phonetics, listening</tspan><tspan x="0" dy="24">practice, and</tspan><tspan x="0" dy="24">accent support.</tspan></text></g>
+      <g transform="translate(836 112)"><text fill="#f3f8fb" font-size="19" font-weight="700">TRANSLATION</text><text fill="#b8cedb" font-size="16"><tspan x="0" dy="31">Accurate, contextual</tspan><tspan x="0" dy="24">translation across</tspan><tspan x="0" dy="24">any language.</tspan></text></g>
+      <g transform="translate(1075 112)"><text fill="#f3f8fb" font-size="19" font-weight="700">CULTURAL CONTEXT</text><text fill="#b8cedb" font-size="16"><tspan x="0" dy="31">Learn the language</tspan><tspan x="0" dy="24">behind the words</tspan><tspan x="0" dy="24">and the culture.</tspan></text></g>
+      <g transform="translate(1314 112)"><text fill="#f3f8fb" font-size="19" font-weight="700">ADAPTIVE &amp; PERSONAL</text><text fill="#b8cedb" font-size="16"><tspan x="0" dy="31">Tailored to your level,</tspan><tspan x="0" dy="24">goals, and learning</tspan><tspan x="0" dy="24">style.</tspan></text></g>
+    </g>
+  </g>
+  <g font-family="Poppins,Inter,Arial,sans-serif">
+    <line x1="14" y1="942" x2="1522" y2="942" stroke="#1e79c0" stroke-width="2"/>
+    <path d="M50 970 62 982 50 994" fill="none" stroke="#2ca9ff" stroke-width="8"/>
+    <text x="88" y="990" fill="#38b7ff" font-size="22" font-weight="700" letter-spacing="6">ANY LANGUAGE. ANY LEVEL. REAL FLUENCY.</text>
+    <path d="M784 942 730 1010" fill="none" stroke="#2a9fff" stroke-width="2"/>
+    <g transform="translate(876 967)" fill="none" stroke="#e7f2f7" stroke-width="3"><circle cx="18" cy="18" r="15"/><path d="M10 31c-2-5-2-8 1-11-3-3-2-7 0-10 5 0 8 1 10 4 2-3 6-4 11-4 3 4 3 8 0 11 3 3 3 6 1 10-5 1-9 0-12-3-3 3-7 4-11 3Z"/></g>
+    <text x="920" y="996" fill="#dbe8ef" font-size="20">github.com/Stunspot/lex-foster-language-companion</text>
+  </g>
+</svg>
