@@ -39,7 +39,7 @@ Begin from the reader's task, not the source file that happens to contain the in
 6. Run the Hesperos accessible-Markdown lint on changed Markdown and inspect semantics manually.
 7. Update [Documentation maintenance](release-v0.1.0/docs/MAINTENANCE.md), the source ledger, or release notes when the change affects governance or evidence.
 
-Public artwork is raster-only in this repository workflow. Preserve the approved WebP, PNG, or JPEG source and its existing references. Do not introduce an SVG asset or substitute artwork without explicit owner authorization.
+Public artwork is raster-only in this repository workflow. Preserve the approved PNG at `docs/assets/lex-foster-language-companion-readme.png` and its existing references. Do not introduce an SVG asset or substitute artwork without explicit owner authorization.
 
 ## Translation and community knowledge
 
