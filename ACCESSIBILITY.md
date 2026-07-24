@@ -1,6 +1,6 @@
 # Accessibility statement for the public repository and project site
 
-Lex Foster Language Companion is designed so the public documentation can be found, read, navigated, copied, enlarged, translated, and used without depending on color, sound, animation, pointer precision, or the decorative interpretation of an image.
+Lex Foster Language Companion is designed so the public documentation can be found, read, navigated, copied, enlarged, translated, and used without depending on color, sound, animation, pointer precision, or the interpretation of a decorative image.
 
 ## Current public surfaces
 
@@ -11,32 +11,32 @@ This statement covers:
 - the shared WebP product banner used in the README and Pages metadata;
 - links from those surfaces into the versioned version 0.1.0 customer documentation.
 
-The product banner is supplemental. The README provides a purpose-based text alternative. The Pages copy carries the same product information in selectable text, so the site does not require the image to understand or complete a task.
+The banner is supplemental. The README supplies a purpose-based text alternative. The Pages hero treats the same banner as decorative because the adjacent selectable text communicates the product name, purpose, capabilities, and actions.
 
 ## Authored accessibility properties
 
 The current source uses:
 
 - one descriptive page title and a declared English document language;
-- a skip link and landmark-based HTML structure;
+- a skip link and landmark-based HTML structure on the project site;
 - logical heading order and real lists;
 - meaningful link text that predicts the destination;
-- visible keyboard focus;
-- responsive reflow without a fixed reading width;
+- visible keyboard focus in the authored CSS;
+- responsive reflow and reduced-motion handling in the authored CSS;
 - non-color text labels for status, actions, and distinctions;
-- reduced-motion handling;
 - literal artifact names, paths, and skill handles;
-- procedures with prerequisites, expected results, recovery, and evidence boundaries;
-- simple tables reserved for genuine relationships.
+- procedures with prerequisites, expected results, recovery, and completion evidence;
+- simple tables reserved for genuine relationships;
+- task-oriented navigation through [DOCUMENTATION.md](DOCUMENTATION.md).
 
 ## Review evidence
 
-The Markdown and static-site source have been reviewed through Hesperos documentation doctrine, automated accessible-Markdown structural lint, local HTML parsing, link-path inspection, and manual semantic review.
+The July 24, 2026 documentation repair used the canonical Hesperos Documentation version 0.1.1 doctrine and project schema. Changed Markdown passed the packaged structural accessibility lint. The changed static HTML was parsed and reviewed for language, title, headings, landmarks, links, image treatment, and reading order. Internal task journeys and changed link targets received static inspection.
 
-These checks are bounded. They do not establish formal WCAG conformance, screen-reader usability across combinations, representative-user success, or compatibility with every browser, zoom mode, contrast setting, or assistive technology.
+These checks are bounded. They do not establish formal WCAG conformance, screen-reader usability across browser and assistive-technology combinations, representative-user success, social-card rendering, or compatibility with every zoom mode, contrast setting, or input method.
 
-The retained review record is in [`verification/documentation-review.md`](verification/documentation-review.md).
+The retained review record is [Documentation and accessibility review](verification/documentation-review.md).
 
 ## Report a barrier
 
-Use [Support](SUPPORT.md) and include the page, task, browser or access method, observed barrier, and preferred outcome. Do not include private learner records, confidential source text, or sensitive translation content.
+Use [Support](SUPPORT.md) and include the page, task, product version, browser or access method, observed barrier, and preferred outcome. Do not include private learner records, confidential source text, or sensitive translation content.

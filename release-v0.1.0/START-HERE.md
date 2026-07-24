@@ -1,6 +1,8 @@
 # Start with the language you need
 
-Lex Foster Language Companion is for a real message, conversation, text, pronunciation question, or learning goal. You do not need a placement score or course plan before starting.
+Lex Foster Language Companion is for a real message, conversation, text, pronunciation question, translation, or learning goal. You do not need a placement score or course plan before starting.
+
+This page is the version 0.1.0 release-local navigation hub. Use the repository-level [five-minute start](../START-HERE.md) for a complete first-run walkthrough with expected results and recovery.
 
 ## Find your path
 
@@ -25,6 +27,13 @@ Read [When qualified human review matters](docs/TRANSLATION-GUIDE.md#when-qualif
 
 Use [Troubleshooting](docs/TROUBLESHOOTING.md) by observable symptom. Preserve the host version, artifact, exact error, and relevant learner state before resetting anything.
 
+### I maintain or evaluate the release
+
+1. Inspect the [Package reference](docs/PACKAGE-REFERENCE.md).
+2. Read [Validation and evaluation](docs/VALIDATION-AND-EVALUATION.md) and the [Host matrix](HOST-MATRIX.md).
+3. Follow [Documentation maintenance](docs/MAINTENANCE.md) before changing public guidance.
+4. Review the repository-level [Release notes](../RELEASE-NOTES-v0.1.0.md) and [Documentation map](../DOCUMENTATION.md).
+
 ## What good first value looks like
 
 A useful first response:
@@ -46,5 +55,6 @@ If you receive a long questionnaire, a generic vocabulary list, an official prof
 - [Accessibility statement](docs/ACCESSIBILITY.md)
 - [Package reference](docs/PACKAGE-REFERENCE.md)
 - [Remove the skill](docs/REMOVAL.md)
+- [Maintain the documentation](docs/MAINTENANCE.md)
 
 For support, use the repository's [support route](../SUPPORT.md).

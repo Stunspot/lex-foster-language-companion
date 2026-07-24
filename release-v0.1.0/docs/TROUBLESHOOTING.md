@@ -1,30 +1,44 @@
 # Troubleshoot Lex Foster Language Companion
 
-Preserve the host version, installed artifact, exact error, input, and relevant learner state before changing or reinstalling anything. Remove private details from shared evidence.
+Begin from the observable symptom. Preserve evidence before changing files, reinstalling, resetting learner state, or rewriting the request.
 
-## The skill does not activate
+## Preserve before changing
 
-### Check the installation shape
+Record:
 
-- Codex must end at `.codex/skills/lex-foster-language-companion/SKILL.md`.
-- Claude must receive `lex-foster-language-companion-v0.1.0.zip` as one uploaded skill.
-- The Claude ZIP must contain one top-level `lex-foster-language-companion` folder with `SKILL.md` directly beneath it.
+- product version and exact artifact;
+- host, account surface, and host version when available;
+- installed path or uploaded archive name;
+- exact error, prompt, and response;
+- language, variety, audience, relationship, and task;
+- relevant learner-profile validation output;
+- whether the failure affects meaning, privacy, security, accessibility, or authority.
 
-### Check from a fresh context
+Remove credentials, private learner information, and confidential source text from shared evidence.
 
-Start a new task or conversation and use the explicit skill name where the host supports it:
+## The skill is not available
 
-`$lex-foster-language-companion Help me rehearse this conversation…`
+| Observable condition | Cheapest check | Expected result | Next branch |
+|---|---|---|---|
+| Codex does not discover the skill | Inspect the installed tree | The host-scanned skills directory contains `lex-foster-language-companion/SKILL.md` with the packaged resource folders preserved | Correct only the incomplete or misplaced copy, then start a fresh task |
+| Claude rejects or ignores the upload | Confirm the archive identity and shape | The unmodified `lex-foster-language-companion-v0.1.0.zip` was uploaded as one skill and contains one top-level skill folder | Re-upload the untouched release archive through the current supported interface |
+| The skill appears only after explicit invocation | Use `$lex-foster-language-companion` in a fresh context where supported | Explicit activation works | Report a discovery or routing issue; do not rewrite the runtime package blindly |
+| The host exposes no skill installation path | Check current host capability | No supported skill path exists | Use the universal copy-paste fallback and accept the lost package guarantees |
 
-If explicit activation works but natural language does not, record that as a discovery or routing issue rather than changing the runtime package blindly.
+Restored state: one host-appropriate artifact is active in a context created after installation.
 
-## Lex starts with a questionnaire
+Escalate when: the correct artifact shape still fails, the host reports a reproducible internal error, or activation behavior changes across fresh contexts without a configuration change.
 
-Restate the immediate job and ask for first value:
+## The response starts with a questionnaire
 
-> Give me the usable language first. Ask only for one missing detail that would change it.
+1. Restate the immediate job:
 
-If the behavior repeats, preserve the exact prompt and response as a behavioral regression report.
+   > Give me usable language first. Ask only for one missing detail that would change it.
+
+2. Check whether the next response supplies language, one decisive distinction, and an attempt or repair.
+3. If the behavior repeats in a fresh context with the skill active, preserve the exact prompt and response as a behavioral regression report.
+
+Restored state: the communicative job is underway before extended intake.
 
 ## Feedback interrupts too much
 
@@ -32,21 +46,33 @@ State the timing and limit:
 
 > Let me finish each turn. At the end, give me the two corrections that most changed meaning, social effect, or future transfer, then let me repair one.
 
-A saved older preference does not override this live instruction.
+Expected result: Lex delays correction until the requested boundary and keeps the feedback count within the stated limit. A saved older preference does not override the live instruction.
+
+If the timing still fails, preserve one complete exchange and report whether the issue is interruption timing, correction count, or failure to offer a repair.
 
 ## A translation sounds fluent but may be wrong
 
 1. Reopen the purpose, audience, relationship, target variety, and protected terms.
-2. Ask for ambiguity to be attached to exact spans.
+2. Ask Lex to attach ambiguity or uncertainty to the exact affected span.
 3. Request a segment-aligned accuracy and terminology review.
-4. Preserve names, numbers, dates, units, negation, placeholders, and tags.
+4. Compare names, numbers, dates, units, negation, placeholders, tags, and defined terms exactly.
 5. Obtain qualified human review before consequential reliance.
 
-Do not use same-model back-translation as independent proof.
+Expected result: the target is reviewed against the actual brief rather than fluency alone.
 
-## A placeholder or tag changed
+Safe stopping state: do not publish, file, administer, execute, or otherwise rely on a consequential translation while a material ambiguity, protected-token mismatch, or authority gap remains.
 
-Provide the source again with a protected-material list. Ask Lex to compare source and target tokens exactly before revising wording. If the artifact is customer-facing or executable, stop use until the protected tokens match.
+Do not treat same-model back-translation as independent proof.
+
+## A placeholder, tag, name, number, or unit changed
+
+1. Provide the source again with an explicit protected-material list.
+2. Ask Lex to compare source and target protected tokens exactly before revising prose.
+3. Verify the corrected target against the list.
+
+Expected result: every protected token is present, exact, and in the intended location or segment.
+
+If the artifact is customer-facing or executable, stop use until the protected material matches.
 
 ## The learner profile fails validation
 
@@ -56,11 +82,19 @@ Run:
 
 Repair the first reported problem. Typical causes are duplicate evidence IDs, unsupported state names, invalid date-time values, or retrieval entries pointing to missing evidence.
 
-If the script itself cannot run, record the Python version and exact error. Continue with a readable profile only if you accept the loss of deterministic structural validation.
+Expected result: the validator prints `PASS` and reports the target-language and evidence counts.
+
+If the script cannot run, record the Python version and exact error. Continue with a readable profile only when you accept the loss of deterministic structural validation.
+
+If repair would erase meaningful history, preserve the original as read-only evidence and create a corrected copy.
 
 ## The model claims an official level
 
-Treat the claim as unsupported. Ask for a task-bound description of observed performance and use an authorized assessment provider when a credential matters. Preserve the response as a release-blocking regression case if the package was active.
+Treat the claim as unsupported. Ask for a task-bound description of observed performance and use an authorized assessment provider when a credential matters.
+
+Expected result: the response describes what the learner did in the named task without issuing an official ACTFL, CEFR, IELTS, ILR, or other rating.
+
+Preserve the original response as a release-blocking regression case when the package was active.
 
 ## Lex claims to hear unavailable audio
 
@@ -68,10 +102,23 @@ Correct the evidence boundary:
 
 > No audio was supplied. Describe only text-based pronunciation support and what recording or human feedback would be needed for assessment.
 
+Expected result: the response separates articulatory preparation from observed pronunciation evidence.
+
 ## The requested language or variety is uncertain
 
-Name the community, region, script, and intended audience as far as known. Ask Lex to separate known forms, plausible but unverified forms, user-provided forms, and material uncertainty. Seek a proficient speaker or community authority rather than inferring from a related language.
+Name the community, region, script, audience, and intended use as far as known. Ask Lex to separate:
+
+- source-verified or user-provided forms;
+- plausible but unverified forms;
+- material uncertainty;
+- the authority needed for consequential approval.
+
+Seek a proficient speaker or community authority rather than inferring from a related language when the distinction matters.
 
 ## Escalate with useful evidence
 
-Open a GitHub issue with product version, host, package path, exact input, exact response, expected behavior, and whether the failure affected meaning, register, privacy, accessibility, or authority. Use synthetic data for sensitive cases.
+Use [Support](../../SUPPORT.md) for installation, documentation, or reproducible behavior defects. Include product version, host, package path, observable symptom, cheapest check performed, exact result, expected behavior, and whether the failure affected meaning, register, privacy, accessibility, security, or authority.
+
+Use the private route in [Security policy](../../SECURITY.md) for vulnerabilities or sensitive exploit details.
+
+Completion proof: the original symptom is absent in a fresh check, the intended task can continue, and any remaining uncertainty or human approval requirement is explicit.

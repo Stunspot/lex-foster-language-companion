@@ -1,42 +1,69 @@
-# Documentation and accessibility review — public refresh, 2026-07-24
+# Documentation and accessibility review — Hesperos repair, 2026-07-24
 
 ## Decision
 
-`REVIEW_PASS_WITH_CONDITIONS` for the repository README, root onboarding, current accessibility statement, and static GitHub Pages source.
+`REVIEW_PASS_WITH_CONDITIONS` for the repository README, onboarding, task-oriented documentation map, version 0.1.0 customer documentation, maintenance governance, release notes, public accessibility statement, and static GitHub Pages source.
+
+This decision supports publication of the documentation repair. It does not certify product behavior, language correctness, host compatibility, representative-user success, or formal accessibility conformance.
+
+## Documentation brief
+
+- Product and version: Lex Foster Language Companion 0.1.0.
+- Intended readers: prospective users, installers, learners, translators, maintainers, evaluators, contributors, and support reporters.
+- Top tasks: identify the product, install the correct artifact, reach first value, complete a language task, recover from failure, inspect trust, and maintain the documentation.
+- Delivery surfaces: GitHub README and Markdown, versioned customer documentation, and static GitHub Pages HTML/CSS.
+- Source authorities: current package and source, versioned release, retained tests and verification, accountable product decisions, current public documentation, then bounded inference.
+- Risk context: misleading authority, incorrect artifact selection, unrecoverable procedures, hidden evidence limits, inaccessible navigation, and accidental artwork replacement.
+- Owner and approval authority: Collaborative Dynamics maintainers; public artwork and consequential product claims require accountable owner approval.
 
 ## Evidence inspected
 
-- the version 0.1.0 runtime skill and integrated Lex practitioner;
-- the current customer release documentation and host matrix;
-- the public README and onboarding patterns used by the Nova and TestForge Augment repositories;
-- the approved WebP repository banner;
-- `README.md`, `START-HERE.md`, `ACCESSIBILITY.md`, `docs/index.html`, `docs/style.css`, and `docs/README.md`;
-- public documentation, support, security, contribution, provenance, and package-reference paths.
+- the canonical Hesperos Documentation version 0.1.1 package, persona, operating doctrine, task strategy, accessibility guidance, procedure and troubleshooting doctrine, information architecture, evidence governance, review rubric, and verification guidance;
+- the current repository README, onboarding, support, security, contribution, accessibility, release-local start page, installation, quick start, user guide, translation guide, learner state, troubleshooting, capability matrix, limits, validation, package reference, removal, host matrix, and provenance;
+- the current static GitHub Pages source and its existing WebP image references;
+- the public onboarding and repository-presentation patterns used by the Nova and TestForge Augment repositories;
+- the approved constraint that this repair changes documentation only and creates no SVG or image asset.
+
+## Repairs made
+
+- created a task-oriented documentation hub;
+- created customer-facing release notes distinct from tutorials and reference;
+- created documentation maintenance governance with owner, source authority, cadence, change triggers, feedback, retirement, safe stopping, and completion proof;
+- rewrote installation and troubleshooting as recoverable state transitions;
+- corrected package reference to document verified public paths without relying on an unverified manifest claim;
+- strengthened first-run onboarding with prerequisites, expected results, failure branches, safe stopping, and completion evidence;
+- added a documentation source ledger with explicit evidence states;
+- synchronized README and Pages navigation with the new documentation system;
+- preserved the approved WebP README and Pages image references without modifying image assets;
+- documented the raster-only asset policy and explicit owner gate for any future SVG.
 
 ## Checks executed
 
-- Hesperos accessible-Markdown lint on the refreshed Markdown surfaces;
-- local HTML parsing and semantic inspection;
-- local relative-link and asset-path checks;
-- CSS inspection for visible focus, responsive breakpoints, reduced motion, non-color cues, and print behavior;
-- image metadata inspection: WebP, 1536 × 1024 pixels, 260 KiB;
-- SHA-256 custody of the approved banner: `904c738e9c4f4157cba787b157cb51123ff7f522a49eb02ce266fcee0eb7829f`.
+- Hesperos documentation-project schema validation;
+- Hesperos accessible-Markdown structural lint on every changed Markdown file;
+- local HTML parsing of the changed `docs/index.html` source;
+- static inspection of HTML language, title, headings, landmarks, navigation, image treatment, link purpose, and reading order;
+- static internal-link and literal-path inspection for changed documentation;
+- exact comparison of the README image element and Pages WebP references with the starting state;
+- changed-file scan confirming that no image asset was created or modified and no changed file introduces an SVG reference.
 
 ## What the documentation now supports
 
-- A prospective user can identify this as an installable language tutoring and translation capability for AI agents, while understanding that Lex is the integrated practitioner rather than the entire product premise.
-- A new user can choose the correct Codex, Claude, or copy-paste artifact and reach one useful turn through a five-minute path.
-- A learner can predict the tutoring loop and the observable signs of successful activation.
-- A translator can find purpose, audience, register, terminology, ambiguity, protected-formatting, and qualified-review guidance.
-- An evaluator or maintainer can find package structure, provenance, deterministic evidence, limits, accessibility, support, security, and contribution paths.
-- The public banner is supplemental; the same material information exists as selectable text.
+- A prospective user can identify an installable language tutoring and translation capability for AI agents while understanding Lex Foster as the integrated practitioner voice.
+- A first-time user can choose the correct artifact, verify first value, recognize failure, preserve evidence, and reach a recovery path.
+- A learner can predict the tutoring loop, control feedback, recognize completion, and optionally manage learner-owned continuity.
+- A translator can define purpose, audience, relationship, variety, terminology, protected material, ambiguity, completion, and human-review authority.
+- A maintainer can identify source authority, evidence state, topic type, change triggers, review cadence, safe stopping, completion proof, feedback, and retirement.
+- An evaluator can separate file presence, retained deterministic evidence, defined eval cases, live host behavior, accessibility review, and untested claims.
 
 ## Conditions and residual uncertainty
 
-- Verify the deployed GitHub Pages page and image over HTTPS after the source commit reaches production.
+- Verify the deployed GitHub Pages page and WebP asset over HTTPS after the documentation commit reaches production.
 - Keyboard navigation, zoom and reflow, screen-reader behavior, browser-specific layout, social-card rendering, and representative-user usability remain untested until exercised with those tools and users.
-- The review does not establish formal WCAG conformance, language correctness, cultural authority, professional translation approval, host installation, or universal model behavior.
+- Live installation and activation in current Codex and Claude versions remain host-specific unless separately observed.
+- The review does not establish formal WCAG conformance, language correctness, cultural authority, official assessment validity, professional translation approval, or universal model behavior.
+- Existing repository assets outside the changed documentation set were not altered or re-certified by this repair.
 
 ## Reopen triggers
 
-Re-run this review when product positioning, version, install path, package shape, skill handle, capability boundary, evidence claim, public artwork, Pages source, or customer-document link changes.
+Re-run this review when product positioning, version, install path, package shape, skill handle, capability boundary, evidence claim, host result, public artwork, Pages source, documentation route, support route, security route, or customer task changes.
