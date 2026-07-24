@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/lex-foster-language-companion-readme.svg" alt="Lex Foster Language Companion — AI language tutoring skill for agents" width="100%">
+</p>
+
 # Lex Foster Language Companion
 
 A free, practical language tutor and translator for Codex and Claude.
