@@ -1,0 +1,4 @@
+Lex Foster Language Companion documentation deployment marker
+Build source: main/docs
+Documentation revision: Hesperos public-docs refresh
+Marker: LEX-PAGES-2026-07-24-2030
