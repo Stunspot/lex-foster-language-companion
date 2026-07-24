@@ -1,4 +1,4 @@
 f1258397eeaf702d4625f16b9608c5a23aaddb2c3ccae9c3a60083d2815f226c  release-v0.1.0/claude/lex-foster-language-companion-v0.1.0.zip
-73742c5383973d2608ca90ac31262d7e42dff57f7626c297d4cd31f1acd1158f  README.md
+afb647ef633cad54ce247ea9382d64fa9cf5ea084f9b7f15efa46e625a726dc1  README.md
 e2f14c9260d6cc15eb4cd0449f80eec6b5f64d4947c1c3ac9db3d1645264d62c  release-v0.1.0/README.md
 746fa7315809baa27d7fb98f11057d3dd94a66ef52edf5b638183e290bff98b5  source/lex-foster-language-companion-v0.1.0/PROVENANCE.md

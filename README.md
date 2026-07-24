@@ -1,47 +1,99 @@
 <p align="center">
-  <img src="assets/lex-foster-language-companion-readme.svg" alt="Lex Foster Language Companion — AI language tutoring skill for agents" width="100%">
+  <img src="docs/assets/lex-foster-language-companion-readme.webp" alt="Lex Foster Language Companion — an AI language tutoring system for agents" width="100%">
 </p>
 
 # Lex Foster Language Companion
 
-A free, practical language tutor and translator for Codex and Claude.
+**An installable language tutoring and translation Augment for AI agents.**
 
-Lex starts with the language you need to use: the message to send, conversation to rehearse, text to understand, mistake to repair, or ability to build. You get useful language first, focused explanation second, and a chance to use the learning before it evaporates into the tasteful fog where ordinary chatbot advice goes to die.
+Lex Foster Language Companion adds practical language teaching, conversation rehearsal, translation, localization, pronunciation and script support, cultural-context guidance, and optional learner-owned continuity to Codex, Claude, or another capable text model.
 
-## What makes it useful
+The product is the **language capability**. Lex Foster is the integrated practitioner voice that keeps teaching, translation, correction, and intercultural judgment coherent; the persona supports the work rather than replacing it with mascot theater.
 
-- **Real tasks before course trees.** Learn through your trip, family, work, interests, and actual conversations.
-- **Translation with a purpose.** Preserve audience, relationship, register, terminology, locale, and protected formatting—not only dictionary meaning.
-- **Correction that leads to repair.** Lex prioritizes what changes meaning or transfer and lets you try again.
-- **Inspectable progress.** Optional learner-owned state records what you did independently, with support, or under a changed cue.
-- **Honest boundaries.** No invented official proficiency rating, universal cultural rules, unheard pronunciation judgment, or certified high-stakes translation.
+[Project site](https://stunspot.github.io/lex-foster-language-companion/) · [Start in five minutes](START-HERE.md) · [Install](release-v0.1.0/docs/INSTALLATION.md) · [User guide](release-v0.1.0/docs/USER-GUIDE.md) · [Trust and limits](release-v0.1.0/docs/LIMITATIONS.md)
 
-## Start here
+## What the skill gives an agent
 
-- [Choose and install your host](release-v0.1.0/docs/INSTALLATION.md)
-- [Get first value in one conversation](release-v0.1.0/docs/QUICK-START.md)
-- [Use tutoring, translation, rehearsal, and learner state](release-v0.1.0/docs/USER-GUIDE.md)
-- [Read the complete customer journey](release-v0.1.0/START-HERE.md)
-- [Open the text-only project site](https://stunspot.github.io/lex-foster-language-companion/)
+- **Task-native tutoring.** Start from the message, conversation, text, misunderstanding, or ability the learner actually needs.
+- **Transfer-driven correction.** Prioritize the choice that most affects meaning, relationship, naturalness, or reuse; then let the learner repair it.
+- **Purpose-fit translation.** Preserve audience, relationship, variety, register, terminology, ambiguity, locale, placeholders, and protected formatting.
+- **Conversation rehearsal.** Play a plausible counterpart instead of feeding the learner both sides of the exchange.
+- **Pronunciation and script support.** Explain articulation, stress, rhythm, IPA, romanization, spelling, and script distinctions within the evidence available to the host.
+- **Culture with boundaries.** Distinguish grammar, convention, community tendency, relationship choice, and personal preference.
+- **Inspectable continuity.** Optionally store learner-owned evidence of what was new, supported, independent, or transferred—without inventing an official proficiency score.
 
-The ready-to-install Codex folder and Claude ZIP live in [release-v0.1.0](release-v0.1.0/).
+The teaching loop is:
 
-## A quick prompt
+**encounter → attempt → focused feedback → repair → variation → later retrieval**
 
-> I need to tell my new neighbor in Mexican Spanish that their music is carrying into my apartment, but I want to stay friendly. Help me say it, explain the one choice that most affects the tone, then rehearse their likely reply with me.
+## Install
 
-A competent response gives you usable language immediately, makes the relationship choice visible, and lets you practice the repair—not a generic lecture about Spanish politeness.
+| Host | Artifact | First move |
+|---|---|---|
+| **Codex** | [`release-v0.1.0/codex/lex-foster-language-companion/`](release-v0.1.0/codex/lex-foster-language-companion/) | Copy the whole folder into your Codex skills directory, start a fresh task, then invoke `$lex-foster-language-companion`. |
+| **Claude** | [`release-v0.1.0/claude/lex-foster-language-companion-v0.1.0.zip`](release-v0.1.0/claude/lex-foster-language-companion-v0.1.0.zip) | Upload the ZIP as one skill, enable it if your interface requires that, then begin with a real language task. |
+| **Other capable text models** | [`universal-copy-paste-companion.md`](release-v0.1.0/codex/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md) | Paste the fallback prompt into a new conversation and place your language request beneath it. |
 
-## Evidence boundary
+The exact host paths, expected results, and recovery steps are in the [installation guide](release-v0.1.0/docs/INSTALLATION.md).
 
-Version 0.1.0 has deterministic package, metadata, JSON, learner-profile, and distribution checks. Behavioral eval cases are included for tutoring, translation, prompt injection, low-resource language, official assessment, audio absence, and consequential translation boundaries. See [Validation and evaluation](release-v0.1.0/docs/VALIDATION-AND-EVALUATION.md) for what was and was not exercised.
+## Try one useful turn
 
-This project does not issue official ACTFL, CEFR, IELTS, ILR, or other ratings. It is not a substitute for a qualified translator, interpreter, teacher, clinician, lawyer, or community language authority where those roles matter.
+```text
+Use $lex-foster-language-companion.
 
-## Free public-service release
+I need to tell my new neighbor in Mexican Spanish that their music is carrying into my apartment, but I want to stay friendly. Give me usable language first, explain the one choice that most affects the tone, then play the neighbor so I can rehearse their likely reply.
+```
 
-Copyright 2026 Collaborative Dynamics. Released under the [MIT License](LICENSE).
+A strong first turn gives usable language before extended intake, makes the decisive relationship choice visible, and creates a small learner attempt or repair. It should not begin with a placement ritual, a generic vocabulary list, or an unsolicited lecture on Spanish politeness.
 
-- [Contribute](CONTRIBUTING.md)
-- [Get support](SUPPORT.md)
-- [Report a security issue](SECURITY.md)
+For the shortest complete path, use [START-HERE.md](START-HERE.md).
+
+## Translation is part of the same capability
+
+Lex translates what a text is **doing**, not only what its words denote. For nontrivial work, the skill can establish purpose, audience, relationship, target variety, register, protected terms, formatting constraints, source ambiguity, and the consequence of error.
+
+For legal, medical, immigration, safety-critical, financial, publication-grade, certified, or community-governed language work, Lex can clarify the brief, draft, compare, preserve terminology, expose uncertainty, and prepare a reviewer handoff. Qualified human authority remains qualified human authority.
+
+See the [translation guide](release-v0.1.0/docs/TRANSLATION-GUIDE.md).
+
+## What is included
+
+- one complete Codex skill folder;
+- one upload-ready Claude skill ZIP;
+- the integrated Lex practitioner persona;
+- selective references for tutoring, correction, learner modeling, pronunciation, culture, translation, privacy, and high-stakes boundaries;
+- learner-profile, language-mission, session-recap, and translation-brief templates;
+- four worked demonstrations and twelve behavioral eval cases;
+- deterministic package and learner-profile validators using the Python standard library;
+- installation, quick-start, user, translation, learner-state, troubleshooting, removal, maintenance, accessibility, and validation documentation;
+- a universal copy-paste fallback for hosts without skill installation.
+
+## Repository map
+
+| Path | Purpose |
+|---|---|
+| [`START-HERE.md`](START-HERE.md) | Five-minute public onboarding and success checks |
+| [`release-v0.1.0/`](release-v0.1.0/) | Versioned customer release with Codex, Claude, documentation, and provenance |
+| [`source/`](source/) | Canonical maintainer source for the current Augment |
+| [`dist/`](dist/) | Built distribution staging |
+| [`development/`](development/) | Capability map and build-state records |
+| [`verification/`](verification/) | Executed checks, documentation review, and release evidence |
+| [`docs/`](docs/) | GitHub Pages source and shared public artwork |
+
+## Trust and evidence
+
+Version 0.1.0 passed deterministic package, metadata, JSON, learner-profile, distribution, and archive checks. The repository also carries behavioral eval cases for tutoring, translation, prompt injection, low-resource language, official assessment, absent audio, and consequential translation boundaries.
+
+Those checks establish package structure and selected deterministic behavior. They do **not** prove equal competence across languages, successful installation in every host version, professional translation approval, formal accessibility conformance, or a guaranteed route to fluency.
+
+- [Capability matrix](release-v0.1.0/docs/CAPABILITY-MATRIX.md)
+- [Validation and evaluation](release-v0.1.0/docs/VALIDATION-AND-EVALUATION.md)
+- [Limits and non-claims](release-v0.1.0/docs/LIMITATIONS.md)
+- [Current public-surface accessibility statement](ACCESSIBILITY.md)
+- [Security policy](SECURITY.md)
+
+## Publisher and license
+
+Lex Foster Language Companion is a free Collaborative Dynamics public-service Augment. Copyright 2026 Collaborative Dynamics. Released under the [MIT License](LICENSE).
+
+[Contribute](CONTRIBUTING.md) · [Get support](SUPPORT.md) · [Report a security issue](SECURITY.md)
