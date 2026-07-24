@@ -5,7 +5,7 @@
 | Codex | `codex/lex-foster-language-companion/` | Builder Codex profile passed | Not tested | Installation, discovery, activation, resource loading, Python execution, persistence, and restart behavior |
 | Claude | `claude/lex-foster-language-companion-v0.1.0.zip` | Pre-ZIP folder and final ZIP passed the Builder Claude profile | Not tested | Upload, enablement, activation, resource loading, Python availability, persistence, and current UI labels |
 | Plain text chat | `fallbacks/universal-copy-paste-companion.md` inside the skill | Static inspection | Not tested | No selective package loading, learner-profile validator, host discovery, or built-in persistence |
-| GitHub Pages | `docs/` at repository root | Text-only site source and documentation lint passed | Deployed from `main` `/docs`; HTTPS returned `200` with the expected title | Keyboard flow, screen-reader behavior, and representative-user accessibility remain untested |
+| GitHub Pages | `docs/` at repository root | Responsive HTML/CSS, JPEG assets, social-preview metadata, and documentation lint | Deployed from `main` `/docs`; HTTPS previously returned `200` with the expected title | Post-refresh browser rendering, keyboard flow, screen-reader behavior, link integrity, and representative-user accessibility require re-checking |
 
 Structural validation supports package shape, metadata, containment, JSON compatibility, and resource reachability selected by the validator. It does not establish language quality, successful installation, or host behavior.
 
