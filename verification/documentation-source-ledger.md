@@ -13,9 +13,9 @@ This ledger records the source and evidence state for consequential public-docum
 | The product issues no official proficiency rating | Skill boundaries, capability matrix, limits, and eval definitions | `source-verified` | Assessment behavior | Treat an official-rating output as a serious regression |
 | Text-only use cannot assess unheard pronunciation | User guide, limitations, and eval definition | `source-verified` | Pronunciation evidence | Require supplied audio or qualified human observation for assessment |
 | Consequential translation may require qualified human review | Translation guide, limitations, and skill boundary | `source-verified` | Legal, medical, immigration, safety, financial, certified, publication, and community-governed use | Stop reliance and prepare a reviewer handoff |
-| The approved README and Pages artwork is the existing WebP raster asset | Current README and `docs/index.html` references | `source-verified` | Public artwork reference | Restore the raster reference and reopen documentation review |
-| The July 24 documentation repair modified no image asset | Documentation change scope and final diff review | `source-verified` after final diff inspection | This documentation repair | Block publication if an asset path or byte changes unexpectedly |
+| The approved README and Pages artwork is `docs/assets/lex-foster-language-companion-readme.png` | Owner-supplied PNG plus current README and `docs/index.html` references | `source-verified` | Public artwork reference | Restore the PNG reference and reopen documentation review |
+| The PNG restoration changed only public artwork references, custody documentation, and removal of superseded artwork | Final changed-file and asset-path inspection | `source-verified` after final inspection | Artwork repair | Reopen review if unrelated runtime or product content changed |
 | Public documentation has formal WCAG conformance | No formal assessment | `not tested` | Accessibility | Limit the claim to authored properties and bounded review methods |
-| The Pages site remains live after the documentation repair | Requires post-deployment HTTPS observation | `not tested` in this review | Current deployment | Verify after deployment before recording live success |
+| The Pages site remains live after the PNG restoration | Requires post-deployment HTTPS observation | `not tested` in this review | Current deployment | Verify after deployment before recording live success |
 
 States: `source-verified`, `reported`, `inferred`, `conflicted`, `not examined`, `not tested`.
