@@ -11,15 +11,15 @@ GitHub Pages is sourced from `main` and the repository-root `/docs` directory.
 - `index.html` is the customer-facing product page and documentation router.
 - `style.css` supplies the responsive Stunspot Blue presentation, visible keyboard focus, reflow, reduced-motion handling, and print behavior.
 - `.nojekyll` declares a static site without Jekyll transformation.
-- `assets/lex-foster-language-companion-readme.webp` is the approved shared raster banner used by the repository README, Pages hero, and social-preview metadata.
+- `assets/lex-foster-language-companion-readme.png` is the approved shared raster banner used by the repository README, Pages hero, and social-preview metadata.
 
 The banner is supplemental. All product claims, installation paths, capability descriptions, and trust boundaries also appear as selectable text.
 
 ## Preserve the approved artwork
 
-Documentation maintenance must preserve the approved WebP bytes and the existing README, hero, Open Graph, and Twitter image references unless the owner explicitly approves an artwork change.
+Documentation maintenance must preserve the approved PNG bytes and the existing README, hero, Open Graph, and Twitter image references unless the owner explicitly approves an artwork change.
 
-Use raster WebP, PNG, or JPEG assets for this repository workflow. Do not create, add, or substitute an SVG asset without explicit owner authorization.
+Use raster PNG, WebP, or JPEG assets for this repository workflow. Do not create, add, or substitute an SVG asset without explicit owner authorization.
 
 ## Keep the public surfaces synchronized
 
