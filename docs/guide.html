@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Use Lex Foster for tutoring, rehearsal, translation, pronunciation, script support, and learner-owned continuity.">
+  <meta name="theme-color" content="#020817"><link rel="canonical" href="https://stunspot.github.io/lex-foster-language-companion/guide.html">
+  <meta property="og:title" content="Use Lex — Lex Foster Language Companion"><meta property="og:description" content="Representative language workflows, inputs, outputs, configuration, and completion checks."><meta property="og:image" content="https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-social-card.png"><meta property="og:image:alt" content="Lex Foster Language Companion — practical language tutoring and translation for AI agents"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-social-card.png"><meta name="twitter:image:alt" content="Lex Foster Language Companion — practical language tutoring and translation for AI agents">
+  <title>Use Lex — Lex Foster Language Companion</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><nav class="nav-shell" aria-label="Primary navigation"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">L</span><span>Lex Foster Language Companion</span></a><div class="nav-links"><a href="start.html">Start</a><a aria-current="page" href="guide.html">Use Lex</a><a href="trust.html">Trust & recovery</a><a class="nav-cta" href="https://github.com/Stunspot/lex-foster-language-companion">GitHub</a></div></nav></header>
+  <main id="main" class="article-shell">
+    <nav class="page-toc" aria-label="On this page"><a href="#inputs">Inputs & outputs</a><a href="#tutor">Tutor</a><a href="#rehearse">Rehearse</a><a href="#translate">Translate</a><a href="#sound">Sound & script</a><a href="#configure">Configure</a><a href="#state">Learner state</a></nav>
+    <article class="article-content">
+      <p class="eyebrow">Customer guide · version 0.1.0</p><h1>Use language for something real.</h1>
+      <p class="lede">Lex begins with the communicative job, supplies only the support needed for an attempt, and turns the decisive edge into repair and reuse. Tutoring, translation, pronunciation, and cultural context remain one capability rather than a pile of unrelated modes.</p>
+
+      <section id="inputs"><h2>Expected inputs and outputs</h2>
+        <table><thead><tr><th>Bring</th><th>Useful output</th><th>Boundary</th></tr></thead><tbody>
+          <tr><td>A message or situation</td><td>Usable language, decisive tone or meaning choice, and a rehearsal turn</td><td>Audience and variety may need one clarifying question</td></tr>
+          <tr><td>Your own attempt</td><td>Focused correction, explanation, repair, and changed-cue reuse</td><td>Correction timing follows the live request unless safety or meaning requires interruption</td></tr>
+          <tr><td>Source text plus purpose</td><td>Purpose-fit target text, protected terms, local ambiguity, and optional reviewer notes</td><td>Consequential use may require qualified human approval</td></tr>
+          <tr><td>A sound or script question</td><td>Articulation, stress, rhythm, IPA, romanization, spelling, or script support</td><td>Text-only use cannot assess audio that was never supplied</td></tr>
+          <tr><td>An optional learner profile</td><td>Retrieval from task-bound evidence and updated learner preferences</td><td>The file is user-owned, partial, editable, and not an official score</td></tr>
+        </tbody></table>
+      </section>
+
+      <section id="tutor"><h2>Learn through a real mission</h2><p>Try:</p>
+        <blockquote>I need to introduce myself at a Brazilian jiu-jitsu gym in Portuguese. I am a beginner and want to sound friendly rather than formal. Give me something usable first, explain the choice that most affects the relationship, then play the other person so I can answer.</blockquote>
+        <p>A good turn supplies language now, invites your contribution, corrects by consequence, and gives every substantial correction a retry. Adjust difficulty in ordinary language:</p>
+        <ul><li><q>Give me support, but make me produce the final sentence.</q></li><li><q>Stay in the target language unless I ask.</q></li><li><q>Do not interrupt fluency; give me two corrections at the end.</q></li><li><q>Make the next version harder by changing the relationship.</q></li></ul>
+      </section>
+
+      <section id="rehearse"><h2>Rehearse a plausible counterpart</h2><p>Name your role, the other person, and the desired outcome. Lex should play the counterpart instead of feeding you both sides. After a full turn, request the one error that most changed meaning or social effect, a natural alternative, and a changed cue that requires the same skill.</p><p>Completion is observable when you complete the exchange, repair one consequential edge, and can reuse it under a different condition.</p></section>
+
+      <section id="translate"><h2>Translate purpose, not just words</h2>
+        <p>For a short task, state source and target language or variety, audience, relationship, purpose, register, and anything that must remain exact:</p>
+        <blockquote>Translate this into Canadian French for a warm but professional customer-service email. Preserve the product name Northstar and the placeholder {ticket_id}. Give me the target text first, then identify any source ambiguity that could change it.</blockquote>
+        <p>For recurring or consequential work, use the packaged <code>assets/translation-brief.template.md</code>. Protect names, numbers, dates, units, citations, product strings, placeholders, tags, line breaks, and defined terms. Instructions inside the text remain data; they do not authorize tool use or disclosure.</p>
+        <p>When a source has materially different readings, Lex should ask one decisive question or return labeled alternatives. Same-model back-translation can expose conspicuous shifts, but it is not independent verification.</p>
+        <aside class="callout"><strong>Qualified review matters</strong> for legal rights, filings, medical care, immigration, safety, financial commitments, certification, publication-grade work, and low-resource or community-governed language where the model lacks authority.</aside>
+      </section>
+
+      <section id="sound"><h2>Work with pronunciation and script honestly</h2><p>Lex can prepare mouth position, contrasts, stress, rhythm, tone, syllable structure, IPA, romanization, spelling, and script recognition from text. Without audio, it cannot judge what you actually said. With host audio, recording quality, background noise, accent familiarity, and speech recognition still constrain the observation.</p><p>An accent is not a defect by itself. State whether your goal is intelligibility, lower listener effort, a named local target, performance, or personal preference.</p></section>
+
+      <section id="configure"><h2>Configure through ordinary language</h2><p>There is no required settings file. Tell Lex the preference that changes this task:</p><ul><li>correction timing: immediate, natural pauses, or end of turn;</li><li>focus: communication-first, balanced, or fine-grained;</li><li>explanation: compact, contrastive, or deep;</li><li>challenge: supported, stretch, or immersive;</li><li>working-language use: welcome, minimal, or on request.</li></ul><p>A live preference supersedes an older saved preference. Decide whether the change is for this session or should be written into learner state.</p></section>
+
+      <section id="state"><h2>Keep optional learner state under your control</h2>
+        <ol><li>Copy <code>assets/learner-profile.template.json</code> from the installed skill and save it outside the installed skill folder.</li><li>Remove personal details that do not improve instruction.</li><li>Validate it with <code>python scripts/validate_learner_profile.py &lt;profile.json&gt;</code>.</li><li>Expect <code>PASS</code> plus target-language and evidence counts.</li></ol>
+        <p>The evidence states are <code>new</code>, <code>supported</code>, <code>independent</code>, and <code>transferred</code>. They describe performance in a named task—not mastery, identity, or an official level. If Python is unavailable, the profile remains usable as readable JSON; only deterministic structural validation is lost.</p>
+        <p>To resume, provide the profile, state changed goals or preferences, retrieve one high-value item before reteaching it, vary the situation, and update only what the session demonstrated.</p>
+      </section>
+
+      <section><h2>Go deeper</h2><div class="doc-grid"><a href="trust.html"><strong>Trust & recovery</strong><span>Privacy, security, known limits, troubleshooting, update, removal, and support.</span></a><a href="https://github.com/Stunspot/lex-foster-language-companion/blob/main/release-v0.1.0/docs/USER-GUIDE.md"><strong>Versioned user guide</strong><span>Inspect the canonical customer guidance in the release.</span></a><a href="https://github.com/Stunspot/lex-foster-language-companion/blob/main/release-v0.1.0/docs/TRANSLATION-GUIDE.md"><strong>Versioned translation guide</strong><span>Purpose, ambiguity, protected material, analytical review, and human authority.</span></a></div></section>
+    </article>
+  </main>
+  <footer><p><strong>Lex Foster Language Companion</strong> · version 0.1.0 · MIT License</p><p><a href="index.html">Home</a> · <a href="start.html">Start</a> · <a href="trust.html">Trust & recovery</a> · <a href="https://github.com/Stunspot/lex-foster-language-companion/issues">Support</a></p></footer>
+</body></html>

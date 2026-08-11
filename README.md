@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/lex-foster-language-companion-readme.png" alt="Lex Foster Language Companion — an AI language tutoring system for agents" width="100%">
+  <img src="docs/assets/lex-foster-readme-hero.png" alt="Lex Foster Language Companion turns a real language task into context-aware guidance, focused repair, and changed-cue reuse" width="100%">
 </p>
 
 # Lex Foster Language Companion
@@ -10,7 +10,7 @@ Lex Foster Language Companion adds practical language teaching, conversation reh
 
 The product is the **language capability**. Lex Foster is the integrated practitioner voice that keeps teaching, translation, correction, and intercultural judgment coherent; the persona supports the work rather than replacing it with mascot theater.
 
-[Project site](https://stunspot.github.io/lex-foster-language-companion/) · [Start in five minutes](START-HERE.md) · [Documentation map](DOCUMENTATION.md) · [Install](release-v0.1.0/docs/INSTALLATION.md) · [Release notes](RELEASE-NOTES-v0.1.0.md) · [Trust and limits](release-v0.1.0/docs/LIMITATIONS.md)
+[Project site](https://stunspot.github.io/lex-foster-language-companion/) · [Pages start](https://stunspot.github.io/lex-foster-language-companion/start.html) · [Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html) · [Start in five minutes](START-HERE.md) · [Documentation map](DOCUMENTATION.md) · [Install](release-v0.1.0/docs/INSTALLATION.md) · [Release notes](RELEASE-NOTES-v0.1.0.md) · [Trust and limits](release-v0.1.0/docs/LIMITATIONS.md)
 
 ## What the skill gives an agent
 
@@ -87,7 +87,7 @@ Use the [translation guide](release-v0.1.0/docs/TRANSLATION-GUIDE.md) for the fu
 | [`dist/`](dist/) | Built distribution staging |
 | [`development/`](development/) | Capability map and build-state records |
 | [`verification/`](verification/) | Executed checks, documentation review, source ledger, and release evidence |
-| [`docs/`](docs/) | GitHub Pages source and shared public artwork |
+| [`docs/`](docs/) | Multi-page GitHub Pages source and three role-specific public visual assets |
 
 ## Trust and evidence
 
