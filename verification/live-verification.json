@@ -1,0 +1,118 @@
+{
+    "format":  "cd-live-verification/v1",
+    "status":  "PASS",
+    "verified_at_utc":  "2026-08-11T23:42:50.7698234Z",
+    "repository":  "https://github.com/Stunspot/lex-foster-language-companion",
+    "content_commit":  "83bfa6ac48e179290a1999047c4b475f0c628aec",
+    "documentation_fingerprint":  "93575c3b09bba44508585d08677c2a7acba5217db99a87a42a73de43f31122e8",
+    "pages_url":  "https://stunspot.github.io/lex-foster-language-companion/",
+    "pages_deployment":  {
+                             "workflow_run_id":  31547106168,
+                             "workflow_url":  "https://github.com/Stunspot/lex-foster-language-companion/actions/runs/31547106168",
+                             "conclusion":  "success"
+                         },
+    "routes":  [
+                   {
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/",
+                       "status":  200,
+                       "title":  "Lex Foster Language Companion — Language tutoring for AI agents",
+                       "marker":  "Install a language teacher into your agent.",
+                       "result":  "PASS"
+                   },
+                   {
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/start.html",
+                       "status":  200,
+                       "title":  "Start — Lex Foster Language Companion",
+                       "marker":  "Install the right artifact. Then make it useful.",
+                       "result":  "PASS"
+                   },
+                   {
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/guide.html",
+                       "status":  200,
+                       "title":  "Use Lex — Lex Foster Language Companion",
+                       "marker":  "Use language for something real.",
+                       "result":  "PASS"
+                   },
+                   {
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/trust.html",
+                       "status":  200,
+                       "title":  "Trust \u0026 recovery — Lex Foster Language Companion",
+                       "marker":  "Fluent output is not automatic authority.",
+                       "result":  "PASS"
+                   },
+                   {
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/definitely-not-a-real-route-lex-20260811",
+                       "status":  404,
+                       "marker":  "This page wandered off mid-sentence.",
+                       "result":  "PASS"
+                   }
+               ],
+    "assets":  [
+                   {
+                       "role":  "README hero",
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-readme-hero.png",
+                       "status":  200,
+                       "dimensions":  "1600x720",
+                       "sha256":  "494c8090f671fd8c9b6a75d55958e81cf77459639de70aeaf89b98b09803767b",
+                       "pixels_reviewed":  true,
+                       "result":  "PASS"
+                   },
+                   {
+                       "role":  "Pages hero",
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-pages-hero.png",
+                       "status":  200,
+                       "dimensions":  "1200x800",
+                       "sha256":  "f20408bb670bde8b97a794dbc51c4539025918013a78bcb631406ac4a28679c1",
+                       "pixels_reviewed":  true,
+                       "result":  "PASS"
+                   },
+                   {
+                       "role":  "Social/Open Graph card",
+                       "url":  "https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-social-card.png",
+                       "status":  200,
+                       "dimensions":  "1200x630",
+                       "sha256":  "427710ec2495402c73441e9a528251caa87dd1f189ba6f010aaa7dc21381bbfe",
+                       "pixels_reviewed":  true,
+                       "visible_text":  "Lex Foster Language Companion — Practical language tutoring \u0026 translation for AI agents",
+                       "result":  "PASS"
+                   }
+               ],
+    "social_metadata":  {
+                            "open_graph_image":  "https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-social-card.png",
+                            "twitter_image":  "https://stunspot.github.io/lex-foster-language-companion/assets/lex-foster-social-card.png",
+                            "width":  1200,
+                            "height":  630,
+                            "exact_title":  true,
+                            "alternative_text":  true,
+                            "result":  "PASS"
+                        },
+    "navigation":  {
+                       "unique_links_exercised":  20,
+                       "passed":  20,
+                       "failed":  0,
+                       "result":  "PASS"
+                   },
+    "github_repository":  {
+                              "main_commit":  "83bfa6ac48e179290a1999047c4b475f0c628aec",
+                              "readme_hero_wired":  true,
+                              "pages_start_wired":  true,
+                              "description":  "Practical language tutoring, translation, rehearsal, pronunciation, and learner-owned continuity for AI agents.",
+                              "homepage":  "https://stunspot.github.io/lex-foster-language-companion/",
+                              "topics":  [
+                                             "ai-agents",
+                                             "claude",
+                                             "codex",
+                                             "language-learning",
+                                             "localization",
+                                             "translation"
+                                         ],
+                              "result":  "PASS"
+                          },
+    "boundaries":  [
+                       "No universal current Codex or Claude host-installation claim.",
+                       "No executed behavioral-episode claim from evaluation definitions.",
+                       "No formal WCAG conformance or representative-user claim.",
+                       "No professional translation or official proficiency authority claim."
+                   ],
+    "invalidation":  "Any fingerprinted content or asset change requires Hesperos, accessibility, adversarial, and live re-verification."
+}
