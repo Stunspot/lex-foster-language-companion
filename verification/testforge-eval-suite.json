@@ -1,0 +1,30 @@
+{
+  "valid": true,
+  "case_count": 12,
+  "dimensions": [
+    "adaptive_intake",
+    "authority_boundary",
+    "capability_boundary",
+    "community_respect",
+    "context_judgment",
+    "correction_economy",
+    "focused_explanation",
+    "format_preservation",
+    "functional_evidence",
+    "instruction_data_boundary",
+    "learner_agency",
+    "locale_fit",
+    "meaning_preservation",
+    "plurilingual_competence",
+    "pronunciation_support",
+    "register_fit",
+    "repair",
+    "responsible_degradation",
+    "resume_behavior",
+    "state_revision",
+    "transfer_practice",
+    "uncertainty_localization",
+    "useful_first_value"
+  ],
+  "errors": []
+}
