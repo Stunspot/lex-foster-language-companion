@@ -50,7 +50,7 @@ Those records do not prove successful installation in every host, equal quality 
 
 ## Documentation maintenance note
 
-The public documentation was reorganized after the initial release around Hesperos task, recovery, accessibility, evidence, and lifecycle doctrine. That maintenance changes customer guidance and navigation; it does not alter the version 0.1.0 runtime package or approved raster artwork.
+The public documentation was remediated into a complete repository-and-Pages customer journey with separate Start, Use Lex, and Trust & recovery routes. Three role-specific raster assets now serve the README, Pages hero, and social preview. This presentation repair does not alter the frozen version 0.1.0 runtime package or historical release archive.
 
 ## Continue
 

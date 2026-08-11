@@ -1,41 +1,38 @@
 # Accessibility statement for the public repository and project site
 
-Lex Foster Language Companion is designed so the public documentation can be found, read, navigated, copied, enlarged, translated, and used without depending on color, sound, animation, pointer precision, or the interpretation of a decorative image.
+Lex Foster Language Companion is designed so its public documentation can be found, read, navigated, copied, enlarged, translated, and used without depending on color, sound, animation, pointer precision, or interpretation of a decorative image.
 
 ## Current public surfaces
 
 This statement covers:
 
 - the repository README and root documentation;
-- the static GitHub Pages site under `docs/`;
-- the shared PNG product banner used in the README and Pages metadata;
-- links from those surfaces into the versioned version 0.1.0 customer documentation.
+- the Pages landing page plus the Start, Use Lex, and Trust & recovery routes;
+- the distinct README hero, Pages hero, and social-preview card;
+- links from those surfaces into versioned version 0.1.0 customer documentation.
 
-The banner is supplemental. The README supplies a purpose-based text alternative. The Pages hero treats the same banner as decorative because the adjacent selectable text communicates the product name, purpose, capabilities, and actions.
+The README and Pages heroes are supplemental and text-free. Adjacent selectable text supplies the product name, purpose, capabilities, and actions. The social card contains the exact product title and identifying line for contexts where no adjacent page text is available.
 
 ## Authored accessibility properties
 
 The current source uses:
 
-- one descriptive page title and a declared English document language;
-- a skip link and landmark-based HTML structure on the project site;
-- logical heading order and real lists;
+- a descriptive title and declared English language on every HTML route;
+- a skip link, landmark-based structure, logical heading order, and task-based navigation;
+- visible keyboard focus and an `aria-current` marker for the active documentation route;
 - meaningful link text that predicts the destination;
-- visible keyboard focus in the authored CSS;
-- responsive reflow and reduced-motion handling in the authored CSS;
-- non-color text labels for status, actions, and distinctions;
-- literal artifact names, paths, and skill handles;
-- procedures with prerequisites, expected results, recovery, and completion evidence;
-- simple tables reserved for genuine relationships;
-- task-oriented navigation through [DOCUMENTATION.md](DOCUMENTATION.md).
+- responsive reflow, horizontally scrollable data tables at narrow widths, reduced-motion handling, and print styles;
+- non-color labels and text for status, actions, distinctions, and failure branches;
+- literal artifact names, paths, skill handles, placeholders, and validation commands;
+- procedures with prerequisites, expected results, safe stopping, recovery, and completion evidence;
+- alternative text on the informative README hero and an empty alternative on the decorative Pages hero;
+- no required audio, microphone, timed interaction, or precise pointer gesture.
 
-## Review evidence
+## Review evidence and limits
 
-The July 24, 2026 documentation repair used the canonical Hesperos Documentation version 0.1.1 doctrine and project schema. Changed Markdown passed the packaged structural accessibility lint. The changed static HTML was parsed and reviewed for language, title, headings, landmarks, links, image treatment, and reading order. Internal task journeys and changed link targets received static inspection.
+The final remediation review reads every customer-facing document, parses every HTML route, checks headings, landmarks, navigation, links, anchors, metadata, and image treatment, and opens all three visual assets for actual-pixel inspection. The separate accessibility and adversarial receipts in `verification/` bind their results to the final documentation fingerprint.
 
-These checks are bounded. They do not establish formal WCAG conformance, screen-reader usability across browser and assistive-technology combinations, representative-user success, social-card rendering, or compatibility with every zoom mode, contrast setting, or input method.
-
-The retained review record is [Documentation and accessibility review](verification/documentation-review.md).
+These checks do not establish formal WCAG conformance, compatibility across every browser and assistive-technology combination, representative-user success, or accessibility of GitHub or the user’s chosen AI host. Browser-specific keyboard, screen-reader, zoom, contrast-mode, and social-platform rendering remain bounded by the exact final receipt.
 
 ## Report a barrier
 

@@ -1,6 +1,6 @@
 # Documentation map
 
-Use this page to find the shortest trustworthy path for Lex Foster Language Companion version 0.1.0. The documentation is organized by reader task rather than repository structure.
+Use this page to find the shortest trustworthy path for Lex Foster Language Companion version 0.1.0. The documentation is organized by reader task rather than repository structure. The polished Pages journey provides [Start and verification](https://stunspot.github.io/lex-foster-language-companion/start.html), [Use Lex](https://stunspot.github.io/lex-foster-language-companion/guide.html), and [Trust & recovery](https://stunspot.github.io/lex-foster-language-companion/trust.html); the linked versioned Markdown remains the exact frozen version 0.1.0 release source. Current Pages presentation and live-deployment evidence are maintained outside that frozen archive.
 
 ## Choose by what you need to do
 

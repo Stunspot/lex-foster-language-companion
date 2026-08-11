@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "root": "E:\\Github\\.portfolio-remediation-019ff22b\\lex-foster-language-companion",
+  "file_count": 139,
+  "languages": [
+    {
+      "name": "Python",
+      "files": 12
+    }
+  ],
+  "manifests": [],
+  "test_directories": [
+    "release-v0.1.0/codex/lex-foster-language-companion/scripts/tests",
+    "release-v0.1.0/maintainer-source/lex-foster-language-companion-v0.1.0/skills/lex-foster-language-companion/scripts/tests",
+    "source/lex-foster-language-companion-v0.1.0/skills/lex-foster-language-companion/scripts/tests"
+  ],
+  "test_files": [
+    "release-v0.1.0/codex/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+    "release-v0.1.0/codex/lex-foster-language-companion/scripts/tests/test_validate_release.py",
+    "release-v0.1.0/maintainer-source/lex-foster-language-companion-v0.1.0/skills/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+    "release-v0.1.0/maintainer-source/lex-foster-language-companion-v0.1.0/skills/lex-foster-language-companion/scripts/tests/test_validate_release.py",
+    "source/lex-foster-language-companion-v0.1.0/skills/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+    "source/lex-foster-language-companion-v0.1.0/skills/lex-foster-language-companion/scripts/tests/test_validate_release.py"
+  ],
+  "test_file_count": 6,
+  "config_files": [],
+  "ci_files": [
+    ".github/workflows/line-ending-policy.yml"
+  ],
+  "warnings": []
+}
