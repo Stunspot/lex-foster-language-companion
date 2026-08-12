@@ -95,7 +95,8 @@ Safe stopping state: keep the original release artifact, preserve any error evid
 
 ## Continue by task
 
-- [Polished Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html)`n- [Documentation map](DOCUMENTATION.md)
+- [Polished Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html)
+- [Documentation map](DOCUMENTATION.md)
 - [Tutoring, rehearsal, pronunciation, culture, and continuity](release-v0.1.0/docs/USER-GUIDE.md)
 - [Translation and localization](release-v0.1.0/docs/TRANSLATION-GUIDE.md)
 - [Learner-owned state](release-v0.1.0/docs/LEARNER-STATE.md)
