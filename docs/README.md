@@ -12,16 +12,17 @@ GitHub Pages is sourced from `main` and the repository-root `/docs` directory.
 - `start.html` covers host selection, installation, activation verification, first value, recovery, and next steps.
 - `guide.html` covers representative workflows, inputs and outputs, tutoring, rehearsal, translation, pronunciation, configuration, and learner-owned state.
 - `trust.html` covers capabilities and non-claims, privacy, storage, network and security boundaries, evidence, troubleshooting, updating, removal, cleanup, support, contribution, and license.
-- `404.html` provides a coherent recovery route for missing Pages paths.`n- `style.css` supplies the responsive presentation, visible focus, reflow, reduced-motion handling, article navigation, tables, callouts, and print behavior.
+- `404.html` provides a coherent recovery route for missing Pages paths.
+- `style.css` supplies the responsive presentation, visible focus, reflow, reduced-motion handling, article navigation, tables, callouts, and print behavior.
 - `.nojekyll` declares a static site without Jekyll transformation.
 
 ## Visual role map
 
 | Surface | Asset | Role |
 |---|---|---|
-| Repository README | `assets/lex-foster-readme-hero.png` | Wide product-system journey from communicative input through focused repair and reuse |
-| Pages hero | `assets/lex-foster-pages-hero.png` | Distinct language-transformation and practice-loop composition |
-| Open Graph and Twitter | `assets/lex-foster-social-card.png` | 1200 × 630 social card with the exact product title and identifying line |
+| Repository README | `assets/lex-foster-readme-hero.png` | Wide language-workbench scene showing attempt, annotation, correction, and exchange |
+| Pages hero | `assets/lex-foster-pages-hero.png` | Human conversation scene centered on recognition, rehearsal, and mutual understanding |
+| Open Graph and Twitter | `assets/lex-foster-social-card.png` | Social-preview card with the exact product title and identifying line |
 
 The README and Pages heroes are text-free because adjacent selectable copy supplies the title, purpose, and actions. The social card contains exact visible text because previews may appear without adjacent page content. All three are raster images, different files, different compositions, and different aspect ratios.
 

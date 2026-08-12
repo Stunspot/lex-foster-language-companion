@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/lex-foster-readme-hero.png" alt="Lex Foster Language Companion turns a real language task into context-aware guidance, focused repair, and changed-cue reuse" width="100%">
+  <img src="docs/assets/lex-foster-readme-hero.png" alt="Two people work through a language exercise around an open notebook, with cards for listening, speaking, questions, and repair" width="100%">
 </p>
 
 # Lex Foster Language Companion
@@ -8,7 +8,7 @@
 
 Lex Foster Language Companion adds practical language teaching, conversation rehearsal, translation, localization, pronunciation and script support, cultural-context guidance, and optional learner-owned continuity to Codex, Claude, or another capable text model.
 
-The product is the **language capability**. Lex Foster is the integrated practitioner voice that keeps teaching, translation, correction, and intercultural judgment coherent; the persona supports the work rather than replacing it with mascot theater.
+The product is the **language capability**: teach through real tasks, translate for an audience and purpose, rehearse plausible exchanges, correct what matters, and carry useful evidence forward. Lex Foster is the coherent practitioner voice behind that work.
 
 [Project site](https://stunspot.github.io/lex-foster-language-companion/) · [Pages start](https://stunspot.github.io/lex-foster-language-companion/start.html) · [Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html) · [Start in five minutes](START-HERE.md) · [Documentation map](DOCUMENTATION.md) · [Install](release-v0.1.0/docs/INSTALLATION.md) · [Release notes](RELEASE-NOTES-v0.1.0.md) · [Trust and limits](release-v0.1.0/docs/LIMITATIONS.md)
 
