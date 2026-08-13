@@ -48,7 +48,7 @@
     "verification":  [
                          "verification/documentation-review.md Hesperos PASS_FOR_PUBLICATION_CANDIDATE",
                          "verification/adversarial-verification.md PASS",
-                         "verification/documentation-fingerprint.json 41 files",
+                         "verification/documentation-fingerprint.json 37 files",
                          "package tests and validators passed",
                          "static HTML links anchors semantics and visual role checks passed"
                      ],

@@ -22,7 +22,7 @@ GitHub Pages is sourced from `main` and the repository-root `/docs` directory.
 |---|---|---|
 | Repository README | `assets/lex-foster-readme-hero.png` | Wide language-workbench scene showing attempt, annotation, correction, and exchange |
 | Pages hero | `assets/lex-foster-pages-hero.png` | Human conversation scene centered on recognition, rehearsal, and mutual understanding |
-| Open Graph and Twitter | `assets/lex-foster-social-card.png` | Social-preview card with the exact product title and identifying line |
+| Open Graph and Twitter | `assets/lex-foster-social-card.jpg` | Social-preview card with the exact product title and identifying line |
 
 The README and Pages heroes are text-free because adjacent selectable copy supplies the title, purpose, and actions. The social card contains exact visible text because previews may appear without adjacent page content. All three are raster images, different files, different compositions, and different aspect ratios.
 

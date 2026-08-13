@@ -1,6 +1,6 @@
 # Documentation accessibility review
 
-Fingerprint: f73f47328023e9e0ddfd201d6e5a17a7364229e0f4343186320025d8620f8c04
+Fingerprint: bcfe475dd8940d84f2abfa80fffb112b4ee3528ccb0a569a8e94e8fb862d83b9
 
 Result: **REVIEW_PASS_WITH_CONDITIONS.**
 

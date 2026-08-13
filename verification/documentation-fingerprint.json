@@ -1,7 +1,7 @@
 {
     "format":  "lex-documentation-fingerprint/v1",
-    "generated_at":  "2026-08-12T19:57:57.1877576Z",
-    "aggregate_sha256":  "f73f47328023e9e0ddfd201d6e5a17a7364229e0f4343186320025d8620f8c04",
+    "generated_at":  "2026-08-13T00:57:12.3521925Z",
+    "aggregate_sha256":  "bcfe475dd8940d84f2abfa80fffb112b4ee3528ccb0a569a8e94e8fb862d83b9",
     "files":  [
                   {
                       "path":  "README.md",
@@ -37,23 +37,23 @@
                   },
                   {
                       "path":  "docs/README.md",
-                      "sha256":  "4f7954844e6f84fca29104c2f1d95cf3e4d0f50c4008f6413d003f73d095f7cb"
+                      "sha256":  "7121b54995f312bc7fc4fb31c2a07aeecf1783c598be8f70bf0da3070e50d09f"
                   },
                   {
                       "path":  "docs/index.html",
-                      "sha256":  "137afce9f6a3c57001207e31e7d4bf65891a22f5b8c076709974254eff7789bc"
+                      "sha256":  "94ed1a91f9b58bc400de251e0268c23e5ac4193c26ba71c8971d44df50b3aff9"
                   },
                   {
                       "path":  "docs/start.html",
-                      "sha256":  "391f9e4cb79bb169a809977dba4a11c3ebeeac518a8407bc752ae6d637fde535"
+                      "sha256":  "5288965a77225e2d6ad412fb1e1b1e72d36324816d702456915820cfb18d7f7c"
                   },
                   {
                       "path":  "docs/guide.html",
-                      "sha256":  "96afd68d98ea748ce0a0436b05ad3f408a42b462f7c1e59a876953af8120687d"
+                      "sha256":  "7c3ecb571ebb69f0315de0eeccf447951bb2f79562357510127d1325dcd9ab20"
                   },
                   {
                       "path":  "docs/trust.html",
-                      "sha256":  "de01a12c2d96c9bb4e12a15615fc1eb173390381d532e1bda4393f15ea0ee94a"
+                      "sha256":  "546660015886e22873b87acec05677093160de350eaec71f2940e729337958ac"
                   },
                   {
                       "path":  "docs/404.html",
@@ -72,8 +72,8 @@
                       "sha256":  "bb5a6375172ae4d2e12c1fb5debe6136fd98b6c71d1e734ff6bb6d089cee4d1a"
                   },
                   {
-                      "path":  "docs/assets/lex-foster-social-card.png",
-                      "sha256":  "9eb066fd399c9ba09c082f872037de648eb742406dc8329fc4b670a97c9ba5d5"
+                      "path":  "docs/assets/lex-foster-social-card.jpg",
+                      "sha256":  "6646b4edd09f84b1ebacddd14a6736d067a4ae70c85c09b74d8590e3c18dcb7a"
                   },
                   {
                       "path":  "release-v0.1.0/README.md",
@@ -151,5 +151,6 @@
                       "path":  "release-v0.1.0/docs/VALIDATION-AND-EVALUATION.md",
                       "sha256":  "a4d7dc3fb53ee4994127b33438e643b2dbd0792e19316381d3779808af50426a"
                   }
-              ]
+              ],
+    "algorithm":  "sha256 over sorted UTF-8 path NUL raw file-sha256 records with ordinal path ordering"
 }
