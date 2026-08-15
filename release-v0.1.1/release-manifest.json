@@ -19,8 +19,8 @@
     },
     "claude_skill": {
       "path": "claude/lex-foster-language-companion-v0.1.1.zip",
-      "bytes": 39061,
-      "sha256": "b6b8c5133cd1eca4b3d0a950396f1f36090020e000ab0aa349598258f5bebe29"
+      "bytes": 84728,
+      "sha256": "27359d26266e2cb5556f389a24dd6b0c12fc2b876c56b652adf9828f397cdd14"
     },
     "maintainer_source": {
       "path": "maintainer-source/lex-foster-language-companion-v0.1.1",
@@ -66,7 +66,7 @@
     {
       "path": "SHA256SUMS.txt",
       "bytes": 217,
-      "sha256": "39f441b8e95d3261d7eacd01c7d1db2b2d3acad7dc4338ea996c4d725a27ee1f"
+      "sha256": "01ef34e64359bc37d93c2ef8b04f55945ed70737540831a3f05ddc8b6d17b7f9"
     },
     {
       "path": "START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "claude/lex-foster-language-companion-v0.1.1.zip",
-      "bytes": 39061,
-      "sha256": "b6b8c5133cd1eca4b3d0a950396f1f36090020e000ab0aa349598258f5bebe29"
+      "bytes": 84728,
+      "sha256": "27359d26266e2cb5556f389a24dd6b0c12fc2b876c56b652adf9828f397cdd14"
     },
     {
       "path": "codex/lex-foster-language-companion/SKILL.md",

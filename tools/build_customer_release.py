@@ -29,11 +29,11 @@ def tree_digest(root: Path) -> str:
     return sha(raw)
 
 def zip_tree(path: Path, root: Path, prefix: str = "") -> None:
-    with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+    with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_STORED) as archive:
         for source in files(root):
             relative = source.relative_to(root).as_posix()
             info = zipfile.ZipInfo(f"{prefix}/{relative}" if prefix else relative, STAMP)
-            info.compress_type = zipfile.ZIP_DEFLATED
+            info.compress_type = zipfile.ZIP_STORED
             info.external_attr = 0o100644 << 16
             info.create_system = 3
             archive.writestr(info, source.read_bytes())
