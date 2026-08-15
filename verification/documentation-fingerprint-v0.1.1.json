@@ -1,8 +1,8 @@
 {
   "format": "lex-documentation-fingerprint/v1",
-  "generated_at": "2026-08-15T02:42:07.538470Z",
+  "generated_at": "2026-08-15T02:51:19.267942Z",
   "product_version": "0.1.1",
-  "aggregate_sha256": "a4cdd225b94925128b28bdebb6682b74fb5ebac86e61ef5f6ae9b9dd17a5b132",
+  "aggregate_sha256": "37296ea242fd1606051c53a1aac581cec345e08083c71846ddcf5f717dfb4e36",
   "files": [
     {
       "path": "ACCESSIBILITY.md",
@@ -62,7 +62,7 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "6c40be23fd0d42a228120ff8baa05a51f693630f3bb53097e52e36dff64a1f7b"
+      "sha256": "bf45e9a491179c3675f2d8622f13f3f2c9190d7a780da02abb02f24ad50209d1"
     },
     {
       "path": "docs/start.html",
@@ -169,5 +169,5 @@
       "sha256": "a4d7dc3fb53ee4994127b33438e643b2dbd0792e19316381d3779808af50426a"
     }
   ],
-  "algorithm": "sha256 over sorted UTF-8 path NUL raw file-sha256 records with ordinal path ordering"
+  "algorithm": "sha256 over sorted UTF-8 path NUL canonical file-sha256 records with ordinal path ordering; text line endings normalized to LF"
 }

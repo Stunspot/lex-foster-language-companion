@@ -15,6 +15,12 @@ RELEASE_TOP = [f"release-v{VERSION}/{name}" for name in ["README.md","START-HERE
 RELEASE_DOCS = [p.relative_to(REPO).as_posix() for p in sorted((REPO/f"release-v{VERSION}"/"docs").glob("*.md"))]
 PATHS = sorted(ROOT_DOCS + WEB + RELEASE_TOP + RELEASE_DOCS)
 
+def canonical_bytes(path: Path) -> bytes:
+    data = path.read_bytes()
+    if path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".gif", ".webp"}:
+        data = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return data
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true', help='verify committed receipts without rewriting them')
@@ -23,7 +29,7 @@ def main() -> int:
     aggregate = hashlib.sha256()
     for relative in PATHS:
         path = REPO / relative
-        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        digest = hashlib.sha256(canonical_bytes(path)).hexdigest()
         records.append({"path":relative,"sha256":digest})
         aggregate.update(relative.encode("utf-8"))
         aggregate.update(b"\0")
@@ -35,7 +41,7 @@ def main() -> int:
         "product_version":VERSION,
         "aggregate_sha256":aggregate.hexdigest(),
         "files":records,
-        "algorithm":"sha256 over sorted UTF-8 path NUL raw file-sha256 records with ordinal path ordering",
+        "algorithm":"sha256 over sorted UTF-8 path NUL canonical file-sha256 records with ordinal path ordering; text line endings normalized to LF",
     }
     text = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
     current = REPO/"verification"/"documentation-fingerprint.json"
