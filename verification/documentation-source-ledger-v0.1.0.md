@@ -1,0 +1,24 @@
+# Documentation source ledger
+
+This ledger records the source and evidence state for consequential public-documentation claims in Lex Foster Language Companion version 0.1.0. The final documentation, accessibility, adversarial, and live receipts bind the exact reviewed fingerprint or commit.
+
+| Claim or behavior | Source and version | State | Scope | What changes if wrong |
+|---|---|---|---|---|
+| The product is an installable language tutoring and translation Augment for AI agents | Current `README.md`, canonical `SKILL.md`, and versioned package | `source-verified` | Public positioning for version 0.1.0 | Rewrite repository and Pages entry points |
+| Lex Foster is the integrated practitioner voice; the language capability is the product | Canonical persona, README, Pages copy, and public provenance | `source-verified` | Product framing | Repair framing without erasing practitioner custody |
+| Codex uses the complete unpacked skill folder and Claude uses the prepared one-skill ZIP | Versioned customer release and installation guide | `source-verified` for artifact identity | Artifact selection | Block installation guidance until custody is resolved |
+| Current host installation, discovery, activation, resource loading, Python availability, and persistence work universally | No universal live host evidence | `not tested` | Host behavior | Keep claims host-specific and request observed evidence |
+| The fallback works as package-managed installation | Canonical fallback and package reference | `source-verified` as a portable prompt; package guarantees unavailable | Other capable text models | Do not claim discovery, selective loading, validator access, or persistence |
+| Six deterministic tests and release validators pass the current packaged copies | Fresh local execution recorded in the final review receipt | `executed` for the stated environment and bytes | Structure and learner-profile validation | Rerun after runtime or distribution changes |
+| Twelve behavioral evaluation cases are included | Canonical `evals/` files and validation documentation | `source-verified` for definitions; `not tested` as model episodes in this remediation | Evaluation package | Never describe definitions as executed language-quality evidence |
+| The product issues no official proficiency rating | Canonical skill, learner doctrine, limits, and evaluation definitions | `source-verified` | Assessment behavior contract | Treat an official-rating output as a release-blocking regression |
+| Text-only use cannot assess unheard pronunciation | Canonical pronunciation doctrine, user guide, limits, and evaluation definitions | `source-verified` | Pronunciation evidence | Require supplied audio or qualified human observation for assessment |
+| Consequential translation may require qualified human review | Canonical trust and translation doctrine plus customer guide | `source-verified` | Legal, medical, immigration, safety, financial, certified, publication, and community-governed use | Stop reliance and prepare a reviewer handoff |
+| The package requires no credential, network, browser, microphone, database, or external Python dependency | Canonical package reference and source inspection | `source-verified` for package requirements | Packaged runtime | Keep host storage and network behavior separate |
+| The host may retain prompts, chats, uploads, files, or backups | Host-dependent external behavior | `not tested` here | User-selected host | Refer users to actual host policy and avoid deletion guarantees |
+| Public presentation uses three distinct role-specific raster assets | README, Pages HTML, metadata, actual files, dimensions, hashes, and actual-pixel inspection | `source-verified` and `visually inspected` | README hero, Pages hero, social card | Reopen presentation and accessibility review on any asset or wiring change |
+| The social card visibly contains the exact product title and an identifying line | Actual-pixel inspection of `docs/assets/lex-foster-social-card.jpg` | `visually inspected` | Link previews | Replace and re-review if text is missing, clipped, or illegible |
+| The Pages site is deployed and current | Requires post-deployment HTTPS route, navigation, asset, metadata, and content checks | See `verification/live-verification.json` | Final public commit only | Do not infer from source or HTTP 200 alone |
+| Public documentation has formal WCAG conformance or representative-user validation | No formal conformance audit or representative-user study | `not tested` | Accessibility | Limit claims to authored properties and exact review methods |
+
+Evidence states used here: `source-verified`, `executed`, `visually inspected`, `reported`, `inferred`, `conflicted`, `not examined`, and `not tested`.

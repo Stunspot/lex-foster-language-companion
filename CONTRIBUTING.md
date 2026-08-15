@@ -37,7 +37,7 @@ Begin from the reader's task, not the source file that happens to contain the in
 4. Write procedures with a starting state, prerequisites, ordered actions, expected results, branches, safe stopping, recovery, and completion proof.
 5. Use meaningful headings and links, exact product terms, logical list and table structure, and nonvisual equivalents.
 6. Run the Hesperos accessible-Markdown lint on changed Markdown and inspect semantics manually.
-7. Update [Documentation maintenance](release-v0.1.0/docs/MAINTENANCE.md), the source ledger, or release notes when the change affects governance or evidence.
+7. Update [Documentation maintenance](release-v0.1.1/docs/MAINTENANCE.md), the source ledger, or release notes when the change affects governance or evidence.
 
 Public artwork is raster-only in this repository workflow. Preserve the role split: `docs/assets/lex-foster-readme-hero.png` for the repository, `docs/assets/lex-foster-pages-hero.png` for the site, and `docs/assets/lex-foster-social-card.png` for link previews. Do not substitute one asset across roles or introduce SVG artwork without explicit owner authorization.
 

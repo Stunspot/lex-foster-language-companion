@@ -9,7 +9,7 @@ This statement covers:
 - the repository README and root documentation;
 - the Pages landing page plus the Start, Use Lex, and Trust & recovery routes;
 - the distinct README hero, Pages hero, and social-preview card;
-- links from those surfaces into versioned version 0.1.0 customer documentation.
+- links from those surfaces into versioned version 0.1.1 customer documentation.
 
 The README and Pages heroes are supplemental and text-free. Adjacent selectable text supplies the product name, purpose, capabilities, and actions. The social card contains the exact product title and identifying line for contexts where no adjacent page text is available.
 

@@ -1,0 +1,57 @@
+{
+    "project_id":  "LEX-DOC-REMEDIATION-2026-08-11",
+    "title":  "Lex Foster Language Companion public documentation remediation",
+    "product_version":  "0.1.0",
+    "status":  "approved",
+    "audiences":  [
+                      "prospective users",
+                      "Codex and Claude installers",
+                      "language learners",
+                      "translation users",
+                      "maintainers",
+                      "evaluators",
+                      "contributors",
+                      "support reporters"
+                  ],
+    "top_tasks":  [
+                      "understand product fit and boundaries",
+                      "install the correct host artifact",
+                      "verify activation and reach first value",
+                      "complete tutoring rehearsal or translation workflows",
+                      "manage optional learner state",
+                      "recover update remove and clean up",
+                      "inspect privacy security provenance validation accessibility support and license"
+                  ],
+    "sources":  [
+                    "canonical SKILL.md persona references templates schema validators tests examples fallback and eval definitions",
+                    "root and frozen versioned customer documentation",
+                    "Pages HTML CSS metadata and actual raster pixels",
+                    "fresh deterministic validation and static link results"
+                ],
+    "topics":  [
+                   "overview",
+                   "installation",
+                   "first-run verification",
+                   "usage workflows",
+                   "translation",
+                   "pronunciation and script",
+                   "configuration and learner state",
+                   "troubleshooting",
+                   "privacy and security",
+                   "evidence and limitations",
+                   "update removal and cleanup",
+                   "support contribution license and terms"
+               ],
+    "accessibility_reviews":  [
+                                  "verification/accessibility-review.md fingerprint 93575c3b09bba44508585d08677c2a7acba5217db99a87a42a73de43f31122e8 PASS_WITH_BOUNDED_EVIDENCE"
+                              ],
+    "verification":  [
+                         "verification/documentation-review.md Hesperos PASS_FOR_PUBLICATION_CANDIDATE",
+                         "verification/adversarial-verification.md PASS",
+                         "verification/documentation-fingerprint.json 37 files",
+                         "package tests and validators passed",
+                         "static HTML links anchors semantics and visual role checks passed"
+                     ],
+    "owner":  "Collaborative Dynamics maintainers",
+    "next_move":  "publish reviewed commit and create commit-bound live verification receipt"
+}

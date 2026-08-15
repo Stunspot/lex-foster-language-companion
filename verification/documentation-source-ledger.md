@@ -1,10 +1,10 @@
 # Documentation source ledger
 
-This ledger records the source and evidence state for consequential public-documentation claims in Lex Foster Language Companion version 0.1.0. The final documentation, accessibility, adversarial, and live receipts bind the exact reviewed fingerprint or commit.
+This ledger records the source and evidence state for consequential public-documentation claims in Lex Foster Language Companion version 0.1.1. The final documentation, accessibility, adversarial, and live receipts bind the exact reviewed fingerprint or commit.
 
 | Claim or behavior | Source and version | State | Scope | What changes if wrong |
 |---|---|---|---|---|
-| The product is an installable language tutoring and translation Augment for AI agents | Current `README.md`, canonical `SKILL.md`, and versioned package | `source-verified` | Public positioning for version 0.1.0 | Rewrite repository and Pages entry points |
+| The product is an installable language tutoring and translation Augment for AI agents | Current `README.md`, canonical `SKILL.md`, and versioned package | `source-verified` | Public positioning for version 0.1.1 | Rewrite repository and Pages entry points |
 | Lex Foster is the integrated practitioner voice; the language capability is the product | Canonical persona, README, Pages copy, and public provenance | `source-verified` | Product framing | Repair framing without erasing practitioner custody |
 | Codex uses the complete unpacked skill folder and Claude uses the prepared one-skill ZIP | Versioned customer release and installation guide | `source-verified` for artifact identity | Artifact selection | Block installation guidance until custody is resolved |
 | Current host installation, discovery, activation, resource loading, Python availability, and persistence work universally | No universal live host evidence | `not tested` | Host behavior | Keep claims host-specific and request observed evidence |
@@ -22,3 +22,4 @@ This ledger records the source and evidence state for consequential public-docum
 | Public documentation has formal WCAG conformance or representative-user validation | No formal conformance audit or representative-user study | `not tested` | Accessibility | Limit claims to authored properties and exact review methods |
 
 Evidence states used here: `source-verified`, `executed`, `visually inspected`, `reported`, `inferred`, `conflicted`, `not examined`, and `not tested`.
+| The v0.1.1 runtime is unchanged from v0.1.0 while package documentation and custody are renewed | Canonical source date history, byte-parity comparison, v0.1.1 manifest, and release notes | source-verified | v0.1.1 package | Reopen on any runtime byte change |
