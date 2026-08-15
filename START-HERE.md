@@ -1,6 +1,6 @@
 # Try Lex Foster Language Companion in five minutes
 
-Goal: install the correct version 0.1.0 artifact, reach one useful language turn, and recognize whether the intended capability activated.
+Goal: install the correct version 0.1.1 artifact, reach one useful language turn, and recognize whether the intended capability activated.
 
 Audience: a first-time user of Codex, Claude, or another capable text model. No placement score, curriculum plan, or language-teaching background is required.
 
@@ -10,7 +10,7 @@ You need:
 
 - permission to install or upload a skill in your chosen host, or access to the copy-paste fallback;
 - one real message, conversation, text, pronunciation question, translation, or learning goal;
-- the version 0.1.0 release in this repository;
+- the version 0.1.1 release in this repository;
 - authority to approve any consequential use that follows.
 
 Do not include passwords, credentials, unnecessary personal information, private learner records, or confidential source text.
@@ -19,21 +19,21 @@ Starting state: the skill is not yet installed in the fresh task or conversation
 
 ## 1. Choose the artifact for your host
 
-- **Codex:** use `release-v0.1.0/codex/lex-foster-language-companion/`.
-- **Claude:** use `release-v0.1.0/claude/lex-foster-language-companion-v0.1.0.zip`.
+- **Codex:** use `release-v0.1.1/codex/lex-foster-language-companion/`.
+- **Claude:** use `release-v0.1.1/claude/lex-foster-language-companion-v0.1.1.zip`.
 - **Another capable text model:** use `fallbacks/universal-copy-paste-companion.md` inside the unpacked Codex skill folder.
 
 Expected result: you have exactly one artifact intended for the host. Do not upload the whole repository as a Claude skill or copy the Claude ZIP itself into a Codex skills directory.
 
-If you cannot identify the correct artifact, stop without moving files and use the [installation guide](release-v0.1.0/docs/INSTALLATION.md).
+If you cannot identify the correct artifact, stop without moving files and use the [installation guide](release-v0.1.1/docs/INSTALLATION.md).
 
 ## 2. Install and start from a fresh context
 
-Follow the [installation procedure](release-v0.1.0/docs/INSTALLATION.md), then start a new task or conversation so the host can discover the skill cleanly.
+Follow the [installation procedure](release-v0.1.1/docs/INSTALLATION.md), then start a new task or conversation so the host can discover the skill cleanly.
 
 Expected result: the host exposes one Lex Foster Language Companion skill or the fallback prompt is active in the new conversation.
 
-If the skill is missing, preserve the host version, artifact path, exact error, and installed tree before changing anything. Continue with [Troubleshooting](release-v0.1.0/docs/TROUBLESHOOTING.md#the-skill-is-not-available).
+If the skill is missing, preserve the host version, artifact path, exact error, and installed tree before changing anything. Continue with [Troubleshooting](release-v0.1.1/docs/TROUBLESHOOTING.md#the-skill-is-not-available).
 
 ## 3. Ask for a real communicative job
 
@@ -59,7 +59,7 @@ Successful activation should produce:
 - only the context questions that materially change the result;
 - uncertainty attached to the affected phrase rather than buried in a disclaimer pile.
 
-The intended capability did not activate cleanly if the response begins with a long questionnaire, a generic vocabulary list, an official proficiency claim, or a lecture that never lets you use the language. Use [The response starts with a questionnaire](release-v0.1.0/docs/TROUBLESHOOTING.md#the-response-starts-with-a-questionnaire).
+The intended capability did not activate cleanly if the response begins with a long questionnaire, a generic vocabulary list, an official proficiency claim, or a lecture that never lets you use the language. Use [The response starts with a questionnaire](release-v0.1.1/docs/TROUBLESHOOTING.md#the-response-starts-with-a-questionnaire).
 
 ## 5. Test repair and reuse
 
@@ -79,7 +79,7 @@ Translate this into Canadian French for a warm but professional customer-service
 
 Expected result: names and placeholders remain exact; audience, register, locale, and uncertainty remain visible.
 
-For consequential use, stop before reliance and follow [When qualified human review matters](release-v0.1.0/docs/TRANSLATION-GUIDE.md#when-qualified-human-review-matters).
+For consequential use, stop before reliance and follow [When qualified human review matters](release-v0.1.1/docs/TRANSLATION-GUIDE.md#when-qualified-human-review-matters).
 
 ## 7. Confirm completion
 
@@ -97,10 +97,10 @@ Safe stopping state: keep the original release artifact, preserve any error evid
 
 - [Polished Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html)
 - [Documentation map](DOCUMENTATION.md)
-- [Tutoring, rehearsal, pronunciation, culture, and continuity](release-v0.1.0/docs/USER-GUIDE.md)
-- [Translation and localization](release-v0.1.0/docs/TRANSLATION-GUIDE.md)
-- [Learner-owned state](release-v0.1.0/docs/LEARNER-STATE.md)
-- [Troubleshooting by observable symptom](release-v0.1.0/docs/TROUBLESHOOTING.md)
-- [Capability matrix](release-v0.1.0/docs/CAPABILITY-MATRIX.md)
-- [Validation and evidence boundary](release-v0.1.0/docs/VALIDATION-AND-EVALUATION.md)
-- [Package reference](release-v0.1.0/docs/PACKAGE-REFERENCE.md)
+- [Tutoring, rehearsal, pronunciation, culture, and continuity](release-v0.1.1/docs/USER-GUIDE.md)
+- [Translation and localization](release-v0.1.1/docs/TRANSLATION-GUIDE.md)
+- [Learner-owned state](release-v0.1.1/docs/LEARNER-STATE.md)
+- [Troubleshooting by observable symptom](release-v0.1.1/docs/TROUBLESHOOTING.md)
+- [Capability matrix](release-v0.1.1/docs/CAPABILITY-MATRIX.md)
+- [Validation and evidence boundary](release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md)
+- [Package reference](release-v0.1.1/docs/PACKAGE-REFERENCE.md)

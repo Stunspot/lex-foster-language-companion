@@ -1,0 +1,50 @@
+name: Verify release
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild deterministic customer release
+        run: python tools/build_customer_release.py
+
+      - name: Verify customer release
+        run: python tools/verify_customer_release.py release-v0.1.1 --outer release-assets/v0.1.1/Lex-Foster-Language-Companion-v0.1.1.zip
+
+      - name: Run runtime tests
+        run: python -B -m unittest discover -s release-v0.1.1/codex/lex-foster-language-companion/scripts/tests -v
+
+      - name: Validate runtime package
+        run: python -B release-v0.1.1/codex/lex-foster-language-companion/scripts/validate_release.py release-v0.1.1/codex/lex-foster-language-companion
+
+      - name: Verify public documentation
+        run: python tools/verify_public_docs.py
+
+      - name: Verify documentation fingerprint
+        run: python tools/build_documentation_fingerprint.py --check
+
+      - name: Require deterministic clean rebuild
+        run: git diff --exit-code

@@ -10,7 +10,7 @@ Lex Foster Language Companion adds practical language teaching, conversation reh
 
 The product is the **language capability**: teach through real tasks, translate for an audience and purpose, rehearse plausible exchanges, correct what matters, and carry useful evidence forward. Lex Foster is the coherent practitioner voice behind that work.
 
-[Project site](https://stunspot.github.io/lex-foster-language-companion/) · [Pages start](https://stunspot.github.io/lex-foster-language-companion/start.html) · [Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html) · [Start in five minutes](START-HERE.md) · [Documentation map](DOCUMENTATION.md) · [Install](release-v0.1.0/docs/INSTALLATION.md) · [Release notes](RELEASE-NOTES-v0.1.0.md) · [Trust and limits](release-v0.1.0/docs/LIMITATIONS.md)
+[Project site](https://stunspot.github.io/lex-foster-language-companion/) · [Pages start](https://stunspot.github.io/lex-foster-language-companion/start.html) · [Pages guide](https://stunspot.github.io/lex-foster-language-companion/guide.html) · [Start in five minutes](START-HERE.md) · [Documentation map](DOCUMENTATION.md) · [Install](release-v0.1.1/docs/INSTALLATION.md) · [Release notes](RELEASE-NOTES-v0.1.1.md) · [Trust and limits](release-v0.1.1/docs/LIMITATIONS.md)
 
 ## What the skill gives an agent
 
@@ -30,11 +30,11 @@ The teaching loop is:
 
 | Host | Artifact | First move |
 |---|---|---|
-| **Codex** | [`release-v0.1.0/codex/lex-foster-language-companion/`](release-v0.1.0/codex/lex-foster-language-companion/) | Copy the complete folder into the directory your Codex installation scans for skills, start a fresh task, then invoke `$lex-foster-language-companion`. |
-| **Claude** | [`release-v0.1.0/claude/lex-foster-language-companion-v0.1.0.zip`](release-v0.1.0/claude/lex-foster-language-companion-v0.1.0.zip) | Upload the ZIP as one skill, enable it if the current interface requires that, then begin with a real language task. |
-| **Other capable text models** | [`universal-copy-paste-companion.md`](release-v0.1.0/codex/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md) | Paste the fallback prompt into a new conversation and place your language request beneath it. |
+| **Codex** | [`release-v0.1.1/codex/lex-foster-language-companion/`](release-v0.1.1/codex/lex-foster-language-companion/) | Copy the complete folder into the directory your Codex installation scans for skills, start a fresh task, then invoke `$lex-foster-language-companion`. |
+| **Claude** | [`release-v0.1.1/claude/lex-foster-language-companion-v0.1.1.zip`](release-v0.1.1/claude/lex-foster-language-companion-v0.1.1.zip) | Upload the ZIP as one skill, enable it if the current interface requires that, then begin with a real language task. |
+| **Other capable text models** | [`universal-copy-paste-companion.md`](release-v0.1.1/codex/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md) | Paste the fallback prompt into a new conversation and place your language request beneath it. |
 
-The [installation guide](release-v0.1.0/docs/INSTALLATION.md) gives prerequisites, observable results, recovery, and completion checks.
+The [installation guide](release-v0.1.1/docs/INSTALLATION.md) gives prerequisites, observable results, recovery, and completion checks.
 
 ## Try one useful turn
 
@@ -54,13 +54,13 @@ Lex translates what a text is **doing**, not only what its words denote. For non
 
 For legal, medical, immigration, safety-critical, financial, publication-grade, certified, or community-governed language work, Lex can clarify the brief, draft, compare, preserve terminology, expose uncertainty, and prepare a reviewer handoff. Qualified human authority remains qualified human authority.
 
-Use the [translation guide](release-v0.1.0/docs/TRANSLATION-GUIDE.md) for the full workflow.
+Use the [translation guide](release-v0.1.1/docs/TRANSLATION-GUIDE.md) for the full workflow.
 
 ## Documentation by task
 
 - [Choose the right page](DOCUMENTATION.md) for installation, tutoring, translation, learner state, recovery, reference, evidence, or maintenance.
-- [Read the release notes](RELEASE-NOTES-v0.1.0.md) for customer-facing scope, impact, migration, and known limits.
-- [Maintain the documentation](release-v0.1.0/docs/MAINTENANCE.md) through explicit source authority, review triggers, verification, and safe handoff.
+- [Read the release notes](RELEASE-NOTES-v0.1.1.md) for customer-facing scope, impact, migration, and known limits.
+- [Maintain the documentation](release-v0.1.1/docs/MAINTENANCE.md) through explicit source authority, review triggers, verification, and safe handoff.
 - [Report a documentation defect](SUPPORT.md) with the affected page, task, version, observed result, and preferred outcome.
 
 ## What is included
@@ -81,8 +81,8 @@ Use the [translation guide](release-v0.1.0/docs/TRANSLATION-GUIDE.md) for the fu
 |---|---|
 | [`START-HERE.md`](START-HERE.md) | Five-minute public onboarding and success checks |
 | [`DOCUMENTATION.md`](DOCUMENTATION.md) | Task-oriented documentation hub and evidence map |
-| [`RELEASE-NOTES-v0.1.0.md`](RELEASE-NOTES-v0.1.0.md) | Customer-facing release communication and known limits |
-| [`release-v0.1.0/`](release-v0.1.0/) | Versioned customer release with Codex, Claude, documentation, and provenance |
+| [`RELEASE-NOTES-v0.1.1.md`](RELEASE-NOTES-v0.1.1.md) | Customer-facing release communication and known limits |
+| [`release-v0.1.1/`](release-v0.1.1/) | Versioned customer release with Codex, Claude, documentation, and provenance |
 | [`source/`](source/) | Canonical maintainer source for the current Augment |
 | [`dist/`](dist/) | Built distribution staging |
 | [`development/`](development/) | Capability map and build-state records |
@@ -91,13 +91,13 @@ Use the [translation guide](release-v0.1.0/docs/TRANSLATION-GUIDE.md) for the fu
 
 ## Trust and evidence
 
-Version 0.1.0 passed retained deterministic package, metadata, JSON, learner-profile, distribution, and archive checks. The repository also carries behavioral eval definitions for tutoring, translation, prompt injection, low-resource language, official assessment, absent audio, and consequential translation boundaries.
+Version 0.1.1 passed retained deterministic package, metadata, JSON, learner-profile, distribution, and archive checks. The repository also carries behavioral eval definitions for tutoring, translation, prompt injection, low-resource language, official assessment, absent audio, and consequential translation boundaries.
 
 Those records establish package structure and selected deterministic behavior. They do **not** prove equal competence across languages, successful installation in every host version, professional translation approval, formal accessibility conformance, or a guaranteed route to fluency.
 
-- [Capability matrix](release-v0.1.0/docs/CAPABILITY-MATRIX.md)
-- [Validation and evaluation](release-v0.1.0/docs/VALIDATION-AND-EVALUATION.md)
-- [Limits and non-claims](release-v0.1.0/docs/LIMITATIONS.md)
+- [Capability matrix](release-v0.1.1/docs/CAPABILITY-MATRIX.md)
+- [Validation and evaluation](release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md)
+- [Limits and non-claims](release-v0.1.1/docs/LIMITATIONS.md)
 - [Current public-surface accessibility statement](ACCESSIBILITY.md)
 - [Security policy](SECURITY.md)
 
