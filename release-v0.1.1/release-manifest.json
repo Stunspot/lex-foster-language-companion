@@ -5,7 +5,7 @@
   "version": "0.1.1",
   "source_repository": "https://github.com/Stunspot/lex-foster-language-companion",
   "source_basis_commit": "d2b45a2fb4c6bc2e33e7f5d4d41eba86d1ac4d82",
-  "source_tree_sha256": "a2ed4c24551bec89c5349f534208704224874f1b5b21df6a0cc26f910499d25a",
+  "source_tree_sha256": "70452b6e2c6a465d2356db5d4e3da5123c9b694ad0d93d37b1efbac475367f55",
   "tree_digest_algorithm": "sha256(canonical JSON inventory sorted by relative path; fields path, bytes, sha256)",
   "license": "MIT",
   "publication": "manual_only",
@@ -15,16 +15,16 @@
     "codex_skill": {
       "path": "codex/lex-foster-language-companion",
       "file_count": 26,
-      "tree_sha256": "ca7328037e47c712498d83a790427ace7df66acf7ecd04ba76dfd7b309be5a6e"
+      "tree_sha256": "a76ebb0da2126f886de7b2e358f1fa988e59c1e87b86b67a2f34b8ba2ac56f8d"
     },
     "claude_skill": {
       "path": "claude/lex-foster-language-companion-v0.1.1.zip",
-      "bytes": 84728,
-      "sha256": "27359d26266e2cb5556f389a24dd6b0c12fc2b876c56b652adf9828f397cdd14"
+      "bytes": 84747,
+      "sha256": "db2432d912ace1c44b331390d44e88c57f69e5e9977add3633ee78b4b54b5274"
     },
     "maintainer_source": {
       "path": "maintainer-source/lex-foster-language-companion-v0.1.1",
-      "tree_sha256": "a2ed4c24551bec89c5349f534208704224874f1b5b21df6a0cc26f910499d25a"
+      "tree_sha256": "70452b6e2c6a465d2356db5d4e3da5123c9b694ad0d93d37b1efbac475367f55"
     }
   },
   "files": [
@@ -66,7 +66,7 @@
     {
       "path": "SHA256SUMS.txt",
       "bytes": 217,
-      "sha256": "01ef34e64359bc37d93c2ef8b04f55945ed70737540831a3f05ddc8b6d17b7f9"
+      "sha256": "1f88ea095f61a76e99c2c7c028d20dafb0197ef7315c8c266feae6bb883b91f8"
     },
     {
       "path": "START-HERE.md",
@@ -80,18 +80,18 @@
     },
     {
       "path": "claude/lex-foster-language-companion-v0.1.1.zip",
-      "bytes": 84728,
-      "sha256": "27359d26266e2cb5556f389a24dd6b0c12fc2b876c56b652adf9828f397cdd14"
+      "bytes": 84747,
+      "sha256": "db2432d912ace1c44b331390d44e88c57f69e5e9977add3633ee78b4b54b5274"
     },
     {
       "path": "codex/lex-foster-language-companion/SKILL.md",
-      "bytes": 3782,
-      "sha256": "e5eaaa094506a61889874424d6083c47d2df4f54a6fd92ae70cf195f2552f8e3"
+      "bytes": 3789,
+      "sha256": "0be3c5c6084bd2ec32a6fbb220a0475c016dc089041441b9929b97ea3f912bcf"
     },
     {
       "path": "codex/lex-foster-language-companion/agents/openai.yaml",
-      "bytes": 344,
-      "sha256": "9cda354d95b60f8da68640f144f0bc6fec9b9e01c7225715cfd3bbbd90243be2"
+      "bytes": 356,
+      "sha256": "d4211af8e8d3e71578c30cf899eca3e9e31892781c27b106f9b327792d926049"
     },
     {
       "path": "codex/lex-foster-language-companion/assets/language-mission.template.md",
@@ -300,13 +300,13 @@
     },
     {
       "path": "maintainer-source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/SKILL.md",
-      "bytes": 3782,
-      "sha256": "e5eaaa094506a61889874424d6083c47d2df4f54a6fd92ae70cf195f2552f8e3"
+      "bytes": 3789,
+      "sha256": "0be3c5c6084bd2ec32a6fbb220a0475c016dc089041441b9929b97ea3f912bcf"
     },
     {
       "path": "maintainer-source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/agents/openai.yaml",
-      "bytes": 344,
-      "sha256": "9cda354d95b60f8da68640f144f0bc6fec9b9e01c7225715cfd3bbbd90243be2"
+      "bytes": 356,
+      "sha256": "d4211af8e8d3e71578c30cf899eca3e9e31892781c27b106f9b327792d926049"
     },
     {
       "path": "maintainer-source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/language-mission.template.md",

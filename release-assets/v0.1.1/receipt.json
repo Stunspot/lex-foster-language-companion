@@ -5,7 +5,7 @@
   "status": "canonical-built-backup-pending",
   "canonical_zip": "Lex-Foster-Language-Companion-v0.1.1.zip",
   "canonical_checksum": "Lex-Foster-Language-Companion-v0.1.1.zip.sha256",
-  "canonical_zip_sha256": "3a3b6b56440bb4b2b4462a4920fa98fc894b6e4e8c1b051f3332c7fbc1a55f7e",
+  "canonical_zip_sha256": "81194f5e1c70d2a36609f63ff32efa410a6ce0894da6e49a6c6dfdca6459a826",
   "canonical_zip_member_count": 81,
   "backup": null,
   "backup_checksum": null,

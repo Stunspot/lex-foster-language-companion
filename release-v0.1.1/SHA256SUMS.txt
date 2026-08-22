@@ -1,2 +1,2 @@
-ca7328037e47c712498d83a790427ace7df66acf7ecd04ba76dfd7b309be5a6e  codex/lex-foster-language-companion/
-27359d26266e2cb5556f389a24dd6b0c12fc2b876c56b652adf9828f397cdd14  claude/lex-foster-language-companion-v0.1.1.zip
+a76ebb0da2126f886de7b2e358f1fa988e59c1e87b86b67a2f34b8ba2ac56f8d  codex/lex-foster-language-companion/
+db2432d912ace1c44b331390d44e88c57f69e5e9977add3633ee78b4b54b5274  claude/lex-foster-language-companion-v0.1.1.zip
