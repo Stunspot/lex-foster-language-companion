@@ -10,8 +10,10 @@ def main():
     accepted=ROOT/'release-assets/v0.1.1/Lex-Foster-Language-Companion-v0.1.1.zip'
     expected=receipt['canonical_zip_sha256']
     assert hashlib.sha256(accepted.read_bytes()).hexdigest()==expected, 'Accepted ZIP receipt mismatch'
-    with tempfile.TemporaryDirectory(prefix='lex-ci-') as temp:
+    with tempfile.TemporaryDirectory(prefix='lex-ci-', dir=ROOT.parent.resolve()) as temp:
         output=Path(temp)/'candidate'
+        os.environ.update(TMP=temp, TEMP=temp, TMPDIR=temp)
+        tempfile.tempdir=temp
         run('tools/build_customer_release.py','--output',output)
         archive=output/accepted.name
         assert archive.read_bytes()==accepted.read_bytes(), 'Fresh build differs from accepted ZIP'
@@ -20,7 +22,7 @@ def main():
         runtime=native/'codex/lex-foster-language-companion'
         run('-m','unittest','discover','-s',runtime/'scripts/tests','-v')
         run(runtime/'scripts/validate_release.py',runtime)
-    run('-m','unittest','discover','-s','tests','-v')
+        run('-m','unittest','discover','-s','tests','-v')
     run('tools/verify_public_docs.py')
     run('tools/build_documentation_fingerprint.py','--check')
     print('PASS: fresh candidate is byte-identical; native/runtime/package/public-doc checks passed')

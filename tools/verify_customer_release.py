@@ -23,7 +23,7 @@ def pairs(items):
 def verify(root,outer=None):
     findings=[];counts={}
     try:
-        root=reject_links(root);actual_list=inventory(root)
+        root=reject_links(root).resolve();actual_list=inventory(root)
         for parent, dirs, names in os.walk(root):
             if '__pycache__' in dirs or any(Path(n).suffix in {'.pyc','.pyo'} for n in names): raise ValueError('forbidden generated cache cargo')
         manifest=json.loads((root/'release-manifest.json').read_text(encoding='utf-8-sig'),object_pairs_hook=pairs)

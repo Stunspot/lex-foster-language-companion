@@ -481,8 +481,8 @@
     },
     {
       "path": "tools/verify_customer_release.py",
-      "bytes": 6166,
-      "sha256": "c6729ec09de5bd5944bc4ba148f534ae15a66d21bf5b4cb46fcb939e3cb1447c"
+      "bytes": 6176,
+      "sha256": "ccf14783eb3f70f918b375e4e3cf7363f52bf94f9f69b11f165f36cae6f381ef"
     }
   ]
 }

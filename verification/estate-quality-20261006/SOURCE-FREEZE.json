@@ -1,10 +1,10 @@
 {
   "product": "lex-foster-language-companion",
   "version": "0.1.1",
-  "revision": "estate-quality-20261006-r5",
+  "revision": "estate-quality-20261007-r6",
   "candidate": {
-    "path": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r5\\Lex-Foster-Language-Companion-v0.1.1.zip",
-    "sha256": "e91adf84697c1f9cba22b102fc79d143b36013b1e4c47d67d902e39c6cf084e5"
+    "path": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261007-r6\\Lex-Foster-Language-Companion-v0.1.1.zip",
+    "sha256": "780154be859de0a8c0421957ddf5dfaa9163b12b10f869ea52647376cc0c7d22"
   },
   "canonical_runtime": "E:\\Github\\lex-foster-language-companion\\source\\lex-foster-language-companion-v0.1.1\\skills\\lex-foster-language-companion",
   "source_files": [
@@ -435,8 +435,8 @@
     },
     {
       "path": "tools/verify_customer_release.py",
-      "bytes": 6166,
-      "sha256": "c6729ec09de5bd5944bc4ba148f534ae15a66d21bf5b4cb46fcb939e3cb1447c"
+      "bytes": 6176,
+      "sha256": "ccf14783eb3f70f918b375e4e3cf7363f52bf94f9f69b11f165f36cae6f381ef"
     },
     {
       "path": "tools/verify_public_docs.py",

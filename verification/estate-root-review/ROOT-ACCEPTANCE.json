@@ -165,5 +165,21 @@
   "independent_controls": 23,
   "native_members": 92,
   "expert_review": "Read entry, complete operating/learner/translation/culture/pronunciation/trust guidance, concrete Japanese tense and Spanish ir-a feedback, ambiguous protected translation and return workflow. Specific criterion and modality remain stable across transfer; immediate copied repair is called supported. Blank state has no fictional history; target-only request stops at target. Retained legacy declarations do not become measured mastery.",
-  "boundary": "Local declared-consistency and artifact checks plus expert document review; semantic grading, real learner benefit and model behavior unobserved. Final parent editions pending."
+  "boundary": "Local declared-consistency and artifact checks plus expert document review; semantic grading, real learner benefit and model behavior unobserved. Final parent editions pending.",
+  "path_identity_correction": {
+    "finding": "LX15",
+    "candidate": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261007-r6\\Lex-Foster-Language-Companion-v0.1.1.zip",
+    "sha256": "780154be859de0a8c0421957ddf5dfaa9163b12b10f869ea52647376cc0c7d22",
+    "changed_members": [
+      "lex-foster-language-companion-v0.1.1/release-manifest.json",
+      "lex-foster-language-companion-v0.1.1/tools/verify_customer_release.py"
+    ],
+    "runtime_and_customer_docs": "exact r5 bytes; existing 23 independent controls remain applicable",
+    "repair": "Reject linked paths before canonicalizing root, then compare resolved Windows short/long path identities consistently",
+    "remote_failure": "E:\\Indranet\\Nova\\projects\\project-records\\projects\\augment-estate-quality-repair\\records\\product-audits\\lex-foster-language-companion\\remote-custody\\ci-remote-first-failure.txt"
+  },
+  "current_candidate": {
+    "path": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261007-r6\\Lex-Foster-Language-Companion-v0.1.1.zip",
+    "sha256": "780154be859de0a8c0421957ddf5dfaa9163b12b10f869ea52647376cc0c7d22"
+  }
 }
