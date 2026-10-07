@@ -6,7 +6,7 @@ This folder is the customer release.
 
 - **Codex:** copy `codex/lex-foster-language-companion/` into your Codex skills directory.
 - **Claude:** upload `claude/lex-foster-language-companion-v0.1.1.zip` as one skill.
-- **Maintainers:** inspect `maintainer-source/lex-foster-language-companion-v0.1.1/` for canonical source custody.
+- **Maintainers:** inspect `maintainer-source/` for canonical source custody.
 - **Any text chat:** open the installed skill's `fallbacks/universal-copy-paste-companion.md` and copy the prompt.
 
 Begin with [START-HERE.md](START-HERE.md). It links the complete journey from installation to first value, recurring use, recovery, trust, maintenance, and removal.

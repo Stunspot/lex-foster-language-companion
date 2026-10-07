@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "browser": "existing Microsoft Edge, isolated headless context",
+  "checks": [
+    "Keyboard skip link reaches main",
+    "Home to Start to explicit package download/fallback routes visible; remote destinations not fetched",
+    "Learner state exposes blank start, actual fields, scoped PASS and legacy uncertainty",
+    "Guide footer returns to actual home",
+    "Recovery reached through named top navigation and table of contents",
+    "Four pages fit 375px viewport without horizontal document overflow"
+  ],
+  "limits": [
+    "No screen reader or participant testing",
+    "No remote download/published-page observation",
+    "No learner or live model trial"
+  ]
+}

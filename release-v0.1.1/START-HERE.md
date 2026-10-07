@@ -2,7 +2,7 @@
 
 Lex Foster Language Companion is for a real message, conversation, text, pronunciation question, translation, or learning goal. You do not need a placement score or course plan before starting.
 
-This page is the version 0.1.1 release-local navigation hub. Use the repository-level [five-minute start](docs/QUICK-START.md) for a complete first-run walkthrough with expected results and recovery.
+This page is the version 0.1.1 release-local navigation hub. Use the [five-minute start](docs/QUICK-START.md) for a complete first-run walkthrough with expected results and recovery.
 
 ## Find your path
 
@@ -40,7 +40,7 @@ A useful first response:
 
 - gives language you can use now;
 - exposes the one choice that most affects meaning or relationship;
-- invites a small attempt, variation, or repair;
+- invites a small attempt, variation, or repair when you requested learning or rehearsal;
 - asks only for context that changes the result;
 - names uncertainty where it lives.
 
@@ -58,3 +58,9 @@ If you receive a long questionnaire, a generic vocabulary list, an official prof
 - [Maintain the documentation](docs/MAINTENANCE.md)
 
 For support, use the repository's [support route](SUPPORT.md).
+
+## Choose the smallest useful exchange
+
+For a quick translation, say “Only translate this; no lesson.” For learning, bring an attempt and ask for one correction and a chance to use it. Receiving a correct model is useful, but it does not prove that you can produce the language independently. A plain recap is enough when a learner file would add burden.
+
+When you do keep a profile, start with the blank template, fill real identity/language/date fields and add only observations from the actual conversation. An old progress label without its response and support details remains an unverified declaration. The package’s learner-state guide explains how to preserve that history and continue from what today’s work demonstrates.

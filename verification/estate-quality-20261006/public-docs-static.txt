@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "html_pages": 5,
+    "images": 1,
+    "root_markdown": 8
+  },
+  "findings": [],
+  "ok": true,
+  "schema": "cd-lex-public-docs-verification/v1"
+}

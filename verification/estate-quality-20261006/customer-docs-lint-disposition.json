@@ -1,0 +1,18 @@
+{
+  "status": "author-reviewed bounded lint warnings",
+  "warnings": [
+    {
+      "path": "RELEASE-NOTES-v0.1.1.md and release-v0.1.1/RELEASE-NOTES-v0.1.1.md",
+      "line": 7,
+      "text": "Earlier construction and publication statements below describe their historical bytes.",
+      "disposition": "Sequential document reference, not a visual position instruction. Historical heading/date supplies identity; reflow does not change sequence."
+    },
+    {
+      "path": "release-v0.1.1/docs/INSTALLATION.md",
+      "line": 22,
+      "text": "All artifact paths below begin there.",
+      "disposition": "Defines the kit root named explicitly in the same paragraph. It does not require seeing an object in a position or color."
+    }
+  ],
+  "boundary": "17 Markdown files checked; 14 clean, 3 carry these reviewed wording warnings. Four HTML pages checked separately. No conformance claim."
+}

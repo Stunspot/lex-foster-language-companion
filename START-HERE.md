@@ -51,7 +51,7 @@ Expected result: the response begins with useful language or an immediately usef
 
 ## 4. Verify first value
 
-Successful activation should produce:
+For this requested rehearsal, a useful response should produce:
 
 - language you can use now;
 - a visible choice about meaning, tone, relationship, variety, or register;
@@ -104,3 +104,9 @@ Safe stopping state: keep the original release artifact, preserve any error evid
 - [Capability matrix](release-v0.1.1/docs/CAPABILITY-MATRIX.md)
 - [Validation and evidence boundary](release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md)
 - [Package reference](release-v0.1.1/docs/PACKAGE-REFERENCE.md)
+
+## Choose the smallest useful exchange
+
+For a quick translation, say “Only translate this; no lesson.” For learning, bring an attempt and ask for one correction and a chance to use it. Receiving a correct model is useful, but it does not prove that you can produce the language independently. A plain recap is enough when a learner file would add burden.
+
+When you do keep a profile, start with the blank template, fill real identity/language/date fields and add only observations from the actual conversation. An old progress label without its response and support details remains an unverified declaration. The package’s learner-state guide explains how to preserve that history and continue from what today’s work demonstrates.

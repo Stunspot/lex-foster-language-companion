@@ -1,0 +1,817 @@
+{
+  "change": "LF-only current-source restoration; no semantic changes",
+  "prior_freeze_sha256": "66db4c94365d9dd535025322ee9f31825f1bafa61351b0d92f2cc1e97da417ce",
+  "prior_candidate": {
+    "path": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r4\\Lex-Foster-Language-Companion-v0.1.1.zip",
+    "sha256": "720fdb3d712e1a6ce3043aca5e644feb40a2cf8930a7671d1b1ab2411049ba41"
+  },
+  "normalized": [
+    {
+      "path": "delivery-sidecars/Lex Foster Language Companion T-Free v0.1.1 Extra.md",
+      "before": "52df4bb9c534e02e1a006990ed45aaf0e5958f9d71fc17900b3cce3e2630fe90",
+      "after": "2e8c9f95f47ac89bb22a51f684b30855dbceeeec364fc24153968f1d6beaf591",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "delivery-sidecars/Lex Foster Language Companion T-Free v0.1.1.md",
+      "before": "487296482c50c4502ed127b5a4277e4b84b991c5708fa8645c8ed1134e570f24",
+      "after": "7156982c858e30852aa17c71d866bde198def07c23fc2cd27cf1168a7afcddc5",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "development/estate-quality-20261006-build-state.md",
+      "before": "1a8e9e557bf3f024833a181c3586ac983a03567a00cc297546e586a6ddcd9f50",
+      "after": "01a1f4d9eb8120848c9e22d4c67cc4d61f856beb656c344238117746e159f00a",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "docs/guide.html",
+      "before": "a6f5af05e980f35ebeb50766b3d65895df7a8cb614376eea284ca68a0011b190",
+      "after": "920afd272beb4f0af77fafe375e43cf0bbe7ebc6aa66b37e6e1b90fa6580c1fa",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "docs/index.html",
+      "before": "45259bff0d274894b69c28269a3af3cb6569b7f0abfb652f11bc508dc4e00d89",
+      "after": "9b8f669a8f7aa0dc1b41663cf6f4b706e500acd3a49750fb6fd53756d54d4d71",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "docs/start.html",
+      "before": "a26776296eff21a6a1612b0e42890e5cfb8c9d9620b8c16a8db9aa3a7259630e",
+      "after": "98df5ae6304ee8b4c34e3223008e33732a50896ade147a8f9b908e8ccadb9c1a",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "docs/trust.html",
+      "before": "a8ff125cd8be0535f96fb0734873f3b78a29cd3eec20352749dcadff8b87789d",
+      "after": "b883a2e10af8bdb82e5abfeae0fdb409469b79c68286337e7955c65ae20ece01",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "README.md",
+      "before": "ef09f94cb58d4182fc4c7055cf6aa35bd0d30b7ab9773095fe73cede97974fdf",
+      "after": "21ff1acead10a8984f18acb5d95807a1b10980c85485af60c380519e4dd73559",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.1.1.md",
+      "before": "c536292c7159c54b1fe34ba8800083cda7d8b8c5fa7fc8d74ac08ec8a54e8dda",
+      "after": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/DOCUMENTATION-CUSTODY.md",
+      "before": "7e5e0d77c726c0bd66404309363a72a2ac1fa997758e07af6e42eca4b0cdd24d",
+      "after": "3222b7b971f376b1ca7d8344eea6ce7ac5046ac8945d03211f6e9b500120cd3e",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/INSTALLATION.md",
+      "before": "8763a94a143660eb06f1b67daad7a6f4dc97f8a6c9a954583993d0cb1dc65b4d",
+      "after": "7bc65cb58470243fb25dd25489fb041337ab0b8b6c9e7aef3a3b31dc683ba7bc",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/LEARNER-STATE.md",
+      "before": "34be158037472258d4ee0fb084337c42ec13a40accb3b52a0f6dd7efe2e9a0b2",
+      "after": "dc417983d07e038790df6814d268d03c4041677fb26a59927812b9ff895534e9",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/MAINTAINER-GUIDE.md",
+      "before": "bd60a813c066631586328018090d1e54504d1b1085f7c40b7f0a4a45177ad1c4",
+      "after": "570543d2ff54084ced5b392dc9a9649ffcc1125f652e4ea46adbd8462322d71d",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/MAINTENANCE.md",
+      "before": "e528a00049703ef9e8e765b2745e71b401221e4187fd3c9bb0fe0b17b7f7d68c",
+      "after": "06f8961e5c3e253492fbd80e78d52846d29acf4f4001e84f30e691336a2030e8",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/PACKAGE-REFERENCE.md",
+      "before": "60b9a5c7dd630de3e864efab820f58f7a43cd3e4a173ad48139dea77e3d7dfa7",
+      "after": "b08f3058c549efc41472dab379ac9e909108ad2a2d0b7aeb06e906939fa518eb",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/TROUBLESHOOTING.md",
+      "before": "65a5ffda9e516587083cc65f0c0fba28fe0bfe132ca204ee270c2a08f876210d",
+      "after": "1b0beee15da475e3792456b337b03a502d177a96aaf02fe1ff8600ec2e8a6315",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md",
+      "before": "f9422a54bb974f7dc3acabedd42462b0121042cba078ddfaf9a1709ab60dd6fb",
+      "after": "9d45e78d047b22e4c5cc43f577a2b6dffa6e1494a9e4d34b074e6bd6c81e980d",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/HOST-MATRIX.md",
+      "before": "a45be93ac6f8f69db1150899647f9fecd338d01c25175fe27a59dc0128101237",
+      "after": "a9239a5d61ef72290c4ed252fc8f9e0e5f61164e5ae9909ddd7d38e81933e2b5",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/RELEASE-NOTES-v0.1.1.md",
+      "before": "c536292c7159c54b1fe34ba8800083cda7d8b8c5fa7fc8d74ac08ec8a54e8dda",
+      "after": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "release-v0.1.1/START-HERE.md",
+      "before": "0f5f6d1dab5460443be7a9696c60e9013528c6b5dd46e0144f86cb4c6529bbb3",
+      "after": "9220c89a54ef8d8d4037572447193339dc97bcc7feb44688b45902e74cd55c93",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/PROVENANCE.md",
+      "before": "e977156a37f598fde4b0d8bdd046a30ad7dd0f4aec14c03d80b8e3ef5795d195",
+      "after": "d8f8935a7d05ee650c82e67b817acf79572ced0a5cbe57382b0f68b3de79b371",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/agents/openai.yaml",
+      "before": "6b90a0cc319fcc7be3385dd94531f2e7d093989413d400f7f16123d5165e3612",
+      "after": "27b9a1b6fecf005e159fcf4033bc81d73964a326dbd15fef18712a69892b00b6",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/language-mission.template.md",
+      "before": "1acc34c607c5b98215badb907ba2ee4c61508526a2107d699b40f6a32a779a34",
+      "after": "03cf05a6f78b9bcf99f8c10f0d0b0df5b9012449e8088a5e1e4dce39495c10ba",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/learner-profile.template.json",
+      "before": "7f2a1b132fb3671caabbd289be7764fe6a54bc1cb35587387e5daab2b31ee5fa",
+      "after": "862c91bfdb49332f909a83a75a462f37a558b9bf04fdc4d7148519f080a10475",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/session-recap.template.md",
+      "before": "ccfadfb9e7ed364f2c83afc58574a2e195a4528eb069db68d273da0d9cfaf928",
+      "after": "c50ca2c330d4a8b94d3fb7fd6359296ff818e7efee82d475498a8a6e70d76e0f",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/evals/core-transfer-cases.yaml",
+      "before": "a71ac8b52403a330e63c4786c5a9b635f81a266cfbfb6b72fcfd09aa2fb8a6fa",
+      "after": "cd1d8ba6c0891b3cd54a82085edf2be19308190e5cdc0d8739d079985c69604a",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/consequential-language-boundary/demonstration.md",
+      "before": "41e67e24f96ee57d86f6edfe2faeb2b162c1fe0b4a0524e0ab654cbe99684686",
+      "after": "57a89d2a7b06a1d17cd9e5a1ad1e3cc8e48069cffa28c64d60bbb85a165ded79",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/fluency-with-selective-correction/demonstration.md",
+      "before": "4063065be8f674d1b86636ff37ca27e9735e119c49058c71ab4261a38c4b1bb7",
+      "after": "4258e5249e7cdd19a91cf3f88ef5166d51a66227fe424213249b142191a3db27",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/progress-and-return/demonstration.md",
+      "before": "8c7cde6e1b0dded03e27766bd5d1bab9a2a6ba5b3d0e6f70f9ceb87a327766c7",
+      "after": "c91098cd09674edb6373d4d3c9a329ca5af5f4c6063d0706e5385603dcf5eafe",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/progress-and-return/fictional-profile.json",
+      "before": "1c86cc7160783f1871eccf5a0ae3dc4f855fd3eba86df75901f4a6b195596634",
+      "after": "2c60d9b48018082685019d6a8986b76a96ac56b3b1a67189919a4b2885605497",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/progress-and-return/observed-profile.json",
+      "before": "a0e4ed2f0ecd20e8f2150bd05f4e0b12d17752cb24b57a47931a6041a5c64a66",
+      "after": "9f6ab04846662b03b2eba6b0ebca78d4582fef471470d64c78ef4dde73771d63",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md",
+      "before": "1f7b46f63c5f7ea8358eddef856ed1d43046504ab4061226d16ac57342fc2f82",
+      "after": "28803a99dbd42268f7649307ff539c89db158bb8278c3365ad2dd29aba446aa7",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/personas/lex-foster-language-companion.md",
+      "before": "9d99358de0144954d3bd2a33de1a99e3ec03f0341f1be57bec883e121c5549e1",
+      "after": "13ff88a0b83617d887418bfe5c8647c95500ba6959b619df8a1147ebd1d5d98e",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/learner-model-and-progress.md",
+      "before": "8079531a66c3f8a4dd06cf1b34257ba7904ae38641f82f47fefd669376f8d59d",
+      "after": "a826b9caf7f5a0eef1f64b7e6763f9fce5bb545eaed825598ebcd4d2b2b7f57a",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/operating-doctrine.md",
+      "before": "dd4f7edfe7c3ef8c1b8310e585d6f52bb124d7279523f837efd565d737717a91",
+      "after": "d1cf3fcfede2ffccfa390ac77eb3be4f3ddd43737fad009c8a84be8b7137bebb",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/schemas/learner-profile.schema.json",
+      "before": "e97c0d28b3d020ee732908277206de032bae7031b68b4d7aabb349269b4b32c0",
+      "after": "44e573081bf05634db63bd8bf04c47335d3852ff7c70a996207ff88742488cc7",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/tests/test_evidence_contract.py",
+      "before": "ab2276d5b74e8142e069b59009493b097f7f3283ba4193af4badfce797cb13c3",
+      "after": "17b61c05f98e1954f05b698fc232bde2294d07fb9ed9222c072f998f348e292d",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+      "before": "5bebca0edfdf7ce1d95ee3c02dcc57e9f416754e148316f24d9ce70a0464fefd",
+      "after": "06a450c5b65338a66562fef30260fb44be13f60d293f978ba07bb6af033db4d8",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/validate_learner_profile.py",
+      "before": "8134f2d5e3a56e3ab1148fb0d01df3a94395cccb326ace11f430d451d9228127",
+      "after": "5b2bec4c0d6f6bf2daa5e12e0d3cad5f8dfcc77be037bc6b6316902f168a2123",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/validate_release.py",
+      "before": "3dd8e6de18e9e3fecace5fd3fcd7cfeaed69a74f4981d197ce8f12254dc573fb",
+      "after": "057d8c20fbfe5b7eb989b09340e8e7bd8b6d7760e5dd15d62feb355a82933cb7",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/SKILL.md",
+      "before": "1186d06f3b72c86e90046358dfe1fb84fcf039423b5c4c380f59c748ea099b85",
+      "after": "f298c4c3f02ee6d7c637cb692554c20318d6a1aa241383c79fb6ae5c9b46ab56",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "START-HERE.md",
+      "before": "100c00ce3ce02d07883cdc174d9bd5dd5458155f0b914d73389c3cdb9c53bf60",
+      "after": "287b64aafb537f6b5b2a748167ba5df476acaf618d5030af1b6aa5f1f3fd5fb0",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "tests/test_package_contract.py",
+      "before": "0befb43bff035adc4e493d0a3d245eb0484c4400dcba22da0b4922c226804d35",
+      "after": "31ff389b3ae4f3d3d469dce597260ec0d088c3925042f0524d1e438ea5d8ddde",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "tools/build_customer_release.py",
+      "before": "66da1c1f4fb2a0b301e1a66c5dd55206727552a3da764a63da7d3f33c9cfcf9c",
+      "after": "bfcaeabc1c9ca43afdfaa8a30978c01ee9a75353851887bfd01665ded7026fdf",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "tools/package_safety.py",
+      "before": "0eb22c63ae5eff0b86b337ccd60d05b374bba009ba336021fc573d143c332ee9",
+      "after": "2feacfa5ebbac532a4c9ea9e2c68c6b3eecedf58892ea41c4903598a9e0572a6",
+      "change": "newline normalization only"
+    },
+    {
+      "path": "tools/verify_customer_release.py",
+      "before": "3297d62d8de622b74918a778d5aa8146fa2add8efab2bc012566f0e1c44265e8",
+      "after": "c6729ec09de5bd5944bc4ba148f534ae15a66d21bf5b4cb46fcb939e3cb1447c",
+      "change": "newline normalization only"
+    }
+  ],
+  "skipped_binary": [
+    "delivery-sidecars/Lex Foster Language Companion.png",
+    "docs/assets/lex-foster-pages-hero.png",
+    "docs/assets/lex-foster-readme-hero.png",
+    "docs/assets/lex-foster-social-card.jpg"
+  ],
+  "git_representation": [
+    {
+      "path": "ACCESSIBILITY.md",
+      "working_blob": "ebeff49ae127bd5bf147e546ecafd62c7253860d",
+      "git_blob": "ebeff49ae127bd5bf147e546ecafd62c7253860d",
+      "equal": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "working_blob": "d7770b8740aa22c3e424e5730c75bb78992aca4b",
+      "git_blob": "d7770b8740aa22c3e424e5730c75bb78992aca4b",
+      "equal": true
+    },
+    {
+      "path": "delivery-sidecars/Lex Foster Language Companion T-Free v0.1.1 Extra.md",
+      "working_blob": "4588b6597b7315f6eaed1df82d9fe2d388201a58",
+      "git_blob": "4588b6597b7315f6eaed1df82d9fe2d388201a58",
+      "equal": true
+    },
+    {
+      "path": "delivery-sidecars/Lex Foster Language Companion T-Free v0.1.1.md",
+      "working_blob": "9e679abb3db390bbf9bd11047619a982336c2e31",
+      "git_blob": "9e679abb3db390bbf9bd11047619a982336c2e31",
+      "equal": true
+    },
+    {
+      "path": "delivery-sidecars/Lex Foster Language Companion.png",
+      "working_blob": "9819064ebd216dab49405a08411a9ad2de792492",
+      "git_blob": "9819064ebd216dab49405a08411a9ad2de792492",
+      "equal": true
+    },
+    {
+      "path": "development/estate-quality-20261006-build-state.md",
+      "working_blob": "a50382d4e6f80cdceb682ab4b6581d513f3dadb3",
+      "git_blob": "a50382d4e6f80cdceb682ab4b6581d513f3dadb3",
+      "equal": true
+    },
+    {
+      "path": "docs/.nojekyll",
+      "working_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "equal": true
+    },
+    {
+      "path": "docs/404.html",
+      "working_blob": "1c7f9c41781ea7f9b34635d881ba45bba9ceb1f6",
+      "git_blob": "1c7f9c41781ea7f9b34635d881ba45bba9ceb1f6",
+      "equal": true
+    },
+    {
+      "path": "docs/assets/lex-foster-pages-hero.png",
+      "working_blob": "442984430b20ab9f1d5a5941b143a137375a3e05",
+      "git_blob": "442984430b20ab9f1d5a5941b143a137375a3e05",
+      "equal": true
+    },
+    {
+      "path": "docs/assets/lex-foster-readme-hero.png",
+      "working_blob": "0e52b7194360606146430980e7889a160d21c790",
+      "git_blob": "0e52b7194360606146430980e7889a160d21c790",
+      "equal": true
+    },
+    {
+      "path": "docs/assets/lex-foster-social-card.jpg",
+      "working_blob": "3bb4d08d67fe7b81a7cf85ac43477f1c6ca019d5",
+      "git_blob": "3bb4d08d67fe7b81a7cf85ac43477f1c6ca019d5",
+      "equal": true
+    },
+    {
+      "path": "docs/deployment-marker.txt",
+      "working_blob": "067efba7d2001267324df1852216861efd13f55e",
+      "git_blob": "067efba7d2001267324df1852216861efd13f55e",
+      "equal": true
+    },
+    {
+      "path": "docs/guide.html",
+      "working_blob": "c8da3b11bea36996d845247748344d97ec76275d",
+      "git_blob": "c8da3b11bea36996d845247748344d97ec76275d",
+      "equal": true
+    },
+    {
+      "path": "docs/index.html",
+      "working_blob": "6b9ce06f256e9531379085ca991c6f1895549102",
+      "git_blob": "6b9ce06f256e9531379085ca991c6f1895549102",
+      "equal": true
+    },
+    {
+      "path": "docs/README.md",
+      "working_blob": "99a4fd74dd3b74a7e6873e01d0f5f400b2e07935",
+      "git_blob": "99a4fd74dd3b74a7e6873e01d0f5f400b2e07935",
+      "equal": true
+    },
+    {
+      "path": "docs/start.html",
+      "working_blob": "3a38b639b6d789b15fb44208d91e0096828da9a5",
+      "git_blob": "3a38b639b6d789b15fb44208d91e0096828da9a5",
+      "equal": true
+    },
+    {
+      "path": "docs/style.css",
+      "working_blob": "96141633b12cca8a253f124073ad69124740f893",
+      "git_blob": "96141633b12cca8a253f124073ad69124740f893",
+      "equal": true
+    },
+    {
+      "path": "docs/trust.html",
+      "working_blob": "a681e8d99c804bfad0ad524c400cd8a0055d64b1",
+      "git_blob": "a681e8d99c804bfad0ad524c400cd8a0055d64b1",
+      "equal": true
+    },
+    {
+      "path": "DOCUMENTATION.md",
+      "working_blob": "3e9a7f6addcb39a4cd1de22be16c9ca0ee7e7d25",
+      "git_blob": "3e9a7f6addcb39a4cd1de22be16c9ca0ee7e7d25",
+      "equal": true
+    },
+    {
+      "path": "README.md",
+      "working_blob": "d86c37fed4ca37450118806f1fd358fde38e5fc6",
+      "git_blob": "d86c37fed4ca37450118806f1fd358fde38e5fc6",
+      "equal": true
+    },
+    {
+      "path": "RELEASE-NOTES-v0.1.0.md",
+      "working_blob": "89543db10d6024ba582d554abd41d533494bbdef",
+      "git_blob": "89543db10d6024ba582d554abd41d533494bbdef",
+      "equal": true
+    },
+    {
+      "path": "RELEASE-NOTES-v0.1.1.md",
+      "working_blob": "2f7837abd1aa66d7a9b6e36d66cb9f4bc59374b9",
+      "git_blob": "2f7837abd1aa66d7a9b6e36d66cb9f4bc59374b9",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/ACCESSIBILITY.md",
+      "working_blob": "6d25407f6d5f20e450a78f465a8b466a68e6b47f",
+      "git_blob": "6d25407f6d5f20e450a78f465a8b466a68e6b47f",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/CAPABILITY-MATRIX.md",
+      "working_blob": "63fbd43b71f2f43eb1fcee5e9e575a2eecc934c7",
+      "git_blob": "63fbd43b71f2f43eb1fcee5e9e575a2eecc934c7",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/DOCUMENTATION-CUSTODY.md",
+      "working_blob": "93f71dff26f0022bcdaa0db7b42cf6d383daf4fa",
+      "git_blob": "93f71dff26f0022bcdaa0db7b42cf6d383daf4fa",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/INSTALLATION.md",
+      "working_blob": "6db54d492c02be23d4510f508e92f87782283238",
+      "git_blob": "6db54d492c02be23d4510f508e92f87782283238",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/LEARNER-STATE.md",
+      "working_blob": "dfa247a88460a2421dafbd3b9e0850719e125b51",
+      "git_blob": "dfa247a88460a2421dafbd3b9e0850719e125b51",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/LIMITATIONS.md",
+      "working_blob": "7b185b7c87b3c546a7d87ce7cd412eb726d46fe9",
+      "git_blob": "7b185b7c87b3c546a7d87ce7cd412eb726d46fe9",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/MAINTAINER-GUIDE.md",
+      "working_blob": "c3dec17a083a69c3d61bc04e9dfe766f2f76a64c",
+      "git_blob": "c3dec17a083a69c3d61bc04e9dfe766f2f76a64c",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/MAINTENANCE.md",
+      "working_blob": "6decd931bd3f3e84e1be910ce4cce32b5089a88a",
+      "git_blob": "6decd931bd3f3e84e1be910ce4cce32b5089a88a",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/PACKAGE-REFERENCE.md",
+      "working_blob": "7528b4a09e56a8a38524bdb68bf952a981beeea6",
+      "git_blob": "7528b4a09e56a8a38524bdb68bf952a981beeea6",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/QUICK-START.md",
+      "working_blob": "221b42c613e950bafa5db461c0505848788f6bd2",
+      "git_blob": "221b42c613e950bafa5db461c0505848788f6bd2",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/REMOVAL.md",
+      "working_blob": "57e202eb157cc1e2a87524b5dd4eb3b20c763a34",
+      "git_blob": "57e202eb157cc1e2a87524b5dd4eb3b20c763a34",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/TRANSLATION-GUIDE.md",
+      "working_blob": "ead6328ba4dfc6d7e697b8f101b91e4849a3243e",
+      "git_blob": "ead6328ba4dfc6d7e697b8f101b91e4849a3243e",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/TROUBLESHOOTING.md",
+      "working_blob": "8dee15a1329e23c2a545cd2ff87383c2e59193c3",
+      "git_blob": "8dee15a1329e23c2a545cd2ff87383c2e59193c3",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/USER-GUIDE.md",
+      "working_blob": "e782cfe2208deade4da683a2b373409967fec36d",
+      "git_blob": "e782cfe2208deade4da683a2b373409967fec36d",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md",
+      "working_blob": "06faa7814cc7aa4639712bab750e838030980bc5",
+      "git_blob": "06faa7814cc7aa4639712bab750e838030980bc5",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/HOST-MATRIX.md",
+      "working_blob": "f7d01451619c35041e000029fe610b3d4928d850",
+      "git_blob": "f7d01451619c35041e000029fe610b3d4928d850",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/LICENSE.md",
+      "working_blob": "5f8e7491bb76e9d2cb6b465c94235e8b6cd6ac90",
+      "git_blob": "5f8e7491bb76e9d2cb6b465c94235e8b6cd6ac90",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/PACKAGE-REFERENCE.md",
+      "working_blob": "8594aaf58cfd874afe8598bbd3d52dd87f26de33",
+      "git_blob": "8594aaf58cfd874afe8598bbd3d52dd87f26de33",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/PROVENANCE.md",
+      "working_blob": "478749ea59f0649db7a4cf3c5d9b6b4970e8ed66",
+      "git_blob": "478749ea59f0649db7a4cf3c5d9b6b4970e8ed66",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/README.md",
+      "working_blob": "f5477ca471137d4ff56843edd9e478deec573df2",
+      "git_blob": "f5477ca471137d4ff56843edd9e478deec573df2",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/RELEASE-NOTES-v0.1.1.md",
+      "working_blob": "2f7837abd1aa66d7a9b6e36d66cb9f4bc59374b9",
+      "git_blob": "2f7837abd1aa66d7a9b6e36d66cb9f4bc59374b9",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/SECURITY.md",
+      "working_blob": "a01219a44fc735ee08bf413da31d0afb6b39efd8",
+      "git_blob": "a01219a44fc735ee08bf413da31d0afb6b39efd8",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/START-HERE.md",
+      "working_blob": "5e1f31e30d36a33e5ee1928a4ae34b11339e4631",
+      "git_blob": "5e1f31e30d36a33e5ee1928a4ae34b11339e4631",
+      "equal": true
+    },
+    {
+      "path": "release-v0.1.1/SUPPORT.md",
+      "working_blob": "5771d91a5b9ff9859d9946a3d90c58d7dd92a7eb",
+      "git_blob": "5771d91a5b9ff9859d9946a3d90c58d7dd92a7eb",
+      "equal": true
+    },
+    {
+      "path": "SECURITY.md",
+      "working_blob": "a01219a44fc735ee08bf413da31d0afb6b39efd8",
+      "git_blob": "a01219a44fc735ee08bf413da31d0afb6b39efd8",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/BUILD-NOTE.md",
+      "working_blob": "f8bd94fa1f87dcdd9ac4c463c13b2e75a5c4220b",
+      "git_blob": "f8bd94fa1f87dcdd9ac4c463c13b2e75a5c4220b",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/PROVENANCE.md",
+      "working_blob": "a2d637105ad041d54271a50880510ff8a3c2dee1",
+      "git_blob": "a2d637105ad041d54271a50880510ff8a3c2dee1",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/agents/openai.yaml",
+      "working_blob": "47fb7db0da69ef5414ef4bba5b4d1ed3d0f4a472",
+      "git_blob": "47fb7db0da69ef5414ef4bba5b4d1ed3d0f4a472",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/language-mission.template.md",
+      "working_blob": "4ba2fb8f5752886199aeb44e835ed295cb4376e6",
+      "git_blob": "4ba2fb8f5752886199aeb44e835ed295cb4376e6",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/learner-profile.template.json",
+      "working_blob": "93c8807486bd09e3138e5a7b69a6c70b02321dcd",
+      "git_blob": "93c8807486bd09e3138e5a7b69a6c70b02321dcd",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/session-recap.template.md",
+      "working_blob": "cfc90e06dacdf40a3ca24caf63a7d2aa1a73fbd3",
+      "git_blob": "cfc90e06dacdf40a3ca24caf63a7d2aa1a73fbd3",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/assets/translation-brief.template.md",
+      "working_blob": "7740a897030e0fe1665418b2c9569aec838d1538",
+      "git_blob": "7740a897030e0fe1665418b2c9569aec838d1538",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/evals/core-transfer-cases.yaml",
+      "working_blob": "1be09ec21be518095718bec51b39d8126c069ea2",
+      "git_blob": "1be09ec21be518095718bec51b39d8126c069ea2",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/evals/eval-manifest.yaml",
+      "working_blob": "aa0522447e7b16f9566688a904ac1221af527332",
+      "git_blob": "aa0522447e7b16f9566688a904ac1221af527332",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/ambiguous-workplace-translation/demonstration.md",
+      "working_blob": "9432eec0270e7681b2f398992b3933fd263ee8c5",
+      "git_blob": "9432eec0270e7681b2f398992b3933fd263ee8c5",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/consequential-language-boundary/demonstration.md",
+      "working_blob": "704ea84d39ad480674a0873aa28e38986b87d93d",
+      "git_blob": "704ea84d39ad480674a0873aa28e38986b87d93d",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/fluency-with-selective-correction/demonstration.md",
+      "working_blob": "15524a017afecbf57ec8afb8a9cd0a3602fba70f",
+      "git_blob": "15524a017afecbf57ec8afb8a9cd0a3602fba70f",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/progress-and-return/demonstration.md",
+      "working_blob": "9a90da0a7a10d4d92bd9c2b70fdc73fb8f3e0212",
+      "git_blob": "9a90da0a7a10d4d92bd9c2b70fdc73fb8f3e0212",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/progress-and-return/fictional-profile.json",
+      "working_blob": "ccbef6cea32a9a6404e25b5da3a6b976b0cd473e",
+      "git_blob": "ccbef6cea32a9a6404e25b5da3a6b976b0cd473e",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/progress-and-return/observed-profile.json",
+      "working_blob": "29ac88fac7e73b08756145e082d1496723c9c719",
+      "git_blob": "29ac88fac7e73b08756145e082d1496723c9c719",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/examples/urgent-first-value/demonstration.md",
+      "working_blob": "ed215db2be6208f0cbe7e8cd7b8c895cd07ca411",
+      "git_blob": "ed215db2be6208f0cbe7e8cd7b8c895cd07ca411",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md",
+      "working_blob": "5ad38204ec6dd7f9fcd35da92e94f2768c4a5305",
+      "git_blob": "5ad38204ec6dd7f9fcd35da92e94f2768c4a5305",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/personas/lex-foster-language-companion.md",
+      "working_blob": "9fcf408bd8f1f8a2548ff8123f3d63ad5751dd53",
+      "git_blob": "9fcf408bd8f1f8a2548ff8123f3d63ad5751dd53",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/culture-protocol-and-variation.md",
+      "working_blob": "da63612c103a901735e7f836c83682aded511206",
+      "git_blob": "da63612c103a901735e7f836c83682aded511206",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/evidence-foundations.md",
+      "working_blob": "e890f404087778ca2868ee10ce8d15ce5687bd64",
+      "git_blob": "e890f404087778ca2868ee10ce8d15ce5687bd64",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/learner-model-and-progress.md",
+      "working_blob": "17ac519ebfdc70ede197c12b9c3b37c72d62f787",
+      "git_blob": "17ac519ebfdc70ede197c12b9c3b37c72d62f787",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/operating-doctrine.md",
+      "working_blob": "b08b893b120f716db3d1fbf9dcdb9b4511070250",
+      "git_blob": "b08b893b120f716db3d1fbf9dcdb9b4511070250",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/pronunciation-and-script-support.md",
+      "working_blob": "4be0d977184b827eb69386d96655725a42dfd49e",
+      "git_blob": "4be0d977184b827eb69386d96655725a42dfd49e",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/translation-and-localization.md",
+      "working_blob": "e907560eb23614042dfa5d0d276acb092b576173",
+      "git_blob": "e907560eb23614042dfa5d0d276acb092b576173",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/references/trust-privacy-and-high-stakes.md",
+      "working_blob": "02f5e4689774702586e8337e166f9068726b0489",
+      "git_blob": "02f5e4689774702586e8337e166f9068726b0489",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/schemas/learner-profile.schema.json",
+      "working_blob": "c14615a9722a41b2a33b21072447f28431d8589b",
+      "git_blob": "c14615a9722a41b2a33b21072447f28431d8589b",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/tests/test_evidence_contract.py",
+      "working_blob": "6aa249f37ec6213f8a09b6b93d9f7c53eb1157c3",
+      "git_blob": "6aa249f37ec6213f8a09b6b93d9f7c53eb1157c3",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+      "working_blob": "34aa8ebba4350c557243d977dc896c9c8a425aa9",
+      "git_blob": "34aa8ebba4350c557243d977dc896c9c8a425aa9",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/tests/test_validate_release.py",
+      "working_blob": "76ccf5bbf920a8c3bf5312d8c24f1fa4a3ee5fc8",
+      "git_blob": "76ccf5bbf920a8c3bf5312d8c24f1fa4a3ee5fc8",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/validate_learner_profile.py",
+      "working_blob": "d7e0e4ded1954b3c1fd443492646e8c348e78185",
+      "git_blob": "d7e0e4ded1954b3c1fd443492646e8c348e78185",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/scripts/validate_release.py",
+      "working_blob": "f1a4d27ce101487c084f331ea0373076afce4075",
+      "git_blob": "f1a4d27ce101487c084f331ea0373076afce4075",
+      "equal": true
+    },
+    {
+      "path": "source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/SKILL.md",
+      "working_blob": "718d420f0a60b6bdfc57add2f8ae67661bbb255c",
+      "git_blob": "718d420f0a60b6bdfc57add2f8ae67661bbb255c",
+      "equal": true
+    },
+    {
+      "path": "START-HERE.md",
+      "working_blob": "096800c6947d915ae6ab44f8f94bf45f1d5c3ef0",
+      "git_blob": "096800c6947d915ae6ab44f8f94bf45f1d5c3ef0",
+      "equal": true
+    },
+    {
+      "path": "SUPPORT.md",
+      "working_blob": "4100ebce6c13b9a1f1e1c3cb46c9562d3f5e24c8",
+      "git_blob": "4100ebce6c13b9a1f1e1c3cb46c9562d3f5e24c8",
+      "equal": true
+    },
+    {
+      "path": "tests/test_package_contract.py",
+      "working_blob": "c417b9835bb7d01d4c7acb4b3e3b57979cd531d4",
+      "git_blob": "c417b9835bb7d01d4c7acb4b3e3b57979cd531d4",
+      "equal": true
+    },
+    {
+      "path": "tools/build_customer_release.py",
+      "working_blob": "3268f7063330a37f9592236482222725b57dccf7",
+      "git_blob": "3268f7063330a37f9592236482222725b57dccf7",
+      "equal": true
+    },
+    {
+      "path": "tools/build_documentation_fingerprint.py",
+      "working_blob": "f9570e5071c9e0377f6e9724da3f70f595a2a1bc",
+      "git_blob": "f9570e5071c9e0377f6e9724da3f70f595a2a1bc",
+      "equal": true
+    },
+    {
+      "path": "tools/package_safety.py",
+      "working_blob": "be764780b140b96a015e8c856df75dda19d54566",
+      "git_blob": "be764780b140b96a015e8c856df75dda19d54566",
+      "equal": true
+    },
+    {
+      "path": "tools/verify_customer_release.py",
+      "working_blob": "8b5258097b66cde23b5ea9d1aac15bbe3ba71591",
+      "git_blob": "8b5258097b66cde23b5ea9d1aac15bbe3ba71591",
+      "equal": true
+    },
+    {
+      "path": "tools/verify_public_docs.py",
+      "working_blob": "7c3bc9c6da15d0afce48396e15f2c0aae0c2c917",
+      "git_blob": "7c3bc9c6da15d0afce48396e15f2c0aae0c2c917",
+      "equal": true
+    }
+  ],
+  "untouched": "Historical v0.1.0, accepted source ZIP, r1-r4 candidates, original baseline snapshot and historical receipts"
+}

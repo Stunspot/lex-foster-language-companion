@@ -1,50 +1,28 @@
 # Validation and evaluation
 
-Evidence is retained by claim. One passing check does not promote another state.
+Evidence belongs to the claim actually checked. The 2026-10-06 repair retains earlier records as history and supplies new tests for declared progress, chronology, package custody and useful task flow.
 
-## Deterministic checks completed during construction
+## Run the packaged checks
 
-- 6 unit tests passed for learner-profile validation and current skill structure.
-- The skill's direct release validator passed 26 self-contained runtime files before distribution assembly.
-- The Builder `bundle` profile passed canonical source structure, resources, containment, metadata, JSON, and private-path checks.
-- The Builder `codex` profile passed the Codex skill folder.
-- The Builder `claude` profile passed the pre-ZIP Claude skill folder.
-- The Builder `claude` profile passed the final upload ZIP after the Lex identity and accessibility corrections.
+From `codex/lex-foster-language-companion/` in the expanded package:
 
-Documentation lint and exact cross-copy parity have separate retained evidence. Git state, remote branch, immutable tag, release assets, recovery backup, and live estate re-entry remain separate release gates; a passing structural check does not substitute for them.
+```text
+python -B -m unittest discover -s scripts/tests -v
+python -B scripts/validate_release.py
+```
+
+Expect tests to finish with `OK` and the release validator to report structural PASS. From the package root, run `python -B tools/verify_customer_release.py . --pretty`; expect `ok: true`. Use `--outer <path-to-outer-zip>` to compare the entire outer archive as well. See [Maintainer guide](MAINTAINER-GUIDE.md) for reconstruction, failure recovery and source ownership.
+
+Profile validation checks the bundled schema, declared language/goal/evidence links, chronology and explicit result/support contradictions. Legacy records remain declarations. Human or model review must still inspect actual linguistic correctness and whether the task tests the particular diagnosed gap. The validator is not an assessment engine.
 
 ## Behavioral evaluation package
 
-The runtime includes `evals/eval-manifest.yaml` and `evals/core-transfer-cases.yaml` in `cd-augment-eval/v1` format. Twelve isolated cases examine:
+`evals/core-transfer-cases.yaml` contains 18 concrete case definitions. They cover initial value, selective correction, false friends, register, injection, low-resource authority, official ratings, source ambiguity, changed preferences, code-switching, absent audio, protected placeholders, translation-only completion, fabricated uptake, wrong-mechanism practice, copied models and legacy claims.
 
-- useful first value from vague input;
-- correction timing and learner agency;
-- meaning-changing false friends;
-- register and relationship;
-- instructions embedded in source text;
-- low-resource and community authority;
-- official proficiency claims;
-- consequential medical ambiguity;
-- revised learner preference;
-- code-switching;
-- absent audio;
-- placeholder and locale preservation.
+Examples demonstrate actual fictional source, learner responses and feedback, including the difference between supported repair and later independent evidence. Expert inspection challenges their instructional logic. Neither case definitions nor authored examples constitute executed model or participant trials. A real trial must retain model, host, exact package, supplied context, raw turns, interventions and assessment scope.
 
-A case file defines expected behavior; it is not an executed model episode. Behavioral execution must retain the model, adapter, host, package version, supplied context, raw response, evaluator intervention, and verdict.
+## What a passing check means
 
-## Claims not established by static validation
+Static checks establish declared structure and exact byte custody for the tested artifact. A correct generic language response does not by itself prove this skill loaded. Use host loading/invocation evidence for activation and actual learner performance for progress. No check here proves equal language coverage, durable learning, professional approval, official proficiency, unseen audio, representative-user success or formal accessibility conformance.
 
-Static checks do not prove:
-
-- successful installation or host activation;
-- implicit natural-language routing;
-- equal performance across languages or models;
-- durable learning or user outcomes;
-- translation correctness in an unreviewed domain;
-- official assessment validity;
-- browser, keyboard, screen-reader, or representative-user accessibility;
-- professional, legal, medical, community, or publication approval.
-
-## Read the current release state
-
-Use [HOST-MATRIX.md](../HOST-MATRIX.md), the release manifest, documentation review receipt, verification reports, and live re-entry report together. A missing receipt leaves that state `not tested` or `pending`; it does not imply success or failure.
+The manifest, checksum and [Host matrix](../HOST-MATRIX.md) identify package evidence. Read the corresponding verification report for exact tested conditions; historical remote/deployment reports do not certify these revised bytes.

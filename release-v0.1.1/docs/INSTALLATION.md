@@ -17,13 +17,17 @@ You need:
 
 Do not merge several versions into one skill folder. Do not place credentials, private learner records, or confidential translations in installation evidence.
 
+## Locate the extracted kit
+
+Extract the complete customer ZIP and open its `lex-foster-language-companion-v0.1.1` directory. This is the kit root: it directly contains `codex/`, `claude/`, `docs/` and `START-HERE.md`. All artifact paths below begin there. From a source checkout, first enter `release-v0.1.1/`; the paths then have the same meaning.
+
 ## Install in Codex
 
 ### Artifact
 
 Use the complete folder:
 
-`release-v0.1.1/codex/lex-foster-language-companion/`
+`codex/lex-foster-language-companion/`
 
 ### Steps
 
@@ -46,7 +50,7 @@ If the skill is unavailable, preserve the installed path, tree shape, Codex vers
 
 Use the prepared archive:
 
-`release-v0.1.1/claude/lex-foster-language-companion-v0.1.1.zip`
+`claude/lex-foster-language-companion-v0.1.1.zip`
 
 ### Steps
 
@@ -82,7 +86,7 @@ Use this probe:
 
 > Help me ask a new neighbor in Mexican Spanish to lower their music after 10 p.m. I want to stay friendly. Give me usable language first, explain the choice that most affects the tone, then play the neighbor so I can rehearse.
 
-Successful activation produces usable language before extended intake, distinguishes relationship and tone, and creates a learner attempt or repair.
+A useful response to this rehearsal request provides usable language before extended intake, distinguishes relationship and tone, and creates a learner attempt or repair. This is a functional probe, not proof that a particular skill was loaded; inspect host loading evidence for activation.
 
 ## Safe stopping and recovery
 

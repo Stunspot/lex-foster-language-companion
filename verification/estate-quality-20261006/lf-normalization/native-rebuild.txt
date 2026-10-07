@@ -1,0 +1,15 @@
+{
+  "archive": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\lf-normalization\\rebuilt-r5\\Lex-Foster-Language-Companion-v0.1.1.zip",
+  "sha256": "e91adf84697c1f9cba22b102fc79d143b36013b1e4c47d67d902e39c6cf084e5",
+  "release": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\lf-normalization\\rebuilt-r5\\lex-foster-language-companion-v0.1.1",
+  "verification": {
+    "schema": "cd-lex-release-verification/v1",
+    "ok": true,
+    "counts": {
+      "files": 92,
+      "runtime_files": 30,
+      "claude_files": 30
+    },
+    "findings": []
+  }
+}

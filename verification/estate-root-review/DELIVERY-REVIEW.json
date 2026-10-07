@@ -1,0 +1,13 @@
+{
+  "finding": "LX14",
+  "issue": "Existing CI invoked retired no-argument builder; current machine ZIP receipt and documentation fingerprints were stale. Existing dist/claude mirror still held earlier runtime.",
+  "repair": "Fresh out-of-tree deterministic rebuild checked against accepted ZIP, 30-file distribution mirror restored, current receipt and 41-document fingerprints refreshed. Tests explicitly run Python UTF-8 mode for Unicode teaching examples.",
+  "evidence": "E:\\Indranet\\Nova\\projects\\project-records\\projects\\augment-estate-quality-repair\\records\\product-audits\\lex-foster-language-companion\\remote-custody\\ci-local-utf8.txt",
+  "runtime_tests": 27,
+  "package_tests": 10,
+  "public_documentation_pages": 5,
+  "fingerprint_files": 41,
+  "candidate_bytes_unchanged": true,
+  "raw_style_boundary": "Three trailing spaces in immutable customer-docs-lint.txt capture retained; remaining scoped diff check passed.",
+  "prior_encoding_probe": "E:\\Indranet\\Nova\\projects\\project-records\\projects\\augment-estate-quality-repair\\records\\product-audits\\lex-foster-language-companion\\remote-custody\\ci-local.txt"
+}

@@ -82,7 +82,7 @@ Run:
 
 Repair the first reported problem. Typical causes are duplicate evidence IDs, unsupported state names, invalid date-time values, or retrieval entries pointing to missing evidence.
 
-Expected result: the validator prints `PASS` and reports the target-language and evidence counts.
+Expected result: the validator prints `PASS declared structure and consistency only`. Notes identify legacy records without inspectable observation detail; they do not invalidate preserved history or verify ability. Fill a blank template’s identity, languages and zoned update time before checking. If an observation is later than the recorded update, correct the actual date from evidence rather than inventing an earlier event.
 
 If the script cannot run, record the Python version and exact error. Continue with a readable profile only when you accept the loss of deterministic structural validation.
 

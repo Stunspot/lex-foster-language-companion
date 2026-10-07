@@ -1,0 +1,32 @@
+test_blank_template_has_no_learner_history (test_evidence_contract.EvidenceContract.test_blank_template_has_no_learner_history) ... ok
+test_cli_help (test_evidence_contract.EvidenceContract.test_cli_help) ... ok
+test_copied_model_is_not_independent (test_evidence_contract.EvidenceContract.test_copied_model_is_not_independent) ... ok
+test_duplicate_json_key_and_bom (test_evidence_contract.EvidenceContract.test_duplicate_json_key_and_bom) ... ok
+test_failed_criterion_is_not_transfer (test_evidence_contract.EvidenceContract.test_failed_criterion_is_not_transfer) ... ok
+test_identical_prompt_not_transfer (test_evidence_contract.EvidenceContract.test_identical_prompt_not_transfer) ... ok
+test_impossible_offset_and_future_cutoff (test_evidence_contract.EvidenceContract.test_impossible_offset_and_future_cutoff) ... ok
+test_meaningfully_scoped_declared_transfer (test_evidence_contract.EvidenceContract.test_meaningfully_scoped_declared_transfer) ... ok
+test_missing_runtime_dependency (test_evidence_contract.EvidenceContract.test_missing_runtime_dependency) ... ok
+test_nonobject_eval_case (test_evidence_contract.EvidenceContract.test_nonobject_eval_case) ... ok
+test_old_profile_readable_but_not_qualified (test_evidence_contract.EvidenceContract.test_old_profile_readable_but_not_qualified) ... ok
+test_other_mechanism_same_goal_rejected (test_evidence_contract.EvidenceContract.test_other_mechanism_same_goal_rejected) ... ok
+test_prior_must_be_earlier (test_evidence_contract.EvidenceContract.test_prior_must_be_earlier) ... ok
+test_real_offsets (test_evidence_contract.EvidenceContract.test_real_offsets) ... ok
+test_recognition_cannot_establish_spoken_transfer (test_evidence_contract.EvidenceContract.test_recognition_cannot_establish_spoken_transfer) ... ok
+test_schema_wrongtypes_and_unknown (test_evidence_contract.EvidenceContract.test_schema_wrongtypes_and_unknown) ... ok
+test_undeclared_language (test_evidence_contract.EvidenceContract.test_undeclared_language) ... ok
+test_unknown_prior_and_goal (test_evidence_contract.EvidenceContract.test_unknown_prior_and_goal) ... ok
+test_date_only_and_unzoned_timestamp_are_rejected (test_validate_learner_profile.LearnerProfileValidationTests.test_date_only_and_unzoned_timestamp_are_rejected) ... ok
+test_duplicate_evidence_id_is_rejected (test_validate_learner_profile.LearnerProfileValidationTests.test_duplicate_evidence_id_is_rejected) ... ok
+test_explicit_offset_timestamp_is_accepted (test_validate_learner_profile.LearnerProfileValidationTests.test_explicit_offset_timestamp_is_accepted) ... ok
+test_malformed_enum_objects_are_errors_not_crashes (test_validate_learner_profile.LearnerProfileValidationTests.test_malformed_enum_objects_are_errors_not_crashes) ... ok
+test_sparse_but_well_formed_profile_is_valid (test_validate_learner_profile.LearnerProfileValidationTests.test_sparse_but_well_formed_profile_is_valid) ... ok
+test_template_is_valid (test_validate_learner_profile.LearnerProfileValidationTests.test_template_is_valid) ... ok
+test_unknown_retrieval_reference_is_rejected (test_validate_learner_profile.LearnerProfileValidationTests.test_unknown_retrieval_reference_is_rejected) ... ok
+test_unsupported_mastery_label_is_rejected (test_validate_learner_profile.LearnerProfileValidationTests.test_unsupported_mastery_label_is_rejected) ... ok
+test_current_skill_is_structurally_valid (test_validate_release.ReleaseValidationTests.test_current_skill_is_structurally_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.378s
+
+OK

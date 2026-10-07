@@ -25,7 +25,7 @@ Scope: source-verified public paths and runtime responsibilities for Lex Foster 
 | `release-v0.1.1/PROVENANCE.md` | Public identity, source custody, consulted foundations, and license boundary |
 | `release-v0.1.1/codex/lex-foster-language-companion/` | Directly installable Codex skill folder |
 | `release-v0.1.1/claude/lex-foster-language-companion-v0.1.1.zip` | One-skill Claude upload archive |
-| `release-v0.1.1/maintainer-source/lex-foster-language-companion-v0.1.1/` | Versioned maintainer-source copy retained with the release |
+| `release-v0.1.1/maintainer-source/` | Versioned maintainer-source copy retained with the release |
 | `release-v0.1.1/docs/` | Installation, operation, trust, recovery, reference, removal, and maintenance guidance |
 
 ## Skill root
@@ -38,8 +38,8 @@ Scope: source-verified public paths and runtime responsibilities for Lex Foster 
 | `assets/` | Learner profile, mission, translation brief, and session recap templates |
 | `schemas/` | Learner-profile JSON Schema |
 | `scripts/` | Standard-library learner-profile and release validators plus tests |
-| `examples/` | Four demonstrations of task-native behavior and authority |
-| `evals/` | Twelve isolated transfer cases in the canonical Collaborative Dynamics eval envelope |
+| `examples/` | Five demonstrations of task-native behavior and authority |
+| `evals/` | Eighteen concrete transfer cases in the canonical Collaborative Dynamics eval envelope |
 | `fallbacks/` | Universal copy-paste prompt for hosts without skill installation |
 | `agents/openai.yaml` | Codex display metadata and default prompt |
 
@@ -55,7 +55,7 @@ Scope: source-verified public paths and runtime responsibilities for Lex Foster 
 - retrieval cues;
 - optional privacy note.
 
-The deterministic validator checks shape, required values, unique IDs, date-time syntax, evidence-state vocabulary, and retrieval references. It does not score language ability.
+The deterministic validator checks schema shape, unique IDs, real zoned timestamps, chronology, declared language/goal/evidence references and explicit result/support consistency. Optional observation detail makes claims inspectable. Legacy declarations remain unverified; no language ability is scored.
 
 ## Documentation inventory
 
@@ -82,3 +82,7 @@ The skill itself is Markdown, JSON, JSON-compatible YAML, and Python. Optional s
 ## Evidence boundary
 
 A path existing establishes file presence only. Consult [Validation and evaluation](VALIDATION-AND-EVALUATION.md), the [Host matrix](../HOST-MATRIX.md), and retained verification records before claiming execution, host compatibility, behavioral quality, accessibility, or professional approval.
+
+## Rebuild and inspect a download
+
+The package includes `tools/build_customer_release.py`, `tools/verify_customer_release.py` and their shared safety module. Use the [Maintainer guide](MAINTAINER-GUIDE.md) for exact commands and recovery.

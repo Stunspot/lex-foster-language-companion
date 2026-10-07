@@ -28,7 +28,7 @@
 
       <section id="tutor"><h2>Learn through a real mission</h2><p>Try:</p>
         <blockquote>I need to introduce myself at a Brazilian jiu-jitsu gym in Portuguese. I am a beginner and want to sound friendly rather than formal. Give me something usable first, explain the choice that most affects the relationship, then play the other person so I can answer.</blockquote>
-        <p>A good turn supplies language now, invites your contribution, corrects by consequence, and gives every substantial correction a retry. Adjust difficulty in ordinary language:</p>
+        <p>A good turn supplies language now, invites your contribution, corrects by consequence, and offers a retry when practice serves your requested learning. Adjust difficulty in ordinary language:</p>
         <ul><li><q>Give me support, but make me produce the final sentence.</q></li><li><q>Stay in the target language unless I ask.</q></li><li><q>Do not interrupt fluency; give me two corrections at the end.</q></li><li><q>Make the next version harder by changing the relationship.</q></li></ul>
       </section>
 
@@ -46,8 +46,8 @@
 
       <section id="configure"><h2>Configure through ordinary language</h2><p>There is no required settings file. Tell Lex the preference that changes this task:</p><ul><li>correction timing: immediate, natural pauses, or end of turn;</li><li>focus: communication-first, balanced, or fine-grained;</li><li>explanation: compact, contrastive, or deep;</li><li>challenge: supported, stretch, or immersive;</li><li>working-language use: welcome, minimal, or on request.</li></ul><p>A live preference supersedes an older saved preference. Decide whether the change is for this session or should be written into learner state.</p></section>
 
-      <section id="state"><h2>Keep optional learner state under your control</h2>
-        <ol><li>Copy <code>assets/learner-profile.template.json</code> from the installed skill and save it outside the installed skill folder.</li><li>Remove personal details that do not improve instruction.</li><li>Validate it with <code>python scripts/validate_learner_profile.py &lt;profile.json&gt;</code>.</li><li>Expect <code>PASS</code> plus target-language and evidence counts.</li></ol>
+      <section id="state"><h2>Keep optional learner state under your control</h2><p>A plain recap is enough when a file would add burden. New observation details preserve the actual response, specific criterion, modality and support. Old labels without those details remain unverified; written recognition does not establish speech. See the skill’s <code>examples/progress-and-return/</code> for clearly fictional examples.</p>
+        <ol><li>Copy <code>assets/learner-profile.template.json</code> from the installed skill and save it outside the installed skill folder.</li><li>Fill your chosen profile ID, current zoned update time, working language and target language/variety/script; start with empty evidence. Remove unnecessary personal detail.</li><li>Validate it with <code>python scripts/validate_learner_profile.py &lt;profile.json&gt;</code>.</li><li>Expect <code>PASS declared structure and consistency only</code>, with notes on unverified legacy declarations.</li></ol>
         <p>The evidence states are <code>new</code>, <code>supported</code>, <code>independent</code>, and <code>transferred</code>. They describe performance in a named task—not mastery, identity, or an official level. If Python is unavailable, the profile remains usable as readable JSON; only deterministic structural validation is lost.</p>
         <p>To resume, provide the profile, state changed goals or preferences, retrieve one high-value item before reteaching it, vary the situation, and update only what the session demonstrated.</p>
       </section>

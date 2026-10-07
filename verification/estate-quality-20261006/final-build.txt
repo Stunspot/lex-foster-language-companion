@@ -1,0 +1,15 @@
+{
+  "archive": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r4\\Lex-Foster-Language-Companion-v0.1.1.zip",
+  "sha256": "720fdb3d712e1a6ce3043aca5e644feb40a2cf8930a7671d1b1ab2411049ba41",
+  "release": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r4\\lex-foster-language-companion-v0.1.1",
+  "verification": {
+    "schema": "cd-lex-release-verification/v1",
+    "ok": true,
+    "counts": {
+      "files": 92,
+      "runtime_files": 30,
+      "claude_files": 30
+    },
+    "findings": []
+  }
+}

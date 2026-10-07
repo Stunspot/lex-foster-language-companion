@@ -1,0 +1,20 @@
+E:\Github\lex-foster-language-companion\README.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\RELEASE-NOTES-v0.1.1.md: 
+7: directional reference may not survive reflow
+E:\Github\lex-foster-language-companion\START-HERE.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\delivery-sidecars\Lex Foster Language Companion T-Free v0.1.1 Extra.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\delivery-sidecars\Lex Foster Language Companion T-Free v0.1.1.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\HOST-MATRIX.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\RELEASE-NOTES-v0.1.1.md: 
+7: directional reference may not survive reflow
+E:\Github\lex-foster-language-companion\release-v0.1.1\START-HERE.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\DOCUMENTATION-CUSTODY.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\INSTALLATION.md: 
+22: directional reference may not survive reflow
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\LEARNER-STATE.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\MAINTAINER-GUIDE.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\MAINTENANCE.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\PACKAGE-REFERENCE.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\TROUBLESHOOTING.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\release-v0.1.1\docs\VALIDATION-AND-EVALUATION.md: PASS (bounded source checks)
+E:\Github\lex-foster-language-companion\source\lex-foster-language-companion-v0.1.1\PROVENANCE.md: PASS (bounded source checks)

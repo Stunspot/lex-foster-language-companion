@@ -6,13 +6,13 @@ The optional learner profile helps Lex resume without reconstructing every goal 
 
 1. Copy `assets/learner-profile.template.json` from the installed skill.
 2. Save it under a name you control outside the installed skill folder.
-3. Replace the sample target language, goal, preference, and evidence entry.
+3. Fill your chosen profile ID, a real current zoned update time (for example `2026-10-06T15:00:00-05:00`), working language, and target language/variety/script. Choose your preferences. Leave goals, evidence and retrieval empty until they exist.
 4. Remove any personal detail that does not improve instruction.
 5. Validate the file:
 
    `python scripts/validate_learner_profile.py <path-to-profile.json>`
 
-Expected result: the script prints `PASS` with the target-language and evidence counts.
+Run the command from the installed skill folder, replacing the angle-bracket placeholder with your actual quoted file path. Expected result: `PASS declared structure and consistency only`. This is not a language score. The blank template intentionally reports missing identity/language/date fields until you fill them.
 
 If Python is unavailable, keep the JSON readable and use it without a deterministic receipt. The lost guarantee is structural validation, not tutoring.
 
@@ -21,9 +21,13 @@ If Python is unavailable, keep the JSON readable and use it without a determinis
 - `new`: encountered but not yet produced;
 - `supported`: produced with a model, choice, or cue;
 - `independent`: produced without immediate support in the trained situation;
-- `transferred`: produced or recognized under a materially changed cue.
+- `transferred`: met the same specific criterion in the same modality without immediate support under a materially changed cue.
 
-These labels describe observed performance in a task. They do not certify mastery or a global level.
+These labels are declarations about a task. They do not certify mastery or a global level. An old record without `observation` details remains readable but receives an unverified-declaration note. Do not invent missing responses or rewrite its history.
+
+For new evidence, optional `observation` detail records goal ID, modality, exact prompt and response, specific criterion, result and support kind. Transfer also names prior evidence and the changed condition. The example `examples/progress-and-return/observed-profile.json` inside the skill shows these fields with clearly fictional records. Do not import its history. `fictional-profile.json` shows legacy declarations.
+
+The validator rejects explicit support/result contradictions, impossible dates, unknown references and identical transfer cue text. It cannot grade the language or decide whether a changed cue tests the diagnosed gap. Review those facts against the actual exchange. A shared topic is insufficient; naming restaurant words does not verify repair of a missing grammatical link. Written recognition does not establish speaking.
 
 ## Resume a session
 

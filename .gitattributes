@@ -16,3 +16,23 @@
 *.jpeg binary
 *.gif binary
 *.ico binary
+
+# Immutable estate audit captures retain original receipt bytes.
+"verification/estate-quality-20261006/authorship-validation.txt" -text
+"verification/estate-quality-20261006/authorship/creation-result.txt" -text
+"verification/estate-quality-20261006/authorship/documentation-manifest.json" -text
+"verification/estate-quality-20261006/authorship/hesperos-authoring-response.md" -text
+"verification/estate-quality-20261006/authorship/hesperos-evidence-packet.json" -text
+"verification/estate-quality-20261006/authorship/hesperos-execution.json" -text
+"verification/estate-quality-20261006/customer-docs-lint-disposition.json" -text
+"verification/estate-quality-20261006/customer-docs-lint.txt" -text
+"verification/estate-quality-20261006/final-build.txt" -text
+"verification/estate-quality-20261006/final-checks.json" -text
+"verification/estate-quality-20261006/final-package-tests.txt" -text
+"verification/estate-quality-20261006/final-source-tests.txt" -text
+"verification/estate-quality-20261006/lf-normalization/prior-SOURCE-FREEZE-r4.json" -text
+"verification/estate-quality-20261006/native-rebuild.txt" -text
+"verification/estate-quality-20261006/native-runtime-tests.txt" -text
+"verification/estate-quality-20261006/native-verifier.txt" -text
+"verification/estate-quality-20261006/public-docs-static.txt" -text
+"verification/hesperos-capabilities/21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f/SKILL.md" -text

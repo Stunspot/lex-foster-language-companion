@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "version": "0.1.1",
+  "kind": "edit",
+  "candidate": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r5\\Lex-Foster-Language-Companion-v0.1.1.zip",
+  "sha256": "e91adf84697c1f9cba22b102fc79d143b36013b1e4c47d67d902e39c6cf084e5",
+  "runtime_tree": {
+    "file_count": 30,
+    "tree_sha256": "577f00a17fe1e8f376453f699d25062f6f822ee837693fd3f46001fa09130a88",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "bytes": 4402,
+        "sha256": "f298c4c3f02ee6d7c637cb692554c20318d6a1aa241383c79fb6ae5c9b46ab56"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "bytes": 379,
+        "sha256": "27b9a1b6fecf005e159fcf4033bc81d73964a326dbd15fef18712a69892b00b6"
+      },
+      {
+        "path": "assets/language-mission.template.md",
+        "bytes": 964,
+        "sha256": "03cf05a6f78b9bcf99f8c10f0d0b0df5b9012449e8088a5e1e4dce39495c10ba"
+      },
+      {
+        "path": "assets/learner-profile.template.json",
+        "bytes": 608,
+        "sha256": "862c91bfdb49332f909a83a75a462f37a558b9bf04fdc4d7148519f080a10475"
+      },
+      {
+        "path": "assets/session-recap.template.md",
+        "bytes": 1094,
+        "sha256": "c50ca2c330d4a8b94d3fb7fd6359296ff818e7efee82d475498a8a6e70d76e0f"
+      },
+      {
+        "path": "assets/translation-brief.template.md",
+        "bytes": 730,
+        "sha256": "251d1882bb369d1829c0eb62620ed296749c7ba2128ba678960915619681fbe9"
+      },
+      {
+        "path": "evals/core-transfer-cases.yaml",
+        "bytes": 18276,
+        "sha256": "cd1d8ba6c0891b3cd54a82085edf2be19308190e5cdc0d8739d079985c69604a"
+      },
+      {
+        "path": "evals/eval-manifest.yaml",
+        "bytes": 885,
+        "sha256": "d4018bb3ceb15f2195147886a3112f18ab847ecbcd418d5e2cebc94987346e72"
+      },
+      {
+        "path": "examples/ambiguous-workplace-translation/demonstration.md",
+        "bytes": 1059,
+        "sha256": "83a1daa0aee59bb9130466b8d21916f2e522d921b6efc76d54a8ee9bba1de4af"
+      },
+      {
+        "path": "examples/consequential-language-boundary/demonstration.md",
+        "bytes": 1540,
+        "sha256": "57a89d2a7b06a1d17cd9e5a1ad1e3cc8e48069cffa28c64d60bbb85a165ded79"
+      },
+      {
+        "path": "examples/fluency-with-selective-correction/demonstration.md",
+        "bytes": 1955,
+        "sha256": "4258e5249e7cdd19a91cf3f88ef5166d51a66227fe424213249b142191a3db27"
+      },
+      {
+        "path": "examples/progress-and-return/demonstration.md",
+        "bytes": 2935,
+        "sha256": "c91098cd09674edb6373d4d3c9a329ca5af5f4c6063d0706e5385603dcf5eafe"
+      },
+      {
+        "path": "examples/progress-and-return/fictional-profile.json",
+        "bytes": 1413,
+        "sha256": "2c60d9b48018082685019d6a8986b76a96ac56b3b1a67189919a4b2885605497"
+      },
+      {
+        "path": "examples/progress-and-return/observed-profile.json",
+        "bytes": 2322,
+        "sha256": "9f6ab04846662b03b2eba6b0ebca78d4582fef471470d64c78ef4dde73771d63"
+      },
+      {
+        "path": "examples/urgent-first-value/demonstration.md",
+        "bytes": 1091,
+        "sha256": "16d15799baeaa9d84781b9c3b66f5041d6eacd611fec83f56ea34f87b5a85d72"
+      },
+      {
+        "path": "fallbacks/universal-copy-paste-companion.md",
+        "bytes": 4381,
+        "sha256": "28803a99dbd42268f7649307ff539c89db158bb8278c3365ad2dd29aba446aa7"
+      },
+      {
+        "path": "personas/lex-foster-language-companion.md",
+        "bytes": 5313,
+        "sha256": "13ff88a0b83617d887418bfe5c8647c95500ba6959b619df8a1147ebd1d5d98e"
+      },
+      {
+        "path": "references/culture-protocol-and-variation.md",
+        "bytes": 2757,
+        "sha256": "006d69e5de8e332acb9aa559d9ddb38b48a6ee660bb18ecb0bf305f2b5a45d78"
+      },
+      {
+        "path": "references/evidence-foundations.md",
+        "bytes": 3393,
+        "sha256": "0a05095f612b4788c3da77ed5913749de3d592725df6ebc63fafed1e7dc0e50f"
+      },
+      {
+        "path": "references/learner-model-and-progress.md",
+        "bytes": 5591,
+        "sha256": "a826b9caf7f5a0eef1f64b7e6763f9fce5bb545eaed825598ebcd4d2b2b7f57a"
+      },
+      {
+        "path": "references/operating-doctrine.md",
+        "bytes": 6341,
+        "sha256": "d1cf3fcfede2ffccfa390ac77eb3be4f3ddd43737fad009c8a84be8b7137bebb"
+      },
+      {
+        "path": "references/pronunciation-and-script-support.md",
+        "bytes": 2500,
+        "sha256": "f9fd006025dcd1ab4b79d7ea7199dc90234a545d800421d94700875e0f1c6007"
+      },
+      {
+        "path": "references/translation-and-localization.md",
+        "bytes": 5382,
+        "sha256": "88bcc590eaaaedaff983e92836d8ff2bf54d2d5d3a37ff41a1d92e629248d36f"
+      },
+      {
+        "path": "references/trust-privacy-and-high-stakes.md",
+        "bytes": 3559,
+        "sha256": "3c14661881c0ea40f6b67fe92198cedf5f3de9844487c3584ff9d5d0a947daa2"
+      },
+      {
+        "path": "schemas/learner-profile.schema.json",
+        "bytes": 6563,
+        "sha256": "44e573081bf05634db63bd8bf04c47335d3852ff7c70a996207ff88742488cc7"
+      },
+      {
+        "path": "scripts/tests/test_evidence_contract.py",
+        "bytes": 4338,
+        "sha256": "17b61c05f98e1954f05b698fc232bde2294d07fb9ed9222c072f998f348e292d"
+      },
+      {
+        "path": "scripts/tests/test_validate_learner_profile.py",
+        "bytes": 2737,
+        "sha256": "06a450c5b65338a66562fef30260fb44be13f60d293f978ba07bb6af033db4d8"
+      },
+      {
+        "path": "scripts/tests/test_validate_release.py",
+        "bytes": 397,
+        "sha256": "63328bb3f122d0ef152d449d206b713bb5ce15a34478f988d0715bbe98fdcb03"
+      },
+      {
+        "path": "scripts/validate_learner_profile.py",
+        "bytes": 6680,
+        "sha256": "5b2bec4c0d6f6bf2daa5e12e0d3cad5f8dfcc77be037bc6b6316902f168a2123"
+      },
+      {
+        "path": "scripts/validate_release.py",
+        "bytes": 8149,
+        "sha256": "057d8c20fbfe5b7eb989b09340e8e7bd8b6d7760e5dd15d62feb355a82933cb7"
+      }
+    ]
+  },
+  "source_freeze_sha256": "7bce035f3461e9c28cc4e856e5321db365e61243c0342eb0fcd212bb8ff761f1",
+  "evidence": "E:\\Indranet\\Nova\\projects\\project-records\\projects\\augment-estate-quality-repair\\records\\product-audits\\lex-foster-language-companion\\independent-root-r5\\results.json",
+  "independent_controls": 23,
+  "native_members": 92,
+  "expert_review": "Read entry, complete operating/learner/translation/culture/pronunciation/trust guidance, concrete Japanese tense and Spanish ir-a feedback, ambiguous protected translation and return workflow. Specific criterion and modality remain stable across transfer; immediate copied repair is called supported. Blank state has no fictional history; target-only request stops at target. Retained legacy declarations do not become measured mastery.",
+  "boundary": "Local declared-consistency and artifact checks plus expert document review; semantic grading, real learner benefit and model behavior unobserved. Final parent editions pending."
+}

@@ -70,7 +70,7 @@ Use the [translation guide](release-v0.1.1/docs/TRANSLATION-GUIDE.md) for the fu
 - the integrated Lex practitioner persona;
 - selective references for tutoring, correction, learner modeling, pronunciation, culture, translation, privacy, and high-stakes boundaries;
 - learner-profile, language-mission, session-recap, and translation-brief templates;
-- four worked demonstrations and twelve behavioral eval cases;
+- five worked demonstrations and eighteen behavioral eval cases;
 - deterministic package and learner-profile validators using the Python standard library;
 - installation, quick-start, user, translation, learner-state, troubleshooting, removal, maintenance, accessibility, and validation documentation;
 - a universal copy-paste fallback for hosts without skill installation.
@@ -106,3 +106,8 @@ Those records establish package structure and selected deterministic behavior. T
 Lex Foster Language Companion is a free Collaborative Dynamics public-service Augment. Copyright 2026 Collaborative Dynamics. Released under the [MIT License](LICENSE).
 
 [Contribute](CONTRIBUTING.md) · [Get support](SUPPORT.md) · [Report a security issue](SECURITY.md)
+## Choose the smallest useful exchange
+
+For a quick translation, say “Only translate this; no lesson.” For learning, bring an attempt and ask for one correction and a chance to use it. Receiving a correct model is useful, but it does not prove that you can produce the language independently. A plain recap is enough when a learner file would add burden.
+
+When you do keep a profile, start with the blank template, fill real identity/language/date fields and add only observations from the actual conversation. An old progress label without its response and support details remains an unverified declaration. The package’s learner-state guide explains how to preserve that history and continue from what today’s work demonstrates.

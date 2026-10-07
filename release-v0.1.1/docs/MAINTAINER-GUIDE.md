@@ -1,47 +1,42 @@
 # Maintain Lex Foster Language Companion
 
-Keep the product promise, source custody, host distributions, documentation, and evidence synchronized. A fluent edit is not a release.
+Edit the current skill and affected customer guidance, then build a new candidate without replacing accepted bytes. Python 3.10 or newer is sufficient; no third-party runtime packages are required.
 
-## Change canonical source first
+## Find the source
 
-The maintainer source lives under `maintainer-source/lex-foster-language-companion-v0.1.1/`. Edit runtime intelligence there before rebuilding Codex and Claude artifacts. Do not patch only a copied distribution.
+In the repository, runtime source is `source/lex-foster-language-companion-v0.1.1/skills/lex-foster-language-companion/`; maintained customer pages are `release-v0.1.1/docs/` plus its top-level Markdown files. In a downloaded package, the exact source copy is `maintainer-source/skills/lex-foster-language-companion/`, and customer pages are `docs/` and the top-level Markdown files. `tools/` contains the portable builder and verifier.
 
-Prompt-bearing changes must follow Collaborative Dynamics Prompt Design v3: preserve performance-seeded language, task-native momentum, positive behavioral framing, and density of useful idea per token.
+Preserve prior archives, existing dirty work, learner files and artwork. The current practitioner is an adapted derivative: retain Lex’s patient, exacting linguistic judgment within the host companion identity. Do not turn the source character’s biography into a claim of human or community authority. Original ancestry stays preserved.
 
-## Protect the operative identity
+## Check and build
 
-Lex is a big Black Nigerian man in his thirties and one coherent language educator. Tutoring, translation, protocol, and culture share one learner relationship. Do not split the public behavior into a visible committee or replace professional judgment with mascot theatrics, gamification, or questionnaires.
+From the runtime skill folder:
 
-## Run narrow checks first
+```text
+python -B -m unittest discover -s scripts/tests -v
+python -B scripts/validate_release.py
+```
 
-From the skill root:
+From the repository root or the expanded customer package root:
 
-1. `python -B -m unittest discover -s scripts/tests -v`
-2. `python -B scripts/validate_release.py`
-3. Run the Builder `bundle`, `codex`, and `claude` profiles against their exact targets.
-4. Expand the Claude ZIP and validate its one-root topology and bytes.
-5. Run behavioral episodes when prompt or doctrine changes could alter transfer.
+```text
+python -B tools/build_customer_release.py --output <new-candidate-directory>
+```
 
-Record commands, environment, package version, raw results, and untested boundaries.
+Replace the placeholder with a quoted path to a new directory. The destination must not exist or overlap maintained source or accepted releases. All builds use current source; the old default reconstruction from 0.1.0 has been removed. The builder stages the complete bundle, validates it and then renames the new directory into place. A failure leaves accepted output and source intact. Fix the reported source defect and choose a new destination; do not erase an accepted package to make the command work.
 
-## Keep documentation under Hesperos custody
+The result contains `lex-foster-language-companion-v0.1.1/`, the outer ZIP, checksum and `verification.json`. Check the exact release and ZIP from the original root:
 
-A product or host change that affects installation, first value, workflow, state, trust, recovery, package shape, or evidence reopens customer documentation. Hesperos authors or materially revises the exact current document inventory. A separate documentation-accessibility reviewer challenges it afterward.
+```text
+python -B tools/verify_customer_release.py <new-candidate-directory>/lex-foster-language-companion-v0.1.1 --outer <new-candidate-directory>/Lex-Foster-Language-Companion-v0.1.1.zip --pretty
+```
 
-Regenerate the documentation manifest and authorship receipt only after document bytes settle. Lint and review do not substitute for authorship.
+Each path with spaces needs quotes. Expect `ok: true`; false includes actionable findings. Fresh native extraction and tests of the extracted runtime establish the actual delivered tree. A second build from the extracted package can check reproducibility. Nothing here installs the skill or publishes a channel.
 
-## Build a release
+## Review the changed promise
 
-1. Rebuild customer distributions from canonical source.
-2. Validate source, Codex, Claude folder, and final ZIP.
-3. Update customer documentation and host matrix from observed evidence.
-4. Create release manifests and detached checksums.
-5. Verify canonical, distribution, tag, remote branch, release-asset, and recovery-backup parity.
-6. Leave the local repository clean.
-7. Run the central live estate re-entry validator.
+Read [Validation and evaluation](VALIDATION-AND-EVALUATION.md). Exercise concrete task contrasts when teaching, translation or evidence rules change; preserve raw learner/model responses if such trials actually run. Definitions and authored fictional dialogue are not executed trials. A successful generic response also cannot prove this particular skill was loaded. Use host resource-loading evidence for that separate claim.
 
-Only a live `PASS` supports DONE-done release custody. Installation, discovery, invocation, health, accessibility, and customer validation remain separate claims.
+Reopen the affected documentation through Hesperos when a path, command, behavior, recovery or evidence limit changes. Bind only newly authored or materially revised documents to this authoring run. Keep unchanged historical receipts; a newer authoring-tool hash does not erase older authorship. A separate reviewer challenges finding, action, recovery and evidence claims.
 
-## Review triggers
-
-Reopen the package when a host contract changes, a language or cultural failure reveals missing doctrine, a protected token changes, official-assessment language appears, a high-stakes boundary fails, an accessibility barrier is reported, or source and distribution hashes diverge.
+Classify the complete delta against the accepted release before choosing a version. Local verification establishes a candidate. The accountable product owner then reconciles applicable distributions, sidecars, shelf/catalog and consumers through the governing delivery contract.

@@ -37,4 +37,4 @@ Collaborative Dynamics owns product and documentation custody. Reopen affected p
 
 Markdown lint can detect selected structural defects. Manual inspection can challenge information scent, task flow, examples, and claim language. Neither proves screen-reader usability, representative-user success, formal conformance, host activation, language correctness, or professional approval.
 
-The documentation manifest, Hesperos evidence packet, authoring response, task receipt, authorship receipt, and independent review receipt bind the exact current bytes. If a customer document changes, regenerate those receipts before claiming current documentation custody.
+An authorship manifest binds the exact newly authored or materially revised documents, evidence packet and execution record for that run. Preserve unchanged historical receipts rather than reissuing them as new work. A separate reviewer record describes its own scope and limits. Changed customer bytes require current authorship evidence for those changed documents; a newer tool version alone does not invalidate historical authorship.

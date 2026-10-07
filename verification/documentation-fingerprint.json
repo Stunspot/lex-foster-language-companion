@@ -1,8 +1,8 @@
 {
   "format": "lex-documentation-fingerprint/v1",
-  "generated_at": "2026-08-15T02:51:19.267942Z",
+  "generated_at": "2026-10-07T03:43:01.028715Z",
   "product_version": "0.1.1",
-  "aggregate_sha256": "37296ea242fd1606051c53a1aac581cec345e08083c71846ddcf5f717dfb4e36",
+  "aggregate_sha256": "a5aa4b88ff77789de5e80af0e87f78cb28b4901953b044b6177f9e714a9dbb90",
   "files": [
     {
       "path": "ACCESSIBILITY.md",
@@ -18,11 +18,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "d60c5ece4f8d656a4221752cffd19f6df7798c6189d9376615ebdbd324a36b00"
+      "sha256": "21ff1acead10a8984f18acb5d95807a1b10980c85485af60c380519e4dd73559"
     },
     {
       "path": "RELEASE-NOTES-v0.1.1.md",
-      "sha256": "374a1f7acd91a79d7d8664c30c160833a08c18e5c2f6a63bc9be18fdd1df0c2b"
+      "sha256": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48"
     },
     {
       "path": "SECURITY.md",
@@ -30,7 +30,7 @@
     },
     {
       "path": "START-HERE.md",
-      "sha256": "0b1e8bd20f1cd27d8d39297e1891c53aadff1038e5f79cce65fb49bb02e78d36"
+      "sha256": "287b64aafb537f6b5b2a748167ba5df476acaf618d5030af1b6aa5f1f3fd5fb0"
     },
     {
       "path": "SUPPORT.md",
@@ -58,15 +58,15 @@
     },
     {
       "path": "docs/guide.html",
-      "sha256": "bd81aea4e299bd7dcb6fae25ce7ff54162886251148a4a43ece2eb6271c9fa5b"
+      "sha256": "920afd272beb4f0af77fafe375e43cf0bbe7ebc6aa66b37e6e1b90fa6580c1fa"
     },
     {
       "path": "docs/index.html",
-      "sha256": "bf45e9a491179c3675f2d8622f13f3f2c9190d7a780da02abb02f24ad50209d1"
+      "sha256": "9b8f669a8f7aa0dc1b41663cf6f4b706e500acd3a49750fb6fd53756d54d4d71"
     },
     {
       "path": "docs/start.html",
-      "sha256": "403fadc13439980e277a9fce31d7b68929bb56011a4482fefd97bef5062cfff5"
+      "sha256": "98df5ae6304ee8b4c34e3223008e33732a50896ade147a8f9b908e8ccadb9c1a"
     },
     {
       "path": "docs/style.css",
@@ -74,15 +74,15 @@
     },
     {
       "path": "docs/trust.html",
-      "sha256": "3bc174cab700b12e481ef2adb6f0402051ce7bdb8cecb3a0c71dd56f0518ece3"
+      "sha256": "b883a2e10af8bdb82e5abfeae0fdb409469b79c68286337e7955c65ae20ece01"
     },
     {
       "path": "release-v0.1.1/HOST-MATRIX.md",
-      "sha256": "aa26179cc2e32342b3c09dd7f55d33cad18172b040bffbd44f569027acf4c260"
+      "sha256": "a9239a5d61ef72290c4ed252fc8f9e0e5f61164e5ae9909ddd7d38e81933e2b5"
     },
     {
       "path": "release-v0.1.1/PACKAGE-REFERENCE.md",
-      "sha256": "716a08d4c6c9eebd8afea9078b21a14292240359783599eb274be09d96c7d169"
+      "sha256": "ffe7bd4550334f6d714f539c3d99701d24e2b3b433d814bba1b0f44b8fbd4bf0"
     },
     {
       "path": "release-v0.1.1/PROVENANCE.md",
@@ -90,11 +90,11 @@
     },
     {
       "path": "release-v0.1.1/README.md",
-      "sha256": "a0b25c32c250244e6fb44e68bddbfd87bd94998a702355e694502cd4e98e3e42"
+      "sha256": "5b709cc6316c3bbf01e8fd282571c784191bf4fe0260aaff0d459e10cfea8dae"
     },
     {
       "path": "release-v0.1.1/RELEASE-NOTES-v0.1.1.md",
-      "sha256": "374a1f7acd91a79d7d8664c30c160833a08c18e5c2f6a63bc9be18fdd1df0c2b"
+      "sha256": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48"
     },
     {
       "path": "release-v0.1.1/SECURITY.md",
@@ -102,7 +102,7 @@
     },
     {
       "path": "release-v0.1.1/START-HERE.md",
-      "sha256": "ec84c43f2e4f097473ab04c53be7c3183e7fc6482b1b9b50ce7472763588f353"
+      "sha256": "9220c89a54ef8d8d4037572447193339dc97bcc7feb44688b45902e74cd55c93"
     },
     {
       "path": "release-v0.1.1/SUPPORT.md",
@@ -118,15 +118,15 @@
     },
     {
       "path": "release-v0.1.1/docs/DOCUMENTATION-CUSTODY.md",
-      "sha256": "86e4898ab70e755907f4b95061897d0d20a0e61098fdeae27f8f0c3bfb55630f"
+      "sha256": "3222b7b971f376b1ca7d8344eea6ce7ac5046ac8945d03211f6e9b500120cd3e"
     },
     {
       "path": "release-v0.1.1/docs/INSTALLATION.md",
-      "sha256": "7e68bda16a88df0e197c86f62eed9870dc60601dbdadd89c40ad6c83475e5a5e"
+      "sha256": "7bc65cb58470243fb25dd25489fb041337ab0b8b6c9e7aef3a3b31dc683ba7bc"
     },
     {
       "path": "release-v0.1.1/docs/LEARNER-STATE.md",
-      "sha256": "cb7f13b178d9d564a301f54de15ead74e5565aa6ada6603ab104bf2048b0856c"
+      "sha256": "dc417983d07e038790df6814d268d03c4041677fb26a59927812b9ff895534e9"
     },
     {
       "path": "release-v0.1.1/docs/LIMITATIONS.md",
@@ -134,15 +134,15 @@
     },
     {
       "path": "release-v0.1.1/docs/MAINTAINER-GUIDE.md",
-      "sha256": "8aa1c2fc0c72361820db9b3c763cc640818c874316ec328233ca52706a34683a"
+      "sha256": "570543d2ff54084ced5b392dc9a9649ffcc1125f652e4ea46adbd8462322d71d"
     },
     {
       "path": "release-v0.1.1/docs/MAINTENANCE.md",
-      "sha256": "3d26ad9db1921f28364af50749f01b50fb876ec7d658c46bd49be5a5f11cc20f"
+      "sha256": "06f8961e5c3e253492fbd80e78d52846d29acf4f4001e84f30e691336a2030e8"
     },
     {
       "path": "release-v0.1.1/docs/PACKAGE-REFERENCE.md",
-      "sha256": "b7b1ccf1fd5e005ea509a8dcad3d08a754f4bc58e58fc026b7f637cb1f5c6098"
+      "sha256": "b08f3058c549efc41472dab379ac9e909108ad2a2d0b7aeb06e906939fa518eb"
     },
     {
       "path": "release-v0.1.1/docs/QUICK-START.md",
@@ -158,7 +158,7 @@
     },
     {
       "path": "release-v0.1.1/docs/TROUBLESHOOTING.md",
-      "sha256": "4fcc169c6f7d39e07bee2f17840141cd66051742ef0a6300377f7defabee0b1d"
+      "sha256": "1b0beee15da475e3792456b337b03a502d177a96aaf02fe1ff8600ec2e8a6315"
     },
     {
       "path": "release-v0.1.1/docs/USER-GUIDE.md",
@@ -166,7 +166,7 @@
     },
     {
       "path": "release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md",
-      "sha256": "a4d7dc3fb53ee4994127b33438e643b2dbd0792e19316381d3779808af50426a"
+      "sha256": "9d45e78d047b22e4c5cc43f577a2b6dffa6e1494a9e4d34b074e6bd6c81e980d"
     }
   ],
   "algorithm": "sha256 over sorted UTF-8 path NUL canonical file-sha256 records with ordinal path ordering; text line endings normalized to LF"

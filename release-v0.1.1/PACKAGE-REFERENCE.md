@@ -12,7 +12,7 @@
 | release-manifest.json | Complete customer-tree inventory |
 | codex/lex-foster-language-companion/ | Complete Codex skill folder |
 | claude/lex-foster-language-companion-v0.1.1.zip | Complete Claude skill archive |
-| maintainer-source/lex-foster-language-companion-v0.1.1/ | Canonical source copied at exact byte parity |
+| maintainer-source/ | Canonical source copied at exact byte parity |
 | docs/ | Customer procedures, workflows, recovery, trust, and maintenance |
 
 Runtime installation uses the complete Codex skill folder or the untouched Claude ZIP. Maintainer source, customer documentation, manifests, and release records are package custody rather than runtime cargo.

@@ -1,0 +1,75 @@
+{
+  "candidate": {
+    "archive": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r4\\Lex-Foster-Language-Companion-v0.1.1.zip",
+    "sha256": "720fdb3d712e1a6ce3043aca5e644feb40a2cf8930a7671d1b1ab2411049ba41",
+    "release": "E:\\Github\\lex-foster-language-companion\\dist\\estate-quality-20261006-r4\\lex-foster-language-companion-v0.1.1",
+    "verification": {
+      "schema": "cd-lex-release-verification/v1",
+      "ok": true,
+      "counts": {
+        "files": 92,
+        "runtime_files": 30,
+        "claude_files": 30
+      },
+      "findings": []
+    }
+  },
+  "checks": [
+    {
+      "label": "final-build",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\final-build.txt"
+    },
+    {
+      "label": "native-extract",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\native-extract.txt"
+    },
+    {
+      "label": "final-source-tests",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\final-source-tests.txt"
+    },
+    {
+      "label": "final-package-tests",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\final-package-tests.txt"
+    },
+    {
+      "label": "native-runtime-tests",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\native-runtime-tests.txt"
+    },
+    {
+      "label": "native-verifier",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\native-verifier.txt"
+    },
+    {
+      "label": "public-docs-static",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\public-docs-static.txt"
+    },
+    {
+      "label": "authorship-validation",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\authorship-validation.txt"
+    },
+    {
+      "label": "customer-docs-lint",
+      "exit_code": 1,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\customer-docs-lint.txt"
+    },
+    {
+      "label": "native-rebuild",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\native-rebuild.txt"
+    },
+    {
+      "label": "extra-preflight",
+      "exit_code": 0,
+      "log": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\extra-preflight.txt"
+    }
+  ],
+  "reproducible_from_native_extraction": true
+}

@@ -1,0 +1,55 @@
+{
+  "product": "lex-foster-language-companion",
+  "version": "0.1.1",
+  "sources": [
+    {
+      "path": "E:\\Github\\lex-foster-language-companion\\source\\lex-foster-language-companion-v0.1.1\\skills\\lex-foster-language-companion\\SKILL.md"
+    },
+    {
+      "path": "E:\\Github\\lex-foster-language-companion\\source\\lex-foster-language-companion-v0.1.1\\skills\\lex-foster-language-companion\\scripts\\validate_learner_profile.py"
+    },
+    {
+      "path": "E:\\Github\\lex-foster-language-companion\\tools\\build_customer_release.py"
+    },
+    {
+      "path": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\browser-review.json"
+    },
+    {
+      "path": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\baseline.json"
+    },
+    {
+      "path": "E:\\Github\\lex-foster-language-companion\\verification\\estate-quality-20261006\\lf-normalization\\normalization.json"
+    }
+  ],
+  "customer_tasks": [
+    "Get a translation without compulsory practice",
+    "Practice a diagnosed distinction without fabricated learner turns",
+    "Create empty learner state, preserve old declarations and resume honestly",
+    "Install or use the packaged fallback",
+    "Build and verify a portable candidate without losing accepted work"
+  ],
+  "customer_docs": [
+    "README.md",
+    "RELEASE-NOTES-v0.1.1.md",
+    "START-HERE.md",
+    "delivery-sidecars/Lex Foster Language Companion T-Free v0.1.1 Extra.md",
+    "delivery-sidecars/Lex Foster Language Companion T-Free v0.1.1.md",
+    "docs/guide.html",
+    "docs/index.html",
+    "docs/start.html",
+    "docs/trust.html",
+    "release-v0.1.1/HOST-MATRIX.md",
+    "release-v0.1.1/RELEASE-NOTES-v0.1.1.md",
+    "release-v0.1.1/START-HERE.md",
+    "release-v0.1.1/docs/DOCUMENTATION-CUSTODY.md",
+    "release-v0.1.1/docs/INSTALLATION.md",
+    "release-v0.1.1/docs/LEARNER-STATE.md",
+    "release-v0.1.1/docs/MAINTAINER-GUIDE.md",
+    "release-v0.1.1/docs/MAINTENANCE.md",
+    "release-v0.1.1/docs/PACKAGE-REFERENCE.md",
+    "release-v0.1.1/docs/TROUBLESHOOTING.md",
+    "release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md",
+    "source/lex-foster-language-companion-v0.1.1/PROVENANCE.md"
+  ],
+  "revision_note": "Continued same authoring run: current text normalized to the existing LF Git contract. No new semantic authorship is claimed for this normalization; prior semantic revisions and their original receipt remain preserved."
+}

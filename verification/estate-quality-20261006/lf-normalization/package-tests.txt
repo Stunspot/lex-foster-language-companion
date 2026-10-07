@@ -1,0 +1,15 @@
+test_all_public_cli_help (test_package_contract.PackageContract.test_all_public_cli_help) ... ok
+test_bad_manifest_values_are_controlled (test_package_contract.PackageContract.test_bad_manifest_values_are_controlled) ... ok
+test_current_flat_source_parity (test_package_contract.PackageContract.test_current_flat_source_parity) ... ok
+test_existing_destination_untouched (test_package_contract.PackageContract.test_existing_destination_untouched) ... ok
+test_junction_root_rejected (test_package_contract.PackageContract.test_junction_root_rejected) ... ok
+test_missing_runtime_blocks_build_without_source_change (test_package_contract.PackageContract.test_missing_runtime_blocks_build_without_source_change) ... ok
+test_namespace_and_device_names (test_package_contract.PackageContract.test_namespace_and_device_names) ... ok
+test_outer_extra_prefix_not_ignored (test_package_contract.PackageContract.test_outer_extra_prefix_not_ignored) ... ok
+test_reproducible_rebuild_from_download (test_package_contract.PackageContract.test_reproducible_rebuild_from_download) ... ok
+test_zip_file_directory_collision (test_package_contract.PackageContract.test_zip_file_directory_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 8.059s
+
+OK
