@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 ROOT_DOCS = ["README.md","START-HERE.md","DOCUMENTATION.md","ACCESSIBILITY.md","SECURITY.md","SUPPORT.md","CONTRIBUTING.md",f"RELEASE-NOTES-v{VERSION}.md"]
 WEB = ["docs/README.md","docs/index.html","docs/start.html","docs/guide.html","docs/trust.html","docs/404.html","docs/style.css",
        "docs/assets/lex-foster-readme-hero.png","docs/assets/lex-foster-pages-hero.png","docs/assets/lex-foster-social-card.jpg"]

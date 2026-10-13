@@ -91,7 +91,7 @@ def main() -> int:
     for required in [":focus-visible", "prefers-reduced-motion", "@media (max-width: 50rem)", "@media print"]:
         if required not in css: findings.append(f"style.css: missing {required}")
 
-    root_docs = ["README.md","START-HERE.md","DOCUMENTATION.md","ACCESSIBILITY.md","SECURITY.md","SUPPORT.md","CONTRIBUTING.md","RELEASE-NOTES-v0.1.1.md"]
+    root_docs = ["README.md","START-HERE.md","DOCUMENTATION.md","ACCESSIBILITY.md","SECURITY.md","SUPPORT.md","CONTRIBUTING.md","RELEASE-NOTES-v0.1.2.md"]
     pattern = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
     for name in root_docs:
         path = REPO / name

@@ -1,28 +1,28 @@
 {
   "format": "lex-documentation-fingerprint/v1",
-  "generated_at": "2026-10-07T03:43:01.028715Z",
-  "product_version": "0.1.1",
-  "aggregate_sha256": "a5aa4b88ff77789de5e80af0e87f78cb28b4901953b044b6177f9e714a9dbb90",
+  "generated_at": "2026-10-13T11:47:53.823989Z",
+  "product_version": "0.1.2",
+  "aggregate_sha256": "1faa64aa21f4e7b97024db490b4b2029c060114088b1e30cad32e647eb076733",
   "files": [
     {
       "path": "ACCESSIBILITY.md",
-      "sha256": "88f04bb4ad906fad131ebf2dbbc00c6b0cc5e0f0dccfb44aa1afbfc02319685c"
+      "sha256": "edeb78758595ef96ad2333f737e092ca832fb97402389f8b9c79da609e69c213"
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "68db645727109d766a98fafe63d930d352e79e8bc5ba9f08c06a4a762a8cafc0"
+      "sha256": "2517084bf93cfbc82d001e7d4b1ec7142bc3e621aaeb789e64932ad7e9d4136e"
     },
     {
       "path": "DOCUMENTATION.md",
-      "sha256": "9f3528e7d8b0939e8d1cae4fda4fbbf0063c81c3cfb5be010309a3effeb4f157"
+      "sha256": "9e67d7148c8a6cc7c8af2dc68008953610f64bdfcefff07a415ff6c6003201fe"
     },
     {
       "path": "README.md",
-      "sha256": "21ff1acead10a8984f18acb5d95807a1b10980c85485af60c380519e4dd73559"
+      "sha256": "7eae96ba1c6f221a6dee161aab5a75eb6446d233c1c1c0076fb6ad804983e97a"
     },
     {
-      "path": "RELEASE-NOTES-v0.1.1.md",
-      "sha256": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48"
+      "path": "RELEASE-NOTES-v0.1.2.md",
+      "sha256": "883b7eef8b468720fa6e8e788e6654cb46dd2442e182bf2a70ef3f79bcbf8794"
     },
     {
       "path": "SECURITY.md",
@@ -30,15 +30,15 @@
     },
     {
       "path": "START-HERE.md",
-      "sha256": "287b64aafb537f6b5b2a748167ba5df476acaf618d5030af1b6aa5f1f3fd5fb0"
+      "sha256": "58c062c68a77439f67326c5c11ab29605d403c060692d5bda134060209a3eee1"
     },
     {
       "path": "SUPPORT.md",
-      "sha256": "c49b0b02759a78e65b71955db6ec0f870b396554ecd0321f44994cb6aba89aef"
+      "sha256": "1c5fdba0a72453104f9931ef64b0d417eea49e21cdf78a3d8961b694b9d954a1"
     },
     {
       "path": "docs/404.html",
-      "sha256": "b8e5d93d4ecf0c2f5ebbcf44e4baa4941498da0e759644f147c1a8b33eaa4cee"
+      "sha256": "70813c9160cae3aa7d33b1d0ac5842efa56468748aab30105373f6ed5fd0349e"
     },
     {
       "path": "docs/README.md",
@@ -58,15 +58,15 @@
     },
     {
       "path": "docs/guide.html",
-      "sha256": "920afd272beb4f0af77fafe375e43cf0bbe7ebc6aa66b37e6e1b90fa6580c1fa"
+      "sha256": "addb919c8f74ebf6db882abedd3992fccb16cc2237874d76b54c695222bf33f3"
     },
     {
       "path": "docs/index.html",
-      "sha256": "9b8f669a8f7aa0dc1b41663cf6f4b706e500acd3a49750fb6fd53756d54d4d71"
+      "sha256": "1242d638e798289f3b979fd0899525a125202d4e9d2eb8d1d9a552e3e6f08550"
     },
     {
       "path": "docs/start.html",
-      "sha256": "98df5ae6304ee8b4c34e3223008e33732a50896ade147a8f9b908e8ccadb9c1a"
+      "sha256": "07899b0440e9d9b1693cd93f5e1ffcd36396677e7367c71ff3b8ea8672c16aa6"
     },
     {
       "path": "docs/style.css",
@@ -74,99 +74,99 @@
     },
     {
       "path": "docs/trust.html",
-      "sha256": "b883a2e10af8bdb82e5abfeae0fdb409469b79c68286337e7955c65ae20ece01"
+      "sha256": "d75839771a9448026ca54751a68cee0d4ee9f72cc9387f0df861561c9757cfc6"
     },
     {
-      "path": "release-v0.1.1/HOST-MATRIX.md",
-      "sha256": "a9239a5d61ef72290c4ed252fc8f9e0e5f61164e5ae9909ddd7d38e81933e2b5"
+      "path": "release-v0.1.2/HOST-MATRIX.md",
+      "sha256": "dde5012e7b133496741cb35ad55df74ed03d53aeefdb483fd54f2f7ed562a4fe"
     },
     {
-      "path": "release-v0.1.1/PACKAGE-REFERENCE.md",
-      "sha256": "ffe7bd4550334f6d714f539c3d99701d24e2b3b433d814bba1b0f44b8fbd4bf0"
+      "path": "release-v0.1.2/PACKAGE-REFERENCE.md",
+      "sha256": "95e4a8cb88091682ad96605b7dbcdb9fc8150680f0c88912976f21b55d438263"
     },
     {
-      "path": "release-v0.1.1/PROVENANCE.md",
-      "sha256": "b2c2cab38a6be0eae3609665f6e52e0639d4fb4efdcb2359e3eebaad58636488"
+      "path": "release-v0.1.2/PROVENANCE.md",
+      "sha256": "54813dfa7949a7142ccf8b03e1290ae2277a7f2d0770d1760fb870182977e931"
     },
     {
-      "path": "release-v0.1.1/README.md",
-      "sha256": "5b709cc6316c3bbf01e8fd282571c784191bf4fe0260aaff0d459e10cfea8dae"
+      "path": "release-v0.1.2/README.md",
+      "sha256": "f5ab88c54a5070a291c66c55151f9d03b1276cba3eac7975756b105005fba65a"
     },
     {
-      "path": "release-v0.1.1/RELEASE-NOTES-v0.1.1.md",
-      "sha256": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48"
+      "path": "release-v0.1.2/RELEASE-NOTES-v0.1.2.md",
+      "sha256": "883b7eef8b468720fa6e8e788e6654cb46dd2442e182bf2a70ef3f79bcbf8794"
     },
     {
-      "path": "release-v0.1.1/SECURITY.md",
+      "path": "release-v0.1.2/SECURITY.md",
       "sha256": "cff32ee1b5ca9ebcef8a0a161b42fb6c5f2341fa1cf4925fe134926e056c72af"
     },
     {
-      "path": "release-v0.1.1/START-HERE.md",
-      "sha256": "9220c89a54ef8d8d4037572447193339dc97bcc7feb44688b45902e74cd55c93"
+      "path": "release-v0.1.2/START-HERE.md",
+      "sha256": "212d4a9020a7eb324e83d64244538307a80b5be35b2838ecfaaa06be55df2ef3"
     },
     {
-      "path": "release-v0.1.1/SUPPORT.md",
+      "path": "release-v0.1.2/SUPPORT.md",
       "sha256": "1b9b00dcb663de5184ec2ed5a0615134df8eacc66f56eb8612045d1a456d1c03"
     },
     {
-      "path": "release-v0.1.1/docs/ACCESSIBILITY.md",
-      "sha256": "090c07c6e02db3b15fbc28fbf7f55a4bcfdf1699df17690bf314b9da61a735b2"
+      "path": "release-v0.1.2/docs/ACCESSIBILITY.md",
+      "sha256": "ad3afabaa7791d93f8c4637755056796f282d65898ed2d7dc65144493f722e1f"
     },
     {
-      "path": "release-v0.1.1/docs/CAPABILITY-MATRIX.md",
+      "path": "release-v0.1.2/docs/CAPABILITY-MATRIX.md",
       "sha256": "f7d6585b24a7bcd20555d217d9c8dcf46f0186f00c03435764ad0256b0b303b1"
     },
     {
-      "path": "release-v0.1.1/docs/DOCUMENTATION-CUSTODY.md",
+      "path": "release-v0.1.2/docs/DOCUMENTATION-CUSTODY.md",
       "sha256": "3222b7b971f376b1ca7d8344eea6ce7ac5046ac8945d03211f6e9b500120cd3e"
     },
     {
-      "path": "release-v0.1.1/docs/INSTALLATION.md",
-      "sha256": "7bc65cb58470243fb25dd25489fb041337ab0b8b6c9e7aef3a3b31dc683ba7bc"
+      "path": "release-v0.1.2/docs/INSTALLATION.md",
+      "sha256": "1e45d861096d9df719a76f4bd511f12f1bcd2b79f5fe2f5808eef4e61d841cd5"
     },
     {
-      "path": "release-v0.1.1/docs/LEARNER-STATE.md",
+      "path": "release-v0.1.2/docs/LEARNER-STATE.md",
       "sha256": "dc417983d07e038790df6814d268d03c4041677fb26a59927812b9ff895534e9"
     },
     {
-      "path": "release-v0.1.1/docs/LIMITATIONS.md",
+      "path": "release-v0.1.2/docs/LIMITATIONS.md",
       "sha256": "0670c58452e4e4c71500a290a00113f213246419445fff2e1dbfb88dc9042032"
     },
     {
-      "path": "release-v0.1.1/docs/MAINTAINER-GUIDE.md",
-      "sha256": "570543d2ff54084ced5b392dc9a9649ffcc1125f652e4ea46adbd8462322d71d"
+      "path": "release-v0.1.2/docs/MAINTAINER-GUIDE.md",
+      "sha256": "da327abdfc011b0afddd9523968251cca01c4580058a9e9afa739f0bd081b74a"
     },
     {
-      "path": "release-v0.1.1/docs/MAINTENANCE.md",
-      "sha256": "06f8961e5c3e253492fbd80e78d52846d29acf4f4001e84f30e691336a2030e8"
+      "path": "release-v0.1.2/docs/MAINTENANCE.md",
+      "sha256": "10c32a6e9456bc5a370227092e05a3a385666dc6b60f0ff796f0cf19dae31d35"
     },
     {
-      "path": "release-v0.1.1/docs/PACKAGE-REFERENCE.md",
-      "sha256": "b08f3058c549efc41472dab379ac9e909108ad2a2d0b7aeb06e906939fa518eb"
+      "path": "release-v0.1.2/docs/PACKAGE-REFERENCE.md",
+      "sha256": "2b3072349f0b04c556a44cf50ba43201fb096b5c50893ed5ff8aa05e3f2d79ad"
     },
     {
-      "path": "release-v0.1.1/docs/QUICK-START.md",
+      "path": "release-v0.1.2/docs/QUICK-START.md",
       "sha256": "3d8b4451f7cb04d3fc111c1e7d61ece9dbf0bbc5befe4429571c56b54e1733ee"
     },
     {
-      "path": "release-v0.1.1/docs/REMOVAL.md",
+      "path": "release-v0.1.2/docs/REMOVAL.md",
       "sha256": "843c06ec92fa4225d79b229071b905ea3fa97fb9ce6542fef168be5efc225c7b"
     },
     {
-      "path": "release-v0.1.1/docs/TRANSLATION-GUIDE.md",
+      "path": "release-v0.1.2/docs/TRANSLATION-GUIDE.md",
       "sha256": "5a845806d6b4c9ca136864abb877be8dc01bd2c9396b5a72dac98181dc719516"
     },
     {
-      "path": "release-v0.1.1/docs/TROUBLESHOOTING.md",
-      "sha256": "1b0beee15da475e3792456b337b03a502d177a96aaf02fe1ff8600ec2e8a6315"
+      "path": "release-v0.1.2/docs/TROUBLESHOOTING.md",
+      "sha256": "7d4fbc6c198af7079a69c843bf0ffe176e952bac7ac6667eaff408ba59887433"
     },
     {
-      "path": "release-v0.1.1/docs/USER-GUIDE.md",
+      "path": "release-v0.1.2/docs/USER-GUIDE.md",
       "sha256": "852a12af81e7b4781e8cc6472c1f2f0ca3d520b73aa21671256be5fd886b64c6"
     },
     {
-      "path": "release-v0.1.1/docs/VALIDATION-AND-EVALUATION.md",
-      "sha256": "9d45e78d047b22e4c5cc43f577a2b6dffa6e1494a9e4d34b074e6bd6c81e980d"
+      "path": "release-v0.1.2/docs/VALIDATION-AND-EVALUATION.md",
+      "sha256": "9898a444a9017ad4cac8c31a8f61b07d6b6bfe3ee36a260f4940dde6f508e90a"
     }
   ],
   "algorithm": "sha256 over sorted UTF-8 path NUL canonical file-sha256 records with ordinal path ordering; text line endings normalized to LF"

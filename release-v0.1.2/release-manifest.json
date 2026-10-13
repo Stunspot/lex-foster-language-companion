@@ -1,0 +1,504 @@
+{
+  "schema": "collaborative-dynamics.customer-skill-family/v2",
+  "product": "Lex Foster Language Companion",
+  "slug": "lex-foster-language-companion",
+  "version": "0.1.2",
+  "source_repository": "https://github.com/Stunspot/lex-foster-language-companion",
+  "source_tree_sha256": "d437a059326949ff89eec14bd2f9b1d8cdef00734425557d7893a9d8396dfa58",
+  "top_level_directory": "lex-foster-language-companion-v0.1.2",
+  "publication": "manual_only",
+  "claim_boundary": "Declared structure, source parity and package custody only; no live model, learner or host qualification.",
+  "source_to_package_mapping": {
+    "canonical_source": "source/lex-foster-language-companion-v0.1.2",
+    "packaged_copy": "maintainer-source"
+  },
+  "release_decision": {
+    "schema": "cd-release-decision/v1",
+    "kind": "update",
+    "effect": "authorized_reissue",
+    "baseline_version": "0.1.1",
+    "baseline_bundle_fingerprint": "sha256:a591ec01b734e4a9f04513b23d9374ff019306a1da84aadcfec1e5c431a0577a",
+    "target_version": "0.1.2",
+    "reason": "Accepted task-fit, learner evidence/validator, portable-package and current documentation repairs were delivered under the old identity. Owner requires every changed Augment to have a distinct updateable version.",
+    "owner_version_disposition": "Every changed Augment requires a new version; same-version repair was an agent choice.",
+    "recorded_before_packaging": "2026-10-13T11:43:02.100878+00:00"
+  },
+  "distributions": {
+    "codex_skill": {
+      "path": "codex/lex-foster-language-companion",
+      "tree_sha256": "cde6677a1240f08b56cf0a7a1e7a182e7f355e70d09fea1122c1c4745e3a5932",
+      "file_count": 30
+    },
+    "claude_skill": {
+      "path": "claude/lex-foster-language-companion-v0.1.2.zip",
+      "sha256": "c9b8a9f62e079c24598f8a2edeb099673a028914513caf763e4bf3891e5c8a07",
+      "bytes": 114170
+    },
+    "maintainer_source": {
+      "path": "maintainer-source",
+      "tree_sha256": "d437a059326949ff89eec14bd2f9b1d8cdef00734425557d7893a9d8396dfa58"
+    }
+  },
+  "files": [
+    {
+      "path": "HOST-MATRIX.md",
+      "bytes": 1546,
+      "sha256": "dde5012e7b133496741cb35ad55df74ed03d53aeefdb483fd54f2f7ed562a4fe"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1078,
+      "sha256": "26db41224372337801d5c859e09335f1f6a9d093dbe46e9e823da7eb064a7bd9"
+    },
+    {
+      "path": "PACKAGE-REFERENCE.md",
+      "bytes": 1027,
+      "sha256": "95e4a8cb88091682ad96605b7dbcdb9fc8150680f0c88912976f21b55d438263"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1516,
+      "sha256": "54813dfa7949a7142ccf8b03e1290ae2277a7f2d0770d1760fb870182977e931"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1288,
+      "sha256": "f5ab88c54a5070a291c66c55151f9d03b1276cba3eac7975756b105005fba65a"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.1.1.md",
+      "bytes": 2142,
+      "sha256": "aaf88c51af99c387b15abb139322577bf13a2d7bfa82f5cb42b0562eb8f1da48"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.1.2.md",
+      "bytes": 693,
+      "sha256": "883b7eef8b468720fa6e8e788e6654cb46dd2442e182bf2a70ef3f79bcbf8794"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1026,
+      "sha256": "cff32ee1b5ca9ebcef8a0a161b42fb6c5f2341fa1cf4925fe134926e056c72af"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 217,
+      "sha256": "8402de11a1d48e751dc31d3cd343f28e8bd4de6aac67d4ada6f9b5c6ea673313"
+    },
+    {
+      "path": "START-HERE.md",
+      "bytes": 3788,
+      "sha256": "212d4a9020a7eb324e83d64244538307a80b5be35b2838ecfaaa06be55df2ef3"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 873,
+      "sha256": "1b9b00dcb663de5184ec2ed5a0615134df8eacc66f56eb8612045d1a456d1c03"
+    },
+    {
+      "path": "claude/lex-foster-language-companion-v0.1.2.zip",
+      "bytes": 114170,
+      "sha256": "c9b8a9f62e079c24598f8a2edeb099673a028914513caf763e4bf3891e5c8a07"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/SKILL.md",
+      "bytes": 4402,
+      "sha256": "f298c4c3f02ee6d7c637cb692554c20318d6a1aa241383c79fb6ae5c9b46ab56"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/agents/openai.yaml",
+      "bytes": 379,
+      "sha256": "27b9a1b6fecf005e159fcf4033bc81d73964a326dbd15fef18712a69892b00b6"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/assets/language-mission.template.md",
+      "bytes": 964,
+      "sha256": "03cf05a6f78b9bcf99f8c10f0d0b0df5b9012449e8088a5e1e4dce39495c10ba"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/assets/learner-profile.template.json",
+      "bytes": 608,
+      "sha256": "862c91bfdb49332f909a83a75a462f37a558b9bf04fdc4d7148519f080a10475"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/assets/session-recap.template.md",
+      "bytes": 1094,
+      "sha256": "c50ca2c330d4a8b94d3fb7fd6359296ff818e7efee82d475498a8a6e70d76e0f"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/assets/translation-brief.template.md",
+      "bytes": 730,
+      "sha256": "251d1882bb369d1829c0eb62620ed296749c7ba2128ba678960915619681fbe9"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/evals/core-transfer-cases.yaml",
+      "bytes": 18276,
+      "sha256": "67ba1942583502fa4fe0e8ebef12ea816c4ef84b82c4a56db6826ce3cba0c0e2"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/evals/eval-manifest.yaml",
+      "bytes": 885,
+      "sha256": "b5ecca4a3f9e2594a22c0d1831c5ef93fd5f88b342c5ab50e2854979983b9554"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/ambiguous-workplace-translation/demonstration.md",
+      "bytes": 1059,
+      "sha256": "83a1daa0aee59bb9130466b8d21916f2e522d921b6efc76d54a8ee9bba1de4af"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/consequential-language-boundary/demonstration.md",
+      "bytes": 1540,
+      "sha256": "57a89d2a7b06a1d17cd9e5a1ad1e3cc8e48069cffa28c64d60bbb85a165ded79"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/fluency-with-selective-correction/demonstration.md",
+      "bytes": 1955,
+      "sha256": "4258e5249e7cdd19a91cf3f88ef5166d51a66227fe424213249b142191a3db27"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/progress-and-return/demonstration.md",
+      "bytes": 2935,
+      "sha256": "c91098cd09674edb6373d4d3c9a329ca5af5f4c6063d0706e5385603dcf5eafe"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/progress-and-return/fictional-profile.json",
+      "bytes": 1413,
+      "sha256": "2c60d9b48018082685019d6a8986b76a96ac56b3b1a67189919a4b2885605497"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/progress-and-return/observed-profile.json",
+      "bytes": 2322,
+      "sha256": "9f6ab04846662b03b2eba6b0ebca78d4582fef471470d64c78ef4dde73771d63"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/examples/urgent-first-value/demonstration.md",
+      "bytes": 1091,
+      "sha256": "16d15799baeaa9d84781b9c3b66f5041d6eacd611fec83f56ea34f87b5a85d72"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md",
+      "bytes": 4381,
+      "sha256": "28803a99dbd42268f7649307ff539c89db158bb8278c3365ad2dd29aba446aa7"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/personas/lex-foster-language-companion.md",
+      "bytes": 5313,
+      "sha256": "13ff88a0b83617d887418bfe5c8647c95500ba6959b619df8a1147ebd1d5d98e"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/culture-protocol-and-variation.md",
+      "bytes": 2757,
+      "sha256": "006d69e5de8e332acb9aa559d9ddb38b48a6ee660bb18ecb0bf305f2b5a45d78"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/evidence-foundations.md",
+      "bytes": 3393,
+      "sha256": "0a05095f612b4788c3da77ed5913749de3d592725df6ebc63fafed1e7dc0e50f"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/learner-model-and-progress.md",
+      "bytes": 5591,
+      "sha256": "a826b9caf7f5a0eef1f64b7e6763f9fce5bb545eaed825598ebcd4d2b2b7f57a"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/operating-doctrine.md",
+      "bytes": 6341,
+      "sha256": "d1cf3fcfede2ffccfa390ac77eb3be4f3ddd43737fad009c8a84be8b7137bebb"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/pronunciation-and-script-support.md",
+      "bytes": 2500,
+      "sha256": "f9fd006025dcd1ab4b79d7ea7199dc90234a545d800421d94700875e0f1c6007"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/translation-and-localization.md",
+      "bytes": 5382,
+      "sha256": "88bcc590eaaaedaff983e92836d8ff2bf54d2d5d3a37ff41a1d92e629248d36f"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/references/trust-privacy-and-high-stakes.md",
+      "bytes": 3559,
+      "sha256": "3c14661881c0ea40f6b67fe92198cedf5f3de9844487c3584ff9d5d0a947daa2"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/schemas/learner-profile.schema.json",
+      "bytes": 6563,
+      "sha256": "44e573081bf05634db63bd8bf04c47335d3852ff7c70a996207ff88742488cc7"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/scripts/tests/test_evidence_contract.py",
+      "bytes": 4338,
+      "sha256": "17b61c05f98e1954f05b698fc232bde2294d07fb9ed9222c072f998f348e292d"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+      "bytes": 2737,
+      "sha256": "06a450c5b65338a66562fef30260fb44be13f60d293f978ba07bb6af033db4d8"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/scripts/tests/test_validate_release.py",
+      "bytes": 397,
+      "sha256": "63328bb3f122d0ef152d449d206b713bb5ce15a34478f988d0715bbe98fdcb03"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/scripts/validate_learner_profile.py",
+      "bytes": 6680,
+      "sha256": "5b2bec4c0d6f6bf2daa5e12e0d3cad5f8dfcc77be037bc6b6316902f168a2123"
+    },
+    {
+      "path": "codex/lex-foster-language-companion/scripts/validate_release.py",
+      "bytes": 8149,
+      "sha256": "057d8c20fbfe5b7eb989b09340e8e7bd8b6d7760e5dd15d62feb355a82933cb7"
+    },
+    {
+      "path": "docs/ACCESSIBILITY.md",
+      "bytes": 1953,
+      "sha256": "ad3afabaa7791d93f8c4637755056796f282d65898ed2d7dc65144493f722e1f"
+    },
+    {
+      "path": "docs/CAPABILITY-MATRIX.md",
+      "bytes": 1885,
+      "sha256": "f7d6585b24a7bcd20555d217d9c8dcf46f0186f00c03435764ad0256b0b303b1"
+    },
+    {
+      "path": "docs/DOCUMENTATION-CUSTODY.md",
+      "bytes": 2608,
+      "sha256": "3222b7b971f376b1ca7d8344eea6ce7ac5046ac8945d03211f6e9b500120cd3e"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "bytes": 5907,
+      "sha256": "1e45d861096d9df719a76f4bd511f12f1bcd2b79f5fe2f5808eef4e61d841cd5"
+    },
+    {
+      "path": "docs/LEARNER-STATE.md",
+      "bytes": 3927,
+      "sha256": "dc417983d07e038790df6814d268d03c4041677fb26a59927812b9ff895534e9"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "bytes": 2354,
+      "sha256": "0670c58452e4e4c71500a290a00113f213246419445fff2e1dbfb88dc9042032"
+    },
+    {
+      "path": "docs/MAINTAINER-GUIDE.md",
+      "bytes": 3655,
+      "sha256": "da327abdfc011b0afddd9523968251cca01c4580058a9e9afa739f0bd081b74a"
+    },
+    {
+      "path": "docs/MAINTENANCE.md",
+      "bytes": 7680,
+      "sha256": "10c32a6e9456bc5a370227092e05a3a385666dc6b60f0ff796f0cf19dae31d35"
+    },
+    {
+      "path": "docs/PACKAGE-REFERENCE.md",
+      "bytes": 4891,
+      "sha256": "2b3072349f0b04c556a44cf50ba43201fb096b5c50893ed5ff8aa05e3f2d79ad"
+    },
+    {
+      "path": "docs/QUICK-START.md",
+      "bytes": 1772,
+      "sha256": "3d8b4451f7cb04d3fc111c1e7d61ece9dbf0bbc5befe4429571c56b54e1733ee"
+    },
+    {
+      "path": "docs/REMOVAL.md",
+      "bytes": 1572,
+      "sha256": "843c06ec92fa4225d79b229071b905ea3fa97fb9ce6542fef168be5efc225c7b"
+    },
+    {
+      "path": "docs/TRANSLATION-GUIDE.md",
+      "bytes": 3604,
+      "sha256": "5a845806d6b4c9ca136864abb877be8dc01bd2c9396b5a72dac98181dc719516"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 7245,
+      "sha256": "7d4fbc6c198af7079a69c843bf0ffe176e952bac7ac6667eaff408ba59887433"
+    },
+    {
+      "path": "docs/USER-GUIDE.md",
+      "bytes": 3624,
+      "sha256": "852a12af81e7b4781e8cc6472c1f2f0ca3d520b73aa21671256be5fd886b64c6"
+    },
+    {
+      "path": "docs/VALIDATION-AND-EVALUATION.md",
+      "bytes": 2933,
+      "sha256": "9898a444a9017ad4cac8c31a8f61b07d6b6bfe3ee36a260f4940dde6f508e90a"
+    },
+    {
+      "path": "maintainer-source/BUILD-NOTE.md",
+      "bytes": 924,
+      "sha256": "2ae159662e50a1c3445bb8e9c9d090544c32667918f2730869bdfef36d43dd82"
+    },
+    {
+      "path": "maintainer-source/PROVENANCE.md",
+      "bytes": 2596,
+      "sha256": "0d8ad4ca32997cad7f51fc7ee96ddab577079f78aeaf4513f24941019fdb8fa8"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/SKILL.md",
+      "bytes": 4402,
+      "sha256": "f298c4c3f02ee6d7c637cb692554c20318d6a1aa241383c79fb6ae5c9b46ab56"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/agents/openai.yaml",
+      "bytes": 379,
+      "sha256": "27b9a1b6fecf005e159fcf4033bc81d73964a326dbd15fef18712a69892b00b6"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/assets/language-mission.template.md",
+      "bytes": 964,
+      "sha256": "03cf05a6f78b9bcf99f8c10f0d0b0df5b9012449e8088a5e1e4dce39495c10ba"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/assets/learner-profile.template.json",
+      "bytes": 608,
+      "sha256": "862c91bfdb49332f909a83a75a462f37a558b9bf04fdc4d7148519f080a10475"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/assets/session-recap.template.md",
+      "bytes": 1094,
+      "sha256": "c50ca2c330d4a8b94d3fb7fd6359296ff818e7efee82d475498a8a6e70d76e0f"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/assets/translation-brief.template.md",
+      "bytes": 730,
+      "sha256": "251d1882bb369d1829c0eb62620ed296749c7ba2128ba678960915619681fbe9"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/evals/core-transfer-cases.yaml",
+      "bytes": 18276,
+      "sha256": "67ba1942583502fa4fe0e8ebef12ea816c4ef84b82c4a56db6826ce3cba0c0e2"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/evals/eval-manifest.yaml",
+      "bytes": 885,
+      "sha256": "b5ecca4a3f9e2594a22c0d1831c5ef93fd5f88b342c5ab50e2854979983b9554"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/ambiguous-workplace-translation/demonstration.md",
+      "bytes": 1059,
+      "sha256": "83a1daa0aee59bb9130466b8d21916f2e522d921b6efc76d54a8ee9bba1de4af"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/consequential-language-boundary/demonstration.md",
+      "bytes": 1540,
+      "sha256": "57a89d2a7b06a1d17cd9e5a1ad1e3cc8e48069cffa28c64d60bbb85a165ded79"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/fluency-with-selective-correction/demonstration.md",
+      "bytes": 1955,
+      "sha256": "4258e5249e7cdd19a91cf3f88ef5166d51a66227fe424213249b142191a3db27"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/progress-and-return/demonstration.md",
+      "bytes": 2935,
+      "sha256": "c91098cd09674edb6373d4d3c9a329ca5af5f4c6063d0706e5385603dcf5eafe"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/progress-and-return/fictional-profile.json",
+      "bytes": 1413,
+      "sha256": "2c60d9b48018082685019d6a8986b76a96ac56b3b1a67189919a4b2885605497"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/progress-and-return/observed-profile.json",
+      "bytes": 2322,
+      "sha256": "9f6ab04846662b03b2eba6b0ebca78d4582fef471470d64c78ef4dde73771d63"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/examples/urgent-first-value/demonstration.md",
+      "bytes": 1091,
+      "sha256": "16d15799baeaa9d84781b9c3b66f5041d6eacd611fec83f56ea34f87b5a85d72"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/fallbacks/universal-copy-paste-companion.md",
+      "bytes": 4381,
+      "sha256": "28803a99dbd42268f7649307ff539c89db158bb8278c3365ad2dd29aba446aa7"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/personas/lex-foster-language-companion.md",
+      "bytes": 5313,
+      "sha256": "13ff88a0b83617d887418bfe5c8647c95500ba6959b619df8a1147ebd1d5d98e"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/culture-protocol-and-variation.md",
+      "bytes": 2757,
+      "sha256": "006d69e5de8e332acb9aa559d9ddb38b48a6ee660bb18ecb0bf305f2b5a45d78"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/evidence-foundations.md",
+      "bytes": 3393,
+      "sha256": "0a05095f612b4788c3da77ed5913749de3d592725df6ebc63fafed1e7dc0e50f"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/learner-model-and-progress.md",
+      "bytes": 5591,
+      "sha256": "a826b9caf7f5a0eef1f64b7e6763f9fce5bb545eaed825598ebcd4d2b2b7f57a"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/operating-doctrine.md",
+      "bytes": 6341,
+      "sha256": "d1cf3fcfede2ffccfa390ac77eb3be4f3ddd43737fad009c8a84be8b7137bebb"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/pronunciation-and-script-support.md",
+      "bytes": 2500,
+      "sha256": "f9fd006025dcd1ab4b79d7ea7199dc90234a545d800421d94700875e0f1c6007"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/translation-and-localization.md",
+      "bytes": 5382,
+      "sha256": "88bcc590eaaaedaff983e92836d8ff2bf54d2d5d3a37ff41a1d92e629248d36f"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/references/trust-privacy-and-high-stakes.md",
+      "bytes": 3559,
+      "sha256": "3c14661881c0ea40f6b67fe92198cedf5f3de9844487c3584ff9d5d0a947daa2"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/schemas/learner-profile.schema.json",
+      "bytes": 6563,
+      "sha256": "44e573081bf05634db63bd8bf04c47335d3852ff7c70a996207ff88742488cc7"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/scripts/tests/test_evidence_contract.py",
+      "bytes": 4338,
+      "sha256": "17b61c05f98e1954f05b698fc232bde2294d07fb9ed9222c072f998f348e292d"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/scripts/tests/test_validate_learner_profile.py",
+      "bytes": 2737,
+      "sha256": "06a450c5b65338a66562fef30260fb44be13f60d293f978ba07bb6af033db4d8"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/scripts/tests/test_validate_release.py",
+      "bytes": 397,
+      "sha256": "63328bb3f122d0ef152d449d206b713bb5ce15a34478f988d0715bbe98fdcb03"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/scripts/validate_learner_profile.py",
+      "bytes": 6680,
+      "sha256": "5b2bec4c0d6f6bf2daa5e12e0d3cad5f8dfcc77be037bc6b6316902f168a2123"
+    },
+    {
+      "path": "maintainer-source/skills/lex-foster-language-companion/scripts/validate_release.py",
+      "bytes": 8149,
+      "sha256": "057d8c20fbfe5b7eb989b09340e8e7bd8b6d7760e5dd15d62feb355a82933cb7"
+    },
+    {
+      "path": "tools/build_customer_release.py",
+      "bytes": 5902,
+      "sha256": "7d71820cdd4c7a36ff78716bec0f2e9bc8ff59352b18b429f81563c4fc48bf19"
+    },
+    {
+      "path": "tools/package_safety.py",
+      "bytes": 4438,
+      "sha256": "2feacfa5ebbac532a4c9ea9e2c68c6b3eecedf58892ea41c4903598a9e0572a6"
+    },
+    {
+      "path": "tools/verify_customer_release.py",
+      "bytes": 6176,
+      "sha256": "0ec2a1f704a1bcc3a5ded04a635f0857e52b786594421525dd2f31f97dbdef0c"
+    }
+  ]
+}

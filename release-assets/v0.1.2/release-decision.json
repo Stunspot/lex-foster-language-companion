@@ -1,0 +1,11 @@
+{
+  "schema": "cd-release-decision/v1",
+  "kind": "update",
+  "effect": "authorized_reissue",
+  "baseline_version": "0.1.1",
+  "baseline_bundle_fingerprint": "sha256:a591ec01b734e4a9f04513b23d9374ff019306a1da84aadcfec1e5c431a0577a",
+  "target_version": "0.1.2",
+  "reason": "Accepted task-fit, learner evidence/validator, portable-package and current documentation repairs were delivered under the old identity. Owner requires every changed Augment to have a distinct updateable version.",
+  "owner_version_disposition": "Every changed Augment requires a new version; same-version repair was an agent choice.",
+  "recorded_before_packaging": "2026-10-13T11:43:02.100878+00:00"
+}

@@ -28,7 +28,7 @@ def verify(root,outer=None):
             if '__pycache__' in dirs or any(Path(n).suffix in {'.pyc','.pyo'} for n in names): raise ValueError('forbidden generated cache cargo')
         manifest=json.loads((root/'release-manifest.json').read_text(encoding='utf-8-sig'),object_pairs_hook=pairs)
         if not isinstance(manifest,dict):raise ValueError('manifest must be an object')
-        if manifest.get('schema')!='collaborative-dynamics.customer-skill-family/v2' or manifest.get('version')!='0.1.1' or manifest.get('slug')!=SLUG:raise ValueError('manifest identity/schema differs')
+        if manifest.get('schema')!='collaborative-dynamics.customer-skill-family/v2' or manifest.get('version')!='0.1.2' or manifest.get('slug')!=SLUG:raise ValueError('manifest identity/schema differs')
         expected=manifest.get('files')
         if not isinstance(expected,list) or not expected:raise ValueError('manifest files must be a nonempty array')
         seen=set()
@@ -41,8 +41,8 @@ def verify(root,outer=None):
         d=manifest.get('distributions')
         if not isinstance(d,dict) or any(not isinstance(d.get(k),dict) for k in ('codex_skill','claude_skill','maintainer_source')):raise ValueError('malformed distribution mapping')
         mp=d['maintainer_source'].get('path')
-        if mp not in {'maintainer-source',f'maintainer-source/{SLUG}-v0.1.1'}:raise ValueError('unsupported maintainer source mapping')
-        skill=root/'codex'/SLUG;source=root/mp;cp=root/'claude'/f'{SLUG}-v0.1.1.zip'
+        if mp not in {'maintainer-source',f'maintainer-source/{SLUG}-v0.1.2'}:raise ValueError('unsupported maintainer source mapping')
+        skill=root/'codex'/SLUG;source=root/mp;cp=root/'claude'/f'{SLUG}-v0.1.2.zip'
         if d['codex_skill'].get('path')!=f'codex/{SLUG}' or d['claude_skill'].get('path')!=f'claude/{cp.name}':raise ValueError('distribution path mismatch')
         if inventory(skill)!=inventory(source/'skills'/SLUG):findings.append('source parity differs')
         if manifest.get('source_tree_sha256')!=tree_digest(source) or d['maintainer_source'].get('tree_sha256')!=tree_digest(source):findings.append('source tree hash differs')
@@ -70,7 +70,7 @@ def verify(root,outer=None):
                 elif not target.exists():findings.append(f'missing link: {p.name} -> {raw}')
         if outer:
             outer=reject_links(outer);content=zip_contents(outer.read_bytes(),'outer ZIP')
-            prefix=f'{SLUG}-v0.1.1/'
+            prefix=f'{SLUG}-v0.1.2/'
             expanded={prefix+p.relative_to(root).as_posix():p.read_bytes() for p in files(root)}
             if content!=expanded:findings.append('outer complete namespace or bytes differs')
         counts={'files':len(actual_list),'runtime_files':len(files(skill)),'claude_files':len(archived)}

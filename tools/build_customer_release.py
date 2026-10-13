@@ -6,12 +6,24 @@ from pathlib import Path
 from package_safety import files, inventory, reject_links, sha, tree_digest, zip_tree
 from verify_customer_release import verify
 REPO=Path(__file__).resolve().parents[1]
-VERSION='0.1.1'; SLUG='lex-foster-language-companion'; TITLE='Lex Foster Language Companion'
+VERSION='0.1.2'; SLUG='lex-foster-language-companion'; TITLE='Lex Foster Language Companion'
 
 def write_json(p,value):p.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def copy_tree(source,target):
     for p in files(source):
         dst=target/p.relative_to(source);dst.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,dst)
+
+def current_release_decision():
+    record=REPO/'release-assets'/f'v{VERSION}'/'release-decision.json'
+    if record.is_file():
+        decision=json.loads(record.read_bytes())
+    else:
+        manifest=json.loads((REPO/'release-manifest.json').read_bytes())
+        if manifest.get('version')!=VERSION:raise ValueError('portable decision manifest version differs')
+        decision=manifest.get('release_decision',{})
+    if decision.get('target_version')!=VERSION or decision.get('kind')!='update' or decision.get('effect')!='authorized_reissue':
+        raise ValueError('current release decision identity differs')
+    return decision
 
 def build(output):
     source=REPO/'source'/f'{SLUG}-v{VERSION}'
@@ -45,6 +57,7 @@ def build(output):
             top_level_directory=f'{SLUG}-v{VERSION}',publication='manual_only',
             claim_boundary='Declared structure, source parity and package custody only; no live model, learner or host qualification.',
             source_to_package_mapping={'canonical_source':f'source/{SLUG}-v{VERSION}','packaged_copy':'maintainer-source'},
+            release_decision=current_release_decision(),
             distributions={'codex_skill':{'path':f'codex/{SLUG}','tree_sha256':tree_digest(skill),'file_count':len(files(skill))},
                 'claude_skill':{'path':f'claude/{cp.name}','sha256':sha(cp.read_bytes()),'bytes':cp.stat().st_size},
                 'maintainer_source':{'path':'maintainer-source','tree_sha256':tree_digest(source)}}, files=inventory(release))

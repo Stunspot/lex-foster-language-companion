@@ -1,0 +1,12 @@
+{
+  "schema": "cd-settled-family-build-receipt/v1",
+  "family": "lex-foster-language-companion",
+  "version": "0.1.2",
+  "status": "independently-accepted-versioned-reissue",
+  "canonical_zip": "Lex-Foster-Language-Companion-v0.1.2.zip",
+  "canonical_zip_sha256": "d323a304c1c6cb8a29e7a322547617ac984ec9544501f1bad92a0ccfbc2f8905",
+  "canonical_zip_member_count": 93,
+  "publication": "manual_only",
+  "original_acceptance": "verification/estate-root-review/ROOT-ACCEPTANCE.json",
+  "rejudgment_scope": "Current identity/guidance/portable helper; original qualified runtime/domain/browser scope retained."
+}
